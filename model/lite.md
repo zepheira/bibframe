@@ -15,7 +15,7 @@ can be considered a synonym for another). Resource classes may also have "proper
 property IDs defined on the resource). Properties may also have "value" (textual description of the expected
 value of the property, perhaps as a relationship to another resource, or as a data value).
 
-You'll notice that BIBFRAME terms use a humpCase/HumpCase convention, which derives from BIBFRAME legacy.
+You'll notice that BIBFRAME Lite terms use a humpCase/HumpCase convention, which derives from BIBFRAME legacy.
 
 -->
 
@@ -48,28 +48,24 @@ The meta-properties in this file are actually defined by the Versa data model to
 
 ## label
 
-* refines: property
 * value: Literal
 * label: label
 * description: Label of the item
 
 ## description
 
-* refines: property
 * value: Literal
 * label: description
 * description: Short description of the item
 
 ## image
 
-* refines: property
 * value: IRI
 * label: Image
 * description: IRI of an image of the item
 
 ## link
 
-* refines: property
 * value: IRI
 * label: Link
 * description: IRI of the item
@@ -77,14 +73,12 @@ The meta-properties in this file are actually defined by the Versa data model to
 # Authority 
 
 * label: Authority
-* refines: Resource
 * description: Authority Resource
 * properties: authorityLink
 
 ## authorityLink
 
 * label: Authority Link
-* refines: property
 * value: IRI
 * remark: Link to an authority identifier (VIAF, LCNAF, ISNI, ORCID, etc.)
 
@@ -93,41 +87,29 @@ The meta-properties in this file are actually defined by the Versa data model to
 * label: Work
 * refines: Resource
 * description: Most generic kind of creative work, including bibliographic resources, movies, photographs, software programs, etc.
-* properties: creator title description subject note
+* properties: creator contributor title description subject note
 
 ## title
 
 * label: Title
-* refines: property
 * description: Title of the Work.
 
 ## description
 
-* refines: property
 * label: Description
 * description: Description of the Work.
 
 ## creator
 
-* refines: property
 * value: Agent 
 * label: Creator
+* description: Entity (or entities) primarily associated with the creation of the work.
+
+## contributor
+
+* value: Agent 
+* label: Contributor
 * description: Entity (or entities) associated with the creation of the work.
-
-## architect
-
-* refines: creator
-* label: Architect
-
-## artist
-
-* refines: creator
-* label: Artist
-
-## author
-
-* refines: creator
-* label: Author
 
 ## subject
 
@@ -180,37 +162,16 @@ The meta-properties in this file are actually defined by the Versa data model to
 * definition: Carrier or instantiation associated with a Conceptual Work
 * properties: instanceOf provider note
 
-## instanceOf
+## instantiates
 
-* label: Instance Of
+* label: Instantiates
 * value: Work
 
 ## provider
 
-* refines: property
 * value: ProviderEvent
 * label: provider
 * description: Provider associated with the carrier.
-
-## publisher
-
-* label: Publisher
-* refines: provider
-
-## distributor
-
-* label: Distributor
-* refines: provider
-
-## producer
-
-* label: Producer
-* refines: provider
-
-## manufacturer
-
-* label: Manufacturer
-* refines: provider
 
 # ProviderEvent
 
@@ -243,7 +204,6 @@ The meta-properties in this file are actually defined by the Versa data model to
 ## note
 
 * label: Note
-* refines: property
 
 # Event
 
@@ -254,28 +214,22 @@ The meta-properties in this file are actually defined by the Versa data model to
 ## who
 
 * label: Who
-* refines: property
 
 ## what
 
 * label: What
-* refines: property
 
 ## where
 
 * label: Where
-* refines: property
 
 ## when
 
 * label: When
-* refines: property
-* value: Literal
 
 ## why
 
 * label: Why
-* refines: property
 
 # Annotation
 
@@ -287,25 +241,21 @@ The meta-properties in this file are actually defined by the Versa data model to
 ## annotated
 
 * label: Annotated
-* refines: property
 * description: Date of the annotation
 
 ## annotator
 
 * label: Annotator
-* refines: property
 * value: Agent
 * description: Agent associated with the annotation
 
 ## body
 
 * label: Body
-* refines: property
 * value: Resource
 
 ## target
 
 * label: Target
-* refines: property
 * value: Resource
 
