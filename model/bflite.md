@@ -318,7 +318,7 @@ not used here
 # Topic 
 * label: Topic
 * synonyms: <http://bibframe.org/vocab/Topic>
-* description: A matter dealt with in a text, discourse, or conversation. 
+* description: Subject term describing a general concept, event or object. 
 * refines: Category
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -356,7 +356,8 @@ not used here
 ## focus
 * label: focus
 * synonyms: <http://xmlns.com/foaf/0.1/focus>
-* description: The underlying or focal entity associated with a topic.
+* description: The underlying or focal entity associated with a concept.
+* remark: Often times the focus is the primary entity associated with a pre-coordinated subject heading.
 * value: Resource
 * scope: <http://bibfra.me/vocab/lite>
 
