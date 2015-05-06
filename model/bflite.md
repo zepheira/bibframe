@@ -341,7 +341,7 @@ not used here
 * label: Instance
 * synonyms: <http://bibframe.org/vocab/Instance>
 * description: Carrier / instantiation associated with a Conceptual Work
-* properties: contributor title instantiates extent dimensions format size medium 
+* properties: contributor title instantiates extent provision dimensions format medium 
 * scope: <http://bibfra.me/vocab/lite>
 
 ## instantiates
@@ -373,12 +373,6 @@ not used here
 * label: format
 * description: Format of the Instance.
 * value: IRI
-* scope: <http://bibfra.me/vocab/lite>
-
-## size
-* label: size
-* description: The size of the Instance.
-* value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
 ## medium

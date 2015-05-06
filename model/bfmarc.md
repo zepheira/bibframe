@@ -62,7 +62,7 @@ Extend BIBFRAME Lite Classess
 
 # <http://bibfra.me/vocab/lite/Instance>
 
-* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency mediaCategory carrierCategory physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids 
+* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency mediaCategory carrierCategory physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids 
 
 # <http://bibfra.me/vocab/lite/Authority>
 
@@ -1797,6 +1797,12 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * remark: Equivalent to other event information, subfield o of MARC field 518 date/time and place of an event note. 
 * refines: 
 * synonyms: 
+* scope: <http://bibfra.me/vocab/marc>
+
+## size
+* label: size
+* description: The size of the Instance.
+* value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 
 ## otherPhysicalDetails
