@@ -180,7 +180,7 @@ not used here
 * label: Authority
 * synonyms: <http://bibframe.org/vocab/Authority>
 * refines: Resource
-* description: An authoritive entity that describes a person, place or thing.
+* description: An authoritative entity that describes a person, place or thing.
 * properties: name nameAlternative
 * scope: <http://bibfra.me/vocab/lite>
 
