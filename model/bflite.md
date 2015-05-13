@@ -63,7 +63,7 @@ not used here
 
 ## label
 
-* synonyms: <http://bibframe.org/vocab/label> <http://schema.org/name>
+* synonyms: <http://bibframe.org/vocab/label> <http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label>
 * value: Literal
 * label: label
 * description: The human readable label of the resource
@@ -180,7 +180,7 @@ not used here
 * label: Authority
 * synonyms: <http://bibframe.org/vocab/Authority>
 * refines: Resource
-* description: An authoritative entity that describes a person, place or thing.
+* description: A credible, curated entity of a person, place or thing.
 * properties: name nameAlternative
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -268,7 +268,7 @@ not used here
 # Agent
 * label: Agent
 * refines: Authority
-* synonyms: <http://bibfra.me/vocab/Agent>
+* synonyms: <http://bibframe.org/vocab/Agent>
 * description: An entity (e.g. person, organization, etc.) associated with a resource. 
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -312,7 +312,7 @@ not used here
 * refines: Authority
 * synonyms: <http://schema.org/Enumeration> <http://bibframe.org/vocab/Category>
 * description: A list of things regarded as having particular shared characteristics.
-* remark: A controlled vocbulary. 
+* remark: A controlled vocabulary. 
 * scope: <http://bibfra.me/vocab/lite>
 
 # Topic 
@@ -371,6 +371,7 @@ not used here
 
 ## format
 * label: format
+* synonyms: <http://bibframe.org/vocab/format>
 * description: Format of the Instance.
 * value: IRI
 * scope: <http://bibfra.me/vocab/lite>
@@ -488,7 +489,7 @@ not used here
 
 * label: Annotation
 * refines: Resource
-* synonyms: <http://bibfra.me/vocab/Annotation>
+* synonyms: <http://bibframe.org/vocab/Annotation>
 * description: Annotation, provides for loosely attached information about a resource
 * properties: annotator body target
 * scope: <http://bibfra.me/vocab/lite>

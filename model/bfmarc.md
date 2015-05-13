@@ -448,6 +448,31 @@ Control Code Instance Types - MARC 007
 * refines: <http://bibfra.me/vocab/lite/Instance>
 * scope: <http://bibfra.me/vocab/marc>
 
+# ElectronicApplication
+
+# ElectronicAudio
+ 
+# ElecontricImage
+
+# ElectroncMessage
+
+# ElectronicModel
+
+# ElectronicMultipart
+
+# ElectronicText
+
+# ElectronicVideo
+
+
+
+
+
+
+
+
+
+
 # Globe
 * label: Globe
 * description: Item is a globe which is defined as the model of a celestial body, usually the earth or the celestial sphere, depicted on the surface of a sphere.
@@ -2140,8 +2165,8 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * scope: <http://bibfra.me/vocab/marc>
 
 ## titleStatement
-* label: title statement
-* description: Title transcribed from an instance.
+* label: title trasnscribed
+* description: Transcribed information from the resource identifying the names and possibly functions of Agents responsible for or contributing to the creation of the intellectual or artistic content of the resource. 
 * value: Literal
 * refines: <http://bibfra.me/vocab/lite/title>
 * synonyms: <http://bibframe.org/vocab/titleStatement>
