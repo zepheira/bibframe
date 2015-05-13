@@ -431,7 +431,6 @@ Supporting properties from MARC leader codes
 Control Code Instance Types - MARC 007
 -->
 
-
 # Map
 * label: Map
 * description: A diagrammatic representation of an area of land or sea showing physical features, cities, roads, etc.
@@ -447,31 +446,6 @@ Control Code Instance Types - MARC 007
 * properties: specificMaterialDesignation color dimensions sound imageBitDepth fileFormats qualityAssuranceTargets antecedentSource levelOfCompression reformattingQuality
 * refines: <http://bibfra.me/vocab/lite/Instance>
 * scope: <http://bibfra.me/vocab/marc>
-
-# ElectronicApplication
-
-# ElectronicAudio
- 
-# ElecontricImage
-
-# ElectroncMessage
-
-# ElectronicModel
-
-# ElectronicMultipart
-
-# ElectronicText
-
-# ElectronicVideo
-
-
-
-
-
-
-
-
-
 
 # Globe
 * label: Globe
