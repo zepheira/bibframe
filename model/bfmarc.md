@@ -2139,7 +2139,7 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * scope: <http://bibfra.me/vocab/marc>
 
 ## titleStatement
-* label: title trasnscribed
+* label: statement of responsibility
 * description: Transcribed information from the resource identifying the names and possibly functions of Agents responsible for or contributing to the creation of the intellectual or artistic content of the resource. 
 * value: Literal
 * refines: <http://bibfra.me/vocab/lite/title>

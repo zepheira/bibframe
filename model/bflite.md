@@ -180,7 +180,7 @@ not used here
 * label: Authority
 * synonyms: <http://bibframe.org/vocab/Authority>
 * refines: Resource
-* description: A credible, curated entity of a person, place or thing.
+* description: A credible, curated description of a person, place or thing.
 * properties: name nameAlternative
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -225,11 +225,20 @@ not used here
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
+## titleAlternative
+
+* label: title alternative
+* refines: title
+* description: Alternative title of the resource.
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite>
+
 ## description
 
 * label: description
 * description: Description of the resource.
 * value: Literal
+* remark: Description for example of bibliographic resources may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## creator
@@ -317,9 +326,9 @@ not used here
 
 # Topic 
 * label: Topic
+* refines: Authority
 * synonyms: <http://bibframe.org/vocab/Topic>
 * description: Subject term describing a general concept, event or object. 
-* refines: Category
 * scope: <http://bibfra.me/vocab/lite>
 
 # Form
