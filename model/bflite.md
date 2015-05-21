@@ -318,7 +318,6 @@ not used here
 
 # Category
 * label: Category
-* refines: Authority
 * synonyms: <http://schema.org/Enumeration> <http://bibframe.org/vocab/Category>
 * description: A list of things regarded as having particular shared characteristics.
 * remark: A controlled vocabulary. 
