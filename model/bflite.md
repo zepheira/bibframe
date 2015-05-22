@@ -106,7 +106,7 @@ not used here
 
 * label: rights statement
 * synonyms: <http://purl.org/dc/elements/1.1/rights>
-* value: Literal
+* value: literal
 * description: A rights statement associated with the origin resource
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -350,7 +350,7 @@ not used here
 * label: Instance
 * synonyms: <http://bibframe.org/vocab/Instance>
 * description: Carrier / instantiation associated with a Conceptual Work
-* properties: contributor title instantiates extent provision dimensions format medium 
+* properties: contributor title instantiates extent provision copyright dimensions format medium 
 * scope: <http://bibfra.me/vocab/lite>
 
 ## instantiates
@@ -376,6 +376,12 @@ not used here
 * value: ProviderEvent
 * description: Provider associated with the carrier.
 * remark: Connection to details such as the place, name, and/or date information relating to the publication, printing, distribution, issue, release, or production of an Instance.
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyright
+* label: copyright
+* value: CopyrightEvent
+* description: Copyright event associated with the instance.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## format
@@ -413,6 +419,22 @@ not used here
 * label: Provider Event
 * description: Event associated with the publication, printing, distribution, issue, release or production of an instance.
 * properties: providerAgent providerPlace providerDate providerNote
+* scope: <http://bibfra.me/vocab/lite>
+
+# CopyrightEvent
+
+* refines: Event
+* label: Copyright Event
+* description: Copyright event associated with the intellectual property of an instance.
+* properties: license
+* scope: <http://bibfra.me/vocab/lite>
+
+## license
+
+* label: license
+* synonyms: <http://creativecommons.org/ns#license>
+* description: License associated with the rights event associated with a Work.
+* value: Resource
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerAgent
