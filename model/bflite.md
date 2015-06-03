@@ -459,14 +459,14 @@ not used here
 
 * label: provider date
 * synonyms: <http://bibframe.org/vocab/providerDate>
-* desciption: Date associated with the publication, printing, distribution, issue, release or production of an instance.
+* description: Date associated with the publication, printing, distribution, issue, release or production of an instance.
 * refines: when
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerNote
 
 * label: provider note
-* desciption: A note associated with the publication, printing, distribution, issue, release or production of an instance.
+* description: A note associated with the publication, printing, distribution, issue, release or production of an instance.
 * refines: why
 * value: 
 * scope: <http://bibfra.me/vocab/lite>
@@ -476,7 +476,7 @@ not used here
 * label: Event
 * refines: Resource
 * properties: who what where when why
-* desciption: A significant occurrence or happening
+* description: A significant occurrence or happening
 * scope: <http://bibfra.me/vocab/lite>
 
 ## who

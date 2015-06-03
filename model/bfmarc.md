@@ -996,7 +996,7 @@ Notes notes notes
 
 ## awardsNote
 * label: awards note
-* desciption: Information on awards associated with the described resource.
+* description: Information on awards associated with the described resource.
 * value: Literal
 * refines: <http://bibfra.me/vocab/lite/note>
 * synonyms: <http://bibframe.org/vocab/awardNote>
@@ -1004,7 +1004,7 @@ Notes notes notes
 
 ## additionalPhysicalForm
 * label: additional physical form
-* desciption: Resource that is manifested in another physical carrier. 
+* description: Resource that is manifested in another physical carrier. 
 * value: Literal
 * remark: A note about a different format (physical or digital) in which the described item is available. Equivalent to MARC 530 subfield a, additional physical form available note. 
 * refines: 
@@ -1014,7 +1014,7 @@ Notes notes notes
 ## assigningSource
 
 * label: assigning source
-* desciption: Organization code or name of the agency or other source (e.g., journal or newspaper) that supplied the data (summary, review, abstract, content advice statement, etc.) recorded.
+* description: Organization code or name of the agency or other source (e.g., journal or newspaper) that supplied the data (summary, review, abstract, content advice statement, etc.) recorded.
 * value: Literal
 * remark: Equivalent to assigning source, subfield c of MARC 520 field summary, etc. 
 * refines: 
@@ -1024,7 +1024,7 @@ Notes notes notes
 ## authorization
 
 * label: authorization
-* desciption: The source of the authority for a restriction.
+* description: The source of the authority for a restriction.
 * value: Literal
 * remark: Equivalent to authorization, subfield e of MARC field 506 restrictions on access note. 
 * refines: 
@@ -1034,7 +1034,7 @@ Notes notes notes
 ## authorizedUsers
 
 * label: authorized users
-* desciption: The class of users or specific individuals for whom legal, physical or procedural restrictions imposed on use do not apply. 
+* description: The class of users or specific individuals for whom legal, physical or procedural restrictions imposed on use do not apply. 
 * value: Literal
 * remark: Equivalent to authorization, subfield e of MARC field 506 restrictions on access note. 
 * refines: 
@@ -1044,7 +1044,7 @@ Notes notes notes
 ## bibliographyNote
 
 * label: bibliography note
-* desciption: A note about a bibliography, discography, filmography, webliography, and/or other bibliographic references in an item.
+* description: A note about a bibliography, discography, filmography, webliography, and/or other bibliographic references in an item.
 * value: Literal
 * remark: Equivalent to bibliography, etc. subfield a of MARC field 504, the bibliography, etc. note. 
 * refines: <http://bibfra.me/vocab/lite/note>
@@ -1054,7 +1054,7 @@ Notes notes notes
 ## biographicalOrHistoricalData
 
 * label: biographical or historical data
-* desciption: A note providing biographical information about an individual or administrative information of an organization.
+* description: A note providing biographical information about an individual or administrative information of an organization.
 * value: Literal
 * remark: Equivalent to biographical or historical data, subfield a of MARC field 545. 
 * refines: 
@@ -1064,7 +1064,7 @@ Notes notes notes
 ## citationCoverage
 
 * label: citation coverage
-* desciption: The dates of the source. 
+* description: The dates of the source. 
 * value: Literal
 * remark: Equivalent to coverage of source, subfield b of MARC field 510 citation/references note.  
 * refines: 
@@ -1074,7 +1074,7 @@ Notes notes notes
 ## citationLocationWithinSource
 
 * label: citation location within source
-* desciption: A citationLocationWithinSource
+* description: A citationLocationWithinSource
 * value: Literal
 * remark: Equivalent to location within source, subfield c of MARC field 510 citation/references note.  
 * refines: 
@@ -1083,7 +1083,7 @@ Notes notes notes
 
 ## citationSource
 * label: citation source
-* desciption: Source of citation. 
+* description: Source of citation. 
 * value: Literal
 * remark: Equivalent to name of source, subfield a of MARC field 510 citation/references note.  
 * refines: 
@@ -1092,7 +1092,7 @@ Notes notes notes
 
 ## citationUri
 * label: citationUri
-* desciption: The Uniform Resource Identifier (URI) that provides electronic access data in a standard syntax to an electronic bibliography cited or to the citation within an electronic bibliography.
+* description: The Uniform Resource Identifier (URI) that provides electronic access data in a standard syntax to an electronic bibliography cited or to the citation within an electronic bibliography.
 * value: Literal
 * remark: Equivalent to uniform resource identifier, subfield u of MARC field 510 citation/references note.  
 * refines: 
@@ -1101,19 +1101,17 @@ Notes notes notes
 
 ## contentsNote
 * label: contents note
-* desciption: List of resources contents or subunits. 
+* description: List of resources contents or subunits. 
 * value: Literal
 * remark: Equivalent to formatted contents note, subfield a of MARC field 505.  
 * refines: <http://bibfra.me/vocab/lite/note>
 * synonyms: <http://bibframe.org/vocab/contentsNote>
 * scope: <http://bibfra.me/vocab/marc>
 
-
-
 ## cumulativeIndexFindingAids 
 
 * label: cumulative index finding aids
-* desciption: A note identifying the availability of cumulative indexes or finding aids whose primary focus is the described material.
+* description: A note identifying the availability of cumulative indexes or finding aids whose primary focus is the described material.
 * value: Literal
 * remark: Equivalent to cumulative index/finding aids note, subfield a of MARC field 555. 
 * refines: 
