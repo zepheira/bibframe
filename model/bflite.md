@@ -106,7 +106,7 @@ not used here
 
 * label: rights statement
 * synonyms: <http://purl.org/dc/elements/1.1/rights>
-* value: literal
+* value: Literal
 * description: A rights statement associated with the origin resource.
 * scope: <http://bibfra.me/vocab/lite>
 
