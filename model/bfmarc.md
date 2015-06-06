@@ -1903,7 +1903,7 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * description: Information relating to publication of an instance.
 * value: Literal
 * refines: <http://bibfra.me/vocab/lite/provision>
-* synonyms: <http://bibframe.org/vocab/publication>  <http://purl.org/dc/elements/1.1/publisher>
+* synonyms: <http://bibframe.org/vocab/publication>  <http://purl.org/dc/terms/publisher>
 * scope: <http://bibfra.me/vocab/marc>
 
 ## publicationDateFrequency

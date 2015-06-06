@@ -80,7 +80,7 @@ not used here
 
 ## description
 
-* synonyms: <http://bibframe.org/vocab/description> <http://schema.org/description> <http://purl.org/dc/elements/1.1/description>
+* synonyms: <http://bibframe.org/vocab/description> <http://schema.org/description> <http://purl.org/dc/terms/description>
 * value: Literal
 * label: description
 * description: A description of the resource.
@@ -105,7 +105,7 @@ not used here
 ## rightsStatement
 
 * label: rights statement
-* synonyms: <http://purl.org/dc/elements/1.1/rights>
+* synonyms: <http://purl.org/dc/terms/rights>
 * value: Literal
 * description: A rights statement associated with the origin resource.
 * scope: <http://bibfra.me/vocab/lite>
@@ -121,7 +121,7 @@ not used here
 ## related
 
 * label: related
-* synonyms: <http://purl.org/dc/elements/1.1/related>
+* synonyms: <http://purl.org/dc/terms/related>
 * value: Resource
 * description: A resource related to the origin resource.
 * scope: <http://bibfra.me/vocab/lite>
@@ -129,7 +129,7 @@ not used here
 ## language
 
 * label: language
-* synonyms: <http://bibframe.org/vocab/language> <http://purl.org/dc/elements/1.1/language>
+* synonyms: <http://bibframe.org/vocab/language> <http://purl.org/dc/terms/language>
 * value: IRI
 * description: A language associated with the resource.
 * scope: <http://bibfra.me/vocab/lite>
@@ -220,7 +220,7 @@ not used here
 ## title
 
 * label: title
-* synonyms: <http://purl.org/dc/elements/1.1/title>
+* synonyms: <http://purl.org/dc/terms/title>
 * description: Title of the resource.
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
@@ -244,7 +244,7 @@ not used here
 ## creator
 
 * label: creator
-* synonyms: <http://bibframe.org/vocab/creator> <http://purl.org/dc/elements/1.1/creator>
+* synonyms: <http://bibframe.org/vocab/creator> <http://purl.org/dc/terms/creator>
 * value: Agent 
 * refines: contributor
 * description: Entity (or entities) responsible with the creation of the origin resource
@@ -254,14 +254,14 @@ not used here
 
 * label: contributor
 * value: Agent 
-* synonyms: <http://bibframe.org/vocab/contributor> <http://purl.org/dc/elements/1.1/contributor>
+* synonyms: <http://bibframe.org/vocab/contributor> <http://purl.org/dc/terms/contributor>
 * description: Entity (or entities) who contribute to the origin resource
 * scope: <http://bibfra.me/vocab/lite>
 
 ## subject
 * label: subject
 * value: Concept
-* synonyms: <http://bibframe.org/vocab/subject> <http://purl.org/dc/elements/1.1/subject>
+* synonyms: <http://bibframe.org/vocab/subject> <http://purl.org/dc/terms/subject>
 * description: Index term, subject term, subject heading, or descriptor, a term for information retrieval which captures the essence of the topic of a resource. 
 * remark: The 'about-ness' of a work
 * scope: <http://bibfra.me/vocab/lite>
