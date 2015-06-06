@@ -57,7 +57,7 @@ not used here
 
 * synonyms: <http://bibframe.org/vocab/Resource> <http://schema.org/Thing>
 * label: Resource
-* description: A conceptual resource
+* description: The most generic Bibframe entity. 
 * properties: label description image link rightsStatement controlCode related language date audience note authorityLink
 * scope: <http://bibfra.me/vocab/lite>
 
