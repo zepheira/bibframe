@@ -137,6 +137,7 @@ not used here
 ## date
 
 * label: date
+* synonyms: <http://purl.org/dc/terms/date>
 * description: The date associated with the resource.
 * value: Literal
 * remark: Recommended ISO 8601 date
