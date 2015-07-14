@@ -73,9 +73,9 @@ not used here
 
 * synonyms: <http://www.w3.org/2004/02/skos/core#prefLabel>
 * value: Literal
-* label: prefered label
+* label: preferred label
 * refines: label
-* description: The prefered human readable label of the resource.
+* description: The preferred human readable label of the resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## description
