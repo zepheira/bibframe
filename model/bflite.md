@@ -551,6 +551,8 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Collection 
+
+* synonyms: <http://bibframe.org/vocab/Collection>
 * label: Collection
 * refines: Work
 * description: An aggregation of works
