@@ -57,7 +57,7 @@ not used here
 
 * synonyms: <http://bibframe.org/vocab/Resource> <http://schema.org/Thing>
 * label: Resource
-* description: A conceptual resource
+* description: The most generic Bibframe entity. 
 * properties: label description image link rightsStatement controlCode related language date audience note authorityLink
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -66,7 +66,7 @@ not used here
 * synonyms: <http://bibframe.org/vocab/label> <http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label>
 * value: Literal
 * label: label
-* description: The human readable label of the resource
+* description: A text string representing the name of resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## prefLabel
@@ -75,15 +75,15 @@ not used here
 * value: Literal
 * label: prefered label
 * refines: label
-* description: The prefered human readable label of the resource
+* description: The prefered human readable label of the resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## description
 
-* synonyms: <http://bibframe.org/vocab/description> <http://schema.org/description> <http://purl.org/dc/elements/1.1/description>
+* synonyms: <http://bibframe.org/vocab/description> <http://schema.org/description> <http://purl.org/dc/terms/description>
 * value: Literal
 * label: description
-* description: A description of the resource
+* description: A description of the resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## image
@@ -91,7 +91,7 @@ not used here
 * synonyms: <http://bibframe.org/vocab/image> <http://schema.org/image>
 * value: IRI
 * label: image
-* description: The IRI of an image of the resource
+* description: The IRI of an image of the resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## link
@@ -99,45 +99,46 @@ not used here
 * synonyms: <http://bibframe.org/vocab/link> <http://schema.org/url>
 * value: IRI
 * label: link
-* description: The IRI of a resource
+* description: The IRI of a resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## rightsStatement
 
 * label: rights statement
-* synonyms: <http://purl.org/dc/elements/1.1/rights>
-* value: literal
-* description: A rights statement associated with the origin resource
+* synonyms: <http://purl.org/dc/terms/rights>
+* value: Literal
+* description: A rights statement associated with the origin resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## controlCode
 
 * label: control code
 * value: Literal
-* description: An alphanumeric string or indicator used to find and identify the resource
+* description: An alphanumeric string or indicator used to find and identify the resource.
 * remark: A non-IRI based identifier reflecting local or community coding practices
 * scope: <http://bibfra.me/vocab/lite>
 
 ## related
 
 * label: related
-* synonyms: <http://purl.org/dc/elements/1.1/related>
+* synonyms: <http://purl.org/dc/terms/related>
 * value: Resource
-* description: The IRI that can be used to access or reference another resource related to the origin resource
+* description: A resource related to the origin resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## language
 
 * label: language
-* synonyms: <http://bibframe.org/vocab/language> <http://purl.org/dc/elements/1.1/language>
+* synonyms: <http://bibframe.org/vocab/language> <http://purl.org/dc/terms/language>
 * value: IRI
-* description: The language associated with the resource
+* description: A language associated with the resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## date
 
 * label: date
-* description: The date, date range or date designation associated with the resource
+* synonyms: <http://purl.org/dc/terms/date>
+* description: The date associated with the resource.
 * value: Literal
 * remark: Recommended ISO 8601 date
 * scope: <http://bibfra.me/vocab/lite>
@@ -145,16 +146,26 @@ not used here
 ## dateStart
 * label: start date
 * synonyms: <http://schema.org/startDate>
-* description: The start date associated with the resource
+* description: The start date associated with the resource.
 * value: Literal
 * refines: date
 * remark: Recommended ISO 8601 date
 * scope: <http://bibfra.me/vocab/lite>
 
-## dateEnd
-* label: end date
-* synonyms: <http://schema.org/endDate>
-* description: The end date associated with the resource
+## dateBirth
+* label: birth date
+* synonyms: <https://schema.org/birthDate>
+* description: The birth date associated with the person.
+* value: Literal
+* refines: date
+* remark: Recommended ISO 8601 date
+* scope: <http://bibfra.me/vocab/lite>
+
+
+## dateDeath
+* label: death date
+* synonyms: <https://schema.org/deathDate>
+* description: The death date associated with the person.
 * value: Literal
 * refines: date
 * remark: Recommended ISO 8601 date
@@ -164,7 +175,7 @@ not used here
 
 * label: audience
 * value: Literal
-* description: A specific group of people at which a resource is intended. 
+* description: Class of user for which the content of a resource is intended, or for whom the content is considered suitable.
 * remark: A target audience can be formed of people of a certain age group, gender, marital status, etc.. Other groups, although not the main focus, may also be interested. The value of this property is intended to be a code list. 
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -172,7 +183,7 @@ not used here
 
 * label: note
 * value: Literal
-* description: Additional descriptive information associated with the resource
+* description: Additional descriptive information associated with the resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 # Authority 
@@ -187,14 +198,14 @@ not used here
 ## name
 * label: name
 * value: Literal
-* description: The name of an authority
+* description: The name of an authority.
 * refines: label
 * scope: <http://bibfra.me/vocab/lite>
 
 ## nameAlternative
 * label: alternative name
 * value: Literal
-* description: The alternative name of an authority
+* description: The alternative name of an authority.
 * refines: name
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -204,7 +215,7 @@ not used here
 * synonyms: <http://bibframe.org/vocab/hasAuthority> <http://schema.org/sameAs>
 * value: IRI
 * refines: link
-* description: Link to an authority resource 
+* description: Actionable IRI linking to an authoritative controlled vocabulary.
 * remark: Example identifiers include VIAF, LCNAF, ISNI, ORCID, etc.
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -213,14 +224,14 @@ not used here
 * label: Work
 * synonyms: <http://bibframe.org/vocab/Work>
 * refines: Resource
-* description: Most generic kind of creative work, including bibliographic resources, movies, photographs, software programs, etc.
+* description: A distinct intellectual or artistic creation.
 * properties: creator contributor title subject genre
 * scope: <http://bibfra.me/vocab/lite>
 
 ## title
 
 * label: title
-* synonyms: <http://purl.org/dc/elements/1.1/title>
+* synonyms: <http://purl.org/dc/terms/title>
 * description: Title of the resource.
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
@@ -244,7 +255,7 @@ not used here
 ## creator
 
 * label: creator
-* synonyms: <http://bibframe.org/vocab/creator> <http://purl.org/dc/elements/1.1/creator>
+* synonyms: <http://bibframe.org/vocab/creator> <http://purl.org/dc/terms/creator>
 * value: Agent 
 * refines: contributor
 * description: Entity (or entities) responsible with the creation of the origin resource
@@ -254,14 +265,14 @@ not used here
 
 * label: contributor
 * value: Agent 
-* synonyms: <http://bibframe.org/vocab/contributor> <http://purl.org/dc/elements/1.1/contributor>
+* synonyms: <http://bibframe.org/vocab/contributor> <http://purl.org/dc/terms/contributor>
 * description: Entity (or entities) who contribute to the origin resource
 * scope: <http://bibfra.me/vocab/lite>
 
 ## subject
 * label: subject
 * value: Concept
-* synonyms: <http://bibframe.org/vocab/subject> <http://purl.org/dc/elements/1.1/subject>
+* synonyms: <http://bibframe.org/vocab/subject> <http://purl.org/dc/terms/subject>
 * description: Index term, subject term, subject heading, or descriptor, a term for information retrieval which captures the essence of the topic of a resource. 
 * remark: The 'about-ness' of a work
 * scope: <http://bibfra.me/vocab/lite>
@@ -279,34 +290,42 @@ not used here
 * refines: Authority
 * synonyms: <http://bibframe.org/vocab/Agent>
 * description: An entity (e.g. person, organization, etc.) associated with a resource. 
+* properties: email address
+* scope: <http://bibfra.me/vocab/lite>
+
+## email
+* synonyms: <http://bibframe.org/vocab/email>
+* label: e-mail address
+* description: Address that identifies an email box to which email messages are delivered to an agent.
+* value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
 # Person
 * label: Person
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Person>
-* description: A individual (alive, dead, undead, or fictional) in relation to a resource.
+* description: An individual (alive, dead, undead, or fictional) in relation to a resource.
 * scope: <http://bibfra.me/vocab/lite>
 
 # Organization
 * label: Organization
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Organization>
-* description: An organization associated with a resource. 
+* description: A unit of people, e.g., an institution, an association, or corporate body.
 * scope: <http://bibfra.me/vocab/lite>
 
 # Meeting
 * label: Meeting
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Meeting>
-* description: Gathering of persons for a purpose.
+* description: A formal gathering of people for a particular purpose.
 * scope: <http://bibfra.me/vocab/lite>
 
 # Family
 * label: Family
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Family>
-* description: Two or more persons related by birth, marriage, adoption, civil union, or similar legal status, or who otherwise present themselves as a family.
+* description: A social unit related by birth, marriage, adoption, civil union, or similar relationship.
 * scope: <http://bibfra.me/vocab/lite>
 
 # Place
@@ -334,14 +353,14 @@ not used here
 # Form
 * label: Form
 * refines: Category
-* description: The shape or configuration of something.
+* description: Category or genre that describes what the resource is.
 * scope: <http://bibfra.me/vocab/lite>
 
 # Concept
 * label: Concept
 * refines: Resource
 * synonyms: <http://www.w3.org/2009/08/skos-reference/skos.html#Concept>
-* description: An idea or notion. 
+* description: Term describing the subject or aboutness of a resource. An idea or notion. 
 * properties: focus
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -349,7 +368,7 @@ not used here
 * refines: Resource
 * label: Instance
 * synonyms: <http://bibframe.org/vocab/Instance>
-* description: Carrier / instantiation associated with a Conceptual Work
+* description: An individual embodiment of a Work.
 * properties: contributor title instantiates extent provision copyright dimensions format medium 
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -459,14 +478,14 @@ not used here
 
 * label: provider date
 * synonyms: <http://bibframe.org/vocab/providerDate>
-* desciption: Date associated with the publication, printing, distribution, issue, release or production of an instance.
+* description: Date associated with the publication, printing, distribution, issue, release or production of an instance.
 * refines: when
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerNote
 
 * label: provider note
-* desciption: A note associated with the publication, printing, distribution, issue, release or production of an instance.
+* description: A note associated with the publication, printing, distribution, issue, release or production of an instance.
 * refines: why
 * value: 
 * scope: <http://bibfra.me/vocab/lite>
@@ -476,7 +495,7 @@ not used here
 * label: Event
 * refines: Resource
 * properties: who what where when why
-* desciption: A significant occurrence or happening
+* description: A significant occurrence or happening
 * scope: <http://bibfra.me/vocab/lite>
 
 ## who
