@@ -152,10 +152,20 @@ not used here
 * remark: Recommended ISO 8601 date
 * scope: <http://bibfra.me/vocab/lite>
 
-## dateEnd
-* label: end date
-* synonyms: <http://schema.org/endDate>
-* description: The end date associated with the resource.
+## dateBirth
+* label: birth date
+* synonyms: <https://schema.org/birthDate>
+* description: The birth date associated with the person.
+* value: Literal
+* refines: date
+* remark: Recommended ISO 8601 date
+* scope: <http://bibfra.me/vocab/lite>
+
+
+## dateDeath
+* label: death date
+* synonyms: <https://schema.org/deathDate>
+* description: The death date associated with the person.
 * value: Literal
 * refines: date
 * remark: Recommended ISO 8601 date
@@ -280,6 +290,14 @@ not used here
 * refines: Authority
 * synonyms: <http://bibframe.org/vocab/Agent>
 * description: An entity (e.g. person, organization, etc.) associated with a resource. 
+* properties: email address
+* scope: <http://bibfra.me/vocab/lite>
+
+## email
+* synonyms: <http://bibframe.org/vocab/email>
+* label: e-mail address
+* description: Address that identifies an email box to which email messages are delivered to an agent.
+* value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
 # Person
