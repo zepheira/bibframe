@@ -237,7 +237,8 @@ not used here
 ## description
 
 * label: description
-* description: Description of the resource.
+* description: Description of the resource
+* refines: note
 * value: Literal
 * remark: Description for example of bibliographic resources may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.
 * scope: <http://bibfra.me/vocab/lite>
@@ -427,7 +428,7 @@ not used here
 * refines: Event
 * label: Copyright Event
 * description: Copyright event associated with the intellectual property of an instance.
-* properties: license
+* properties: license copyrightAgent copyrightPlace copyrightDate copyrightNote 
 * scope: <http://bibfra.me/vocab/lite>
 
 ## license
@@ -436,6 +437,40 @@ not used here
 * synonyms: <http://creativecommons.org/ns#license>
 * description: License associated with the rights event associated with a Work.
 * value: Resource
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyrightAgent
+
+* label: copyright agent
+* synonyms: 
+* description: Agent associated with the copyright of an instance
+* refines: who
+* value: Agent
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyrightPlace
+
+* label: copyright place
+* refines: where
+* description: Place associated with the copyright of an instance
+* synonyms: <http://bibframe.org/vocab/providerPlace>
+* value: Place
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyrightDate
+
+* label: provider date
+* synonyms: <http://bibframe.org/vocab/copyrightDate>
+* description: Date associated with the copyright of an instance
+* refines: when
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyrightNote
+
+* label: copyright note
+* description: Note associated with the copyright of an instance
+* refines: why
+* value: 
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerAgent
@@ -568,3 +603,16 @@ not used here
 * value: Work
 * description: Member of a Collection
 * scope: <http://bibfra.me/vocab/lite>
+
+## isVersionOf
+
+* label: is version of
+* synonyms: <http://bibfra.me/vocab/isVersionOf>
+* value: Agent
+* description: Agent associated with the annotation
+* scope: <http://bibfra.me/vocab/lite>
+
+
+http://bibframe.org/vocab/hasVersion 
+http://bibframe.org/vocab/isVariantOf 
+http://bibframe.org/vocab/hasVariant
