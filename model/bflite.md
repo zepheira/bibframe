@@ -308,6 +308,7 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## email
+
 * synonyms: <http://schema.org/email>
 * label: e-mail address
 * description: Address that identifies an email box to which email messages are delivered to an agent
