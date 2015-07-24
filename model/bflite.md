@@ -82,7 +82,7 @@ not used here
 
 * synonyms: <http://bibframe.org/vocab/description> <http://schema.org/description> <http://purl.org/dc/terms/description>
 * label: description
-* * description: Description of the resource
+* description: Description of the resource
 * value: Literal
 * remark: Description for example of bibliographic resources may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.
 * scope: <http://bibfra.me/vocab/lite>
@@ -209,7 +209,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## name
-
 * label: name
 * value: Literal
 * description: Name of an authority
@@ -217,7 +216,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## nameAlternative
-
 * label: alternative name
 * value: Literal
 * description: Alternative name of an authority
@@ -263,6 +261,7 @@ not used here
 
 * label: description
 * description: Description of the resource
+* refines: note
 * value: Literal
 * remark: Description for example of bibliographic resources may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.
 * scope: <http://bibfra.me/vocab/lite>
@@ -285,7 +284,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## subject
-
 * label: subject
 * value: Concept
 * synonyms: <http://bibframe.org/vocab/subject> <http://purl.org/dc/terms/subject>
@@ -294,7 +292,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## genre
-
 * label: genre
 * value: Form
 * synonyms: <http://bibframe.org/vocab/genre>
@@ -303,7 +300,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Agent
-
 * label: Agent
 * refines: Authority
 * synonyms: <http://bibframe.org/vocab/Agent>
@@ -312,15 +308,13 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## email
-
-* synonyms: <http://bibframe.org/vocab/email>
+* synonyms: <http://schema.org/email>
 * label: e-mail address
 * description: Address that identifies an email box to which email messages are delivered to an agent
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
 # Person
-
 * label: Person
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Person>
@@ -328,7 +322,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Organization
-
 * label: Organization
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Organization>
@@ -336,7 +329,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Meeting
-
 * label: Meeting
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Meeting>
@@ -344,7 +336,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Family
-
 * label: Family
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Family>
@@ -352,7 +343,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Place
-
 * label: Place
 * refines: Authority
 * synonyms: <http://bibframe.org/vocab/Place>
@@ -360,7 +350,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Category
-
 * label: Category
 * refines: Resource
 * synonyms: <http://schema.org/Enumeration> <http://bibframe.org/vocab/Category>
@@ -369,7 +358,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Topic 
-
 * label: Topic
 * refines: Authority
 * synonyms: <http://bibframe.org/vocab/Topic>
@@ -377,14 +365,12 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Form
-
 * label: Form
 * refines: Category
 * description: Category or genre that describes what the resource is
 * scope: <http://bibfra.me/vocab/lite>
 
 # Concept
-
 * label: Concept
 * refines: Resource
 * synonyms: <http://www.w3.org/2009/08/skos-reference/skos.html#Concept>
@@ -393,7 +379,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Instance
-
 * refines: Resource
 * label: Instance
 * synonyms: <http://bibframe.org/vocab/Instance>
@@ -402,7 +387,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## instantiates
-
 * synonyms: <http://bibframe.org/vocab/instanceOf>
 * label: instantiates
 * description: Work the resource instantiates or manifests
@@ -412,7 +396,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## focus
-
 * label: focus
 * synonyms: <http://xmlns.com/foaf/0.1/focus>
 * description: Underlying or focal entity associated with a concept
@@ -421,7 +404,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## provision
-
 * label: provision
 * synonyms: <http://bibframe.org/vocab/provider>
 * value: ProviderEvent
@@ -430,14 +412,12 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## copyright
-
 * label: copyright
 * value: CopyrightEvent
-* description: Copyright event associated with the instance
+* description: Copyright event associated with the Instance
 * scope: <http://bibfra.me/vocab/lite>
 
 ## format
-
 * label: format
 * synonyms: <http://bibframe.org/vocab/format>
 * description: Format of the Instance
@@ -445,7 +425,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## medium
-
 * label: medium
 * value: IRI
 * description: Medium of the Instance
@@ -479,8 +458,8 @@ not used here
 
 * refines: Event
 * label: Copyright Event
-* description: Copyright event associated with the intellectual property of an Instance
-* properties: license
+* description: Copyright event associated with the intellectual property of an instance.
+* properties: license copyrightAgent copyrightPlace copyrightDate copyrightNote 
 * scope: <http://bibfra.me/vocab/lite>
 
 ## license
@@ -489,6 +468,40 @@ not used here
 * synonyms: <http://creativecommons.org/ns#license>
 * description: License associated with the rights event associated with a Work
 * value: Resource
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyrightAgent
+
+* label: copyright agent
+* synonyms: 
+* description: Agent associated with the copyright of an instance
+* refines: who
+* value: Agent
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyrightPlace
+
+* label: copyright place
+* refines: where
+* description: Place associated with the copyright of an instance
+* synonyms: <http://bibframe.org/vocab/providerPlace>
+* value: Place
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyrightDate
+
+* label: provider date
+* synonyms: <http://bibframe.org/vocab/copyrightDate>
+* description: Date associated with the copyright of an instance
+* refines: when
+* scope: <http://bibfra.me/vocab/lite>
+
+## copyrightNote
+
+* label: copyright note
+* description: Note associated with the copyright of an instance
+* refines: why
+* value: 
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerAgent
@@ -604,7 +617,6 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # Collection 
-
 * label: Collection
 * refines: Work
 * description: Aggregation or gathering of works
@@ -612,15 +624,22 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## primary
-
 * label: primary work
 * value: Work
 * description: Primary work associated with a Collection
 * scope: <http://bibfra.me/vocab/lite>
 
 ## memberOf
-
 * label: member of
 * value: Work
 * description: Member of a Collection
 * scope: <http://bibfra.me/vocab/lite>
+
+## isVersionOf
+
+* label: is version of
+* synonyms: <http://bibfra.me/vocab/isVersionOf>
+* value: Agent
+* description: Agent associated with the annotation
+* scope: <http://bibfra.me/vocab/lite>
+
