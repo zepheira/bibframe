@@ -2056,7 +2056,7 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * label: summary
 * description: Description of the content of a resource, such as an abstract, summary, etc..
 * value: Literal
-* refines:  <http://bibfra.me/vocab/lite/description>
+* refines: <http://bibfra.me/vocab/lite/note>
 * synonyms: <http://bibframe.org/vocab/summary>
 * scope: <http://bibfra.me/vocab/marc>
 
