@@ -304,7 +304,7 @@ not used here
 * refines: Authority
 * synonyms: <http://bibframe.org/vocab/Agent>
 * description: Entity (e.g. person, organization, etc.) associated with a resource
-* properties: email address
+* properties: email
 * scope: <http://bibfra.me/vocab/lite>
 
 ## email
