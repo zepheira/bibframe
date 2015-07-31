@@ -81,6 +81,7 @@ not used here
 ## description
 
 * synonyms: <http://bibframe.org/vocab/description> <http://schema.org/description> <http://purl.org/dc/terms/description>
+* refines: note
 * label: description
 * description: Description of the resource
 * value: Literal
