@@ -58,7 +58,7 @@ Extend BIBFRAME Lite Classess
 
 # <http://bibfra.me/vocab/lite/Work>
 
-* properties: contentCategory numeration titles catalogingSource lcCallNumber lcItemNumber nlmCallNumber nlmCallNumber nlmCopyStatement nalCallNumber nalItemNumber nalCopyStatement deweyNumber titleRemainder titleRemainder statementOfResponsibility titleNumber titlePart titlePart inclusiveDates formDesignation titleVariation titleVariationRemainder titleVariationDate formerTitle seriesStatement dissertationNote degree grantingInstitution dissertationYear dissertationNote governingAccessNote jurisdictionNote physicalAccess uriNote  remainderOfScale creditsNote citationSource citationCoverage citationLocationWithinSource citationUri typeOfReport periodCovered typeOfComputerFile dateTimePlace dateOfEvent otherEventInformation placeOfEvent summaryExpansion assigningSource intendedAudience intendedAudienceSource geographicCoverage supplement interestLevel readingLevel   locationOfOriginalsDuplicates fundingInformation systemDetails informationRelatingToCopyrightStatus locationOfOtherArchivalMaterial biographicalOrHistoricalData languageNote entityAndAttributeInformation informationAboutDocumentation ownership action awardsNote medium additionalPhysicalForm 
+* properties: contentCategory numeration titles catalogingSource lcCallNumber lcItemNumber nlmCallNumber nlmCallNumber nlmCopyStatement nalCallNumber nalItemNumber nalCopyStatement deweyNumber classificationLcc titleRemainder titleRemainder statementOfResponsibility titleNumber titlePart titlePart inclusiveDates formDesignation titleVariation titleVariationRemainder titleVariationDate formerTitle seriesStatement dissertationNote degree grantingInstitution dissertationYear dissertationNote governingAccessNote jurisdictionNote physicalAccess uriNote  remainderOfScale creditsNote citationSource citationCoverage citationLocationWithinSource citationUri typeOfReport periodCovered typeOfComputerFile dateTimePlace dateOfEvent otherEventInformation placeOfEvent summaryExpansion assigningSource intendedAudience intendedAudienceSource geographicCoverage supplement interestLevel readingLevel   locationOfOriginalsDuplicates fundingInformation systemDetails informationRelatingToCopyrightStatus locationOfOtherArchivalMaterial biographicalOrHistoricalData languageNote entityAndAttributeInformation informationAboutDocumentation ownership action awardsNote medium additionalPhysicalForm 
 
 # <http://bibfra.me/vocab/lite/Instance>
 
@@ -1271,6 +1271,14 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * remark: Equivalent to subfield a of MARC field 082, Dewey Classification Number. 
 * refines: 
 * synonyms: <http://bibframe.org/vocab/classificationDdc>
+* scope: <http://bibfra.me/vocab/marc>
+
+## classificationlcc 
+* label: LCC Classification
+* description: Library of Congress Classification number used for subject access
+* value: Literal
+* refines: 
+* synonyms: <http://bibframe.org/vocab/classificaitionLcc>
 * scope: <http://bibfra.me/vocab/marc>
 
 ## dimensions
