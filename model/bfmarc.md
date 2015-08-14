@@ -58,11 +58,11 @@ Extend BIBFRAME Lite Classess
 
 # <http://bibfra.me/vocab/lite/Work>
 
-* properties: contentCategory numeration titles catalogingSource lcCallNumber lcItemNumber nlmCallNumber nlmCallNumber nlmCopyStatement nalCallNumber nalItemNumber nalCopyStatement deweyNumber classificationLcc titleRemainder titleRemainder statementOfResponsibility titleNumber titlePart titlePart inclusiveDates formDesignation titleVariation titleVariationRemainder titleVariationDate formerTitle seriesStatement dissertationNote degree grantingInstitution dissertationYear dissertationNote governingAccessNote jurisdictionNote physicalAccess uriNote  remainderOfScale creditsNote citationSource citationCoverage citationLocationWithinSource citationUri typeOfReport periodCovered typeOfComputerFile dateTimePlace dateOfEvent otherEventInformation placeOfEvent summaryExpansion assigningSource intendedAudience intendedAudienceSource geographicCoverage supplement interestLevel readingLevel   locationOfOriginalsDuplicates fundingInformation systemDetails informationRelatingToCopyrightStatus locationOfOtherArchivalMaterial biographicalOrHistoricalData languageNote entityAndAttributeInformation informationAboutDocumentation ownership action awardsNote medium additionalPhysicalForm 
+* properties: content numeration titles catalogingSource lcCallNumber lcItemNumber nlmCallNumber nlmCallNumber nlmCopyStatement nalCallNumber nalItemNumber nalCopyStatement deweyNumber classificationLcc titleRemainder titleRemainder statementOfResponsibility titleNumber titlePart titlePart inclusiveDates formDesignation titleVariation titleVariationRemainder titleVariationDate formerTitle seriesStatement dissertationNote degree grantingInstitution dissertationYear dissertationNote governingAccessNote jurisdictionNote physicalAccess uriNote  remainderOfScale creditsNote citationSource citationCoverage citationLocationWithinSource citationUri typeOfReport periodCovered typeOfComputerFile dateTimePlace dateOfEvent otherEventInformation placeOfEvent summaryExpansion assigningSource intendedAudience intendedAudienceSource geographicCoverage supplement interestLevel readingLevel   locationOfOriginalsDuplicates fundingInformation systemDetails informationRelatingToCopyrightStatus locationOfOtherArchivalMaterial biographicalOrHistoricalData languageNote entityAndAttributeInformation informationAboutDocumentation ownership action awardsNote medium additionalPhysicalForm 
 
 # <http://bibfra.me/vocab/lite/Instance>
 
-* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency mediaCategory carrierCategory languageCategory physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids 
+* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency media carrier physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids 
 
 # <http://bibfra.me/vocab/lite/Authority>
 
@@ -764,7 +764,7 @@ Properties applicable to instance types - MARC 007
 ## levelOfContraction
 * label: level of contraction
 * description: Whether contractions are used
-* value: Liteal
+* value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
@@ -913,36 +913,46 @@ Properties applicable to instance types - MARC 007
 Define MARC additional properties used to describe Works / Expressions (Works)
 --->
 
-## contentCategory
+## content
 * label: content category
 * synonyms: <http://bibframe.org/vocab/contentCategory>
-* refines: Category
 * description: Categorization reflecting the fundamental form of communication in which the content is expressed and the human sense through which it is intended to be perceived
-* value: IRI
+* value: ContentCategory
 * scope: <http://bibfra.me/vocab/marc>
 
-## mediaCategory
+# ContentCategory
+* label: Content Category
+* refines: <http://bibfra.me/vocab/lite/Category>
+* description: List of content
+* remark: A controlled vocabulary. 
+* scope: <http://bibfra.me/vocab/marc>
+
+## media
 * label: media category
 * synonyms: <http://bibframe.org/vocab/mediaCategory>
-* refines: Category
 * description: Categorization reflecting the general type of intermediation device required to view, play, run, etc., the content of a resource
-* value: IRI
+* value: MediaCategory
 * scope: <http://bibfra.me/vocab/marc>
 
-## carrierCategory
+# MediaCategory
+* label: Media Category
+* refines: <http://bibfra.me/vocab/lite/Category>
+* description: List of media
+* remark: A controlled vocabulary. 
+* scope: <http://bibfra.me/vocab/marc>
+
+## carrier
 * label: carrier category
 * synonyms: <http://bibframe.org/vocab/carrierCategory>
-* refines: Category
 * description: Categorization reflecting the format of the storage medium and housing of a carrier
-* value: IRI
+* value: CarrierCategory
 * scope: <http://bibfra.me/vocab/marc>
 
-## languageCategory
-* label: carrier category
-* synonyms: <http://bibframe.org/vocab/languageCategory>
-* refines: Category
-* description: Categorization reflecting the language of a resource
-* value: IRI
+# CarrierCategory
+* label: Carrier Category
+* refines: <http://bibfra.me/vocab/lite/Category>
+* description: List of carriers
+* remark: A controlled vocabulary. 
 * scope: <http://bibfra.me/vocab/marc>
 
 ## lccn
@@ -1273,7 +1283,7 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * synonyms: <http://bibframe.org/vocab/classificationDdc>
 * scope: <http://bibfra.me/vocab/marc>
 
-## classificationlcc 
+## classificationLcc 
 * label: LCC Classification
 * description: Library of Congress Classification number used for subject access
 * value: Literal

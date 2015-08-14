@@ -132,8 +132,15 @@ not used here
 
 * label: language
 * synonyms: <http://bibframe.org/vocab/language> <http://purl.org/dc/terms/language>
-* value: IRI
+* value: LanguageCategory
 * description: Language associated with the resource
+* scope: <http://bibfra.me/vocab/lite>
+
+# LanguageCategory
+* label: Language Category
+* refines: Category
+* description: List of languages
+* remark: A controlled vocabulary. 
 * scope: <http://bibfra.me/vocab/lite>
 
 ## date
@@ -449,9 +456,8 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 # ProviderEvent
-
-* refines: Event
 * label: Provider Event
+* refines: Event
 * description: Event associated with the publication, printing, distribution, issue, release or production of an Instance
 * properties: providerAgent providerPlace providerDate providerNote
 * scope: <http://bibfra.me/vocab/lite>
