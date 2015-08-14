@@ -62,7 +62,7 @@ Extend BIBFRAME Lite Classess
 
 # <http://bibfra.me/vocab/lite/Instance>
 
-* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency mediaCategory carrierCategory physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids 
+* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency mediaCategory carrierCategory languageCategory physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids 
 
 # <http://bibfra.me/vocab/lite/Authority>
 
@@ -939,7 +939,7 @@ Define MARC additional properties used to describe Works / Expressions (Works)
 
 ## languageCategory
 * label: carrier category
-* synonyms: <http://bibframe.org/vocab/carrierCategory>
+* synonyms: <http://bibframe.org/vocab/languageCategory>
 * refines: Category
 * description: Categorization reflecting the language of a resource
 * value: IRI
