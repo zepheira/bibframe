@@ -742,14 +742,14 @@ Properties applicable to instance types - MARC 007
 
 ## kindOfColorStockOrPrint
 * label: kind of color stock or print
-* description:  Type of color film stock or color print the item represents. 
+* description:  Type of color film stock or color print the item represents
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## levelOfCompression
 * label: level of compression
-* description:  Kind of compression the electronic resource has been subjected to. 
+* description:  Kind of compression the electronic resource has been subjected to.
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
@@ -763,63 +763,63 @@ Properties applicable to instance types - MARC 007
 
 ## levelOfContraction
 * label: level of contraction
-* description: Whether contractions are used.
+* description: Whether contractions are used
 * value: Liteal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## mediumForSound
 * label: medium for sound
-* description: Specific medium used to carry the sound of an item (whether the sound is on the projected graphic or separate) and the type of sound playback required for the item. 
+* description: Specific medium used to carry the sound of an item (whether the sound is on the projected graphic or separate) and the type of sound playback required for the item
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## motionPicturePresentationFormat
 * label: motion picture presentation format
-* description:  Presentation format for motion pictures. 
+* description:  Presentation format for motion pictures
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## physicalMedium
 * label: physical medium
-* description:  Material out of which the cartographic item is made. 
+* description:  Material out of which the cartographic item is made
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## platformConstructionType
 * label: platform construction type
-* description: Type of construction of the platform serving as the base for the remote-sensing device. For the purposes of this data element, "platform" refers to any structure that serves as a base, not only flat surfaces. 
+* description: Type of construction of the platform serving as the base for the remote-sensing device. For the purposes of this data element, "platform" refers to any structure that serves as a base, not only flat surfaces
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## platformUseCategory
 * label: platform use category
-* description: Primary use intended for the platform specified in platform construction type.
+* description: Primary use intended for the platform specified in platform construction type
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## positiveNegativeAspect
 * label: positive negative aspect
-* description:  Whether the film is positive or negative. 
+* description:  Whether the film is positive or negative
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## productionElements
 * label: production elements
-* description:  Whether the film is part of a complete production or is a preliminary or post-production element. 
+* description:  Whether the film is part of a complete production or is a preliminary or post-production element
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## qualityAssuranceTargets
 * label: quality assurance targets
-* description: Whether quality assurance targets have been included appropriately at the time of reformatting/creation of the electronic resource. 
+* description: Whether quality assurance targets have been included appropriately at the time of reformatting/creation of the electronic resource
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
@@ -833,42 +833,42 @@ Properties applicable to instance types - MARC 007
 
 ## sensorType
 * label: sensor type
-* description: For the recording mode of the remote-sensing device, specifically, whether the sensor is involved in the creation of the transmission it eventually measures.
+* description: For the recording mode of the remote-sensing device, specifically, whether the sensor is involved in the creation of the transmission it eventually measures
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## sound
 * label: sound
-* description:  Whether the production of sound is an integral part of an electronic resource. 
+* description:  Whether the production of sound is an integral part of an electronic resource
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## soundOnMediumOrSeparate
 * label: sound on medium or separate
-* description:  Whether the sound is on or is separate from the projected graphic (i.e., on the accompanying material). 
+* description:  Whether the sound is on or is separate from the projected graphic (i.e., on the accompanying material)
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## specialPhysicalCharacteristics
 * label: special physical characteristics
-* description: Other special physical characteristics about the braille.
+* description: Other special physical characteristics about the braille
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## specificMaterialDesignation
 * label: specific material designation
-* description: Special class of tactile materialspecific material to which the item belongs.
+* description: Special class of tactile materialspecific material to which the item belongs
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## speed
 * label: speed
-* description: Playback speed of the sound recording.
+* description: Playback speed of the sound recording
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
@@ -882,28 +882,28 @@ Properties applicable to instance types - MARC 007
 
 ## typeOfReproduction
 * label: type of reproduction
-* description:  Whether the cartographic item is a facsimile or other type of reproduction. 
+* description:  Whether the cartographic item is a facsimile or other type of reproduction
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## productionReproductionDetails 
 * label: production reproduction details 
-* description:  Photographic technique used to produce the cartographic item.  
+* description:  Photographic technique used to produce the cartographic item
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## positiveNegativeAspect 
 * label: positive negative aspect 
-* description:  Positive/negative aspect of the photocopy or film of the cartographic item. 
+* description:  Positive/negative aspect of the photocopy or film of the cartographic item
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
 
 ## videorecordingFormat
 * label: videorecording format
-* description:  Videotape or videodisc recording format. 
+* description:  Videotape or videodisc recording format
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
@@ -916,21 +916,32 @@ Define MARC additional properties used to describe Works / Expressions (Works)
 ## contentCategory
 * label: content category
 * synonyms: <http://bibframe.org/vocab/contentCategory>
-* description: Categorization reflecting the fundamental form of communication in which the content is expressed and the human sense through which it is intended to be perceived.
+* refines: Category
+* description: Categorization reflecting the fundamental form of communication in which the content is expressed and the human sense through which it is intended to be perceived
 * value: IRI
 * scope: <http://bibfra.me/vocab/marc>
 
 ## mediaCategory
 * label: media category
 * synonyms: <http://bibframe.org/vocab/mediaCategory>
-* description: Categorization reflecting the general type of intermediation device required to view, play, run, etc., the content of a resource.
+* refines: Category
+* description: Categorization reflecting the general type of intermediation device required to view, play, run, etc., the content of a resource
 * value: IRI
 * scope: <http://bibfra.me/vocab/marc>
 
 ## carrierCategory
 * label: carrier category
 * synonyms: <http://bibframe.org/vocab/carrierCategory>
-* description: Categorization reflecting the format of the storage medium and housing of a carrier.
+* refines: Category
+* description: Categorization reflecting the format of the storage medium and housing of a carrier
+* value: IRI
+* scope: <http://bibfra.me/vocab/marc>
+
+## languageCategory
+* label: carrier category
+* synonyms: <http://bibframe.org/vocab/carrierCategory>
+* refines: Category
+* description: Categorization reflecting the language of a resource
 * value: IRI
 * scope: <http://bibfra.me/vocab/marc>
 
