@@ -88,7 +88,7 @@ Class Refinements
 # Series
 * label: Series
 * refines: <http://bibfra.me/vocab/lite/Collection>
-* description: A Series
+* description: Set of related resources, especially of a specified kind
 * scope: <http://bibfra.me/vocab/marc>
 
 <!-- 
