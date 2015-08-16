@@ -1,20 +1,12 @@
 <!---
 
-BIBFRAME DCRMB is a starting point for rare book vocabularies using the 
-BIBFRAME model and profiles. The scope of DCRMB is rare printed monographs of 
-any type of production or age. Rare music, serials, maps and manuscripts are out
-of scope with the exception of individual serials or special issues that are
-treated as monographs. Although intended for the description of materials created
-before the introduction of machine printing during the 19th century, it may be
-used to describe any rare printed monograph including but not limited to artist'
-books, machine-press publications, printing-press publications and other
-contemporary print publications. It builds off of the BIBFRAME Lite vocabulary. 
+BIBFRAME Rare is a starting point for rare materials vocabularies using the 
+BIBFRAME model and profiles. It builds off of the BIBFRAME Lite vocabulary. 
 It is framework conformant to BIBFRAME, the DCRM principles of construction, 
 RDA where applicable. and where possible, link-compatible with the 
 US Library of Congress's BIBFRAME vocabulary, http://bibframe.org/
 
-
-BIBFRAME DCRMB is expressed using the Versa data model, which also
+BIBFRAME Rare is expressed using the Versa data model, which also
 allows for full expression in RDF form.  This particular file is in
 the Versa Literate syntax, based on the Markdown format
 <https://daringfireball.net/projects/markdown/basics>.
@@ -32,7 +24,7 @@ resource). Properties may also have "value" (textual description of
 the expected value of the property, perhaps as a relationship to
 another resource, or as a data value).
 
-You'll notice that BIBFRAME DCRMB terms use a humpCase/HumpCase convention,
+You'll notice that BIBFRAME Rare terms use a humpCase/HumpCase convention,
 which derives from BIBFRAME legacy.
 
 -->
