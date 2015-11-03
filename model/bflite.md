@@ -426,6 +426,7 @@ not used here
 * synonyms: 
 * description: Qualifier or modifer used to describe an additional underlying focal entity associated with a concept. 
 * remark: Often times subfocus entities follow the primary focus associated with a Concept.
+* refines: focus
 * value: Resource
 * scope: <http://bibfra.me/vocab/lite>
 
