@@ -143,6 +143,15 @@ not used here
 * remark: A controlled vocabulary. 
 * scope: <http://bibfra.me/vocab/lite>
 
+# Temporal
+
+* label: Temporal
+* refines: 
+* synonyms:
+* description: Used to denote context for the chronological continued progress of existence and events in the past, present, and future.
+* remark: 
+* scope: <http://bibfra.me/vocab/lite>
+
 ## date
 
 * label: date
@@ -408,7 +417,15 @@ not used here
 * label: focus
 * synonyms: <http://xmlns.com/foaf/0.1/focus>
 * description: Underlying or focal entity associated with a concept
-* remark: Often times the focus is the primary entity associated with a pre-coordinated subject heading.
+* remark: Often times the focus is the primary entity associated with a Concept.
+* value: Resource
+* scope: <http://bibfra.me/vocab/lite>
+
+## subfocus
+* label: subfocus
+* synonyms: 
+* description: Qualifier or modifer used to describe an additional underlying focal entity associated with a concept. 
+* remark: Often times subfocus entities follow the primary focus associated with a Concept.
 * value: Resource
 * scope: <http://bibfra.me/vocab/lite>
 
