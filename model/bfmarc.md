@@ -64,8 +64,6 @@ Extend BIBFRAME Lite Classess
 
 * properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency media carrier physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids 
 
-# <http://bibfra.me/vocab/lite/Authority>
-
 # <http://bibfra.me/vocab/lite/Person>
 * properties: numeration titles 
 
@@ -75,8 +73,11 @@ Extend BIBFRAME Lite Classess
 # <http://bibfra.me/vocab/lite/Meeting>
 * properties: locationOfEvent
 
-# <http://bibfra.me/vocab/lite/Topic>
+# <http://bibfra.me/vocab/lite/Concept>
 * properties: source generalSubdivision chronologicalSubdivision geographicSubdivision formSubdivision
+
+# <http://bibfra.me/vocab/lite/Topic>
+* properties: source
 
 # <http://bibfra.me/vocab/lite/Form>
 * properties: source

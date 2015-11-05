@@ -146,10 +146,8 @@ not used here
 # Temporal
 
 * label: Temporal
-* refines: 
-* synonyms:
+* refines: Authority
 * description: Used to denote context for the chronological continued progress of existence and events in the past, present, and future.
-* remark: 
 * scope: <http://bibfra.me/vocab/lite>
 
 ## date
@@ -393,7 +391,7 @@ not used here
 * refines: Resource
 * synonyms: <http://www.w3.org/2009/08/skos-reference/skos.html#Concept>
 * description: Term describing the subject, aboutness, idea or notion of a resource
-* properties: focus
+* properties: focus subFocus
 * scope: <http://bibfra.me/vocab/lite>
 
 # Instance
@@ -421,9 +419,8 @@ not used here
 * value: Resource
 * scope: <http://bibfra.me/vocab/lite>
 
-## subfocus
+## subFocus
 * label: subfocus
-* synonyms: 
 * description: Qualifier or modifer used to describe an additional underlying focal entity associated with a concept. 
 * remark: Often times subfocus entities follow the primary focus associated with a Concept.
 * refines: focus
