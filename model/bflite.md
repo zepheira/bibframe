@@ -564,6 +564,7 @@ not used here
 # Event
 
 * label: Event
+* synonyms: <http://schema.org/Event>
 * refines: Resource
 * properties: who what where when why
 * description: Significant occurrence or happening

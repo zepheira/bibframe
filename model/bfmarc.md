@@ -1153,6 +1153,17 @@ extracted
 * synonyms: <http://bibframe.org/vocab/abbreviatedTitle>
 * scope: <http://bibfra.me/vocab/marc>
 
+## titleProper
+
+* label: title proper
+* refines: <http://bibfra.me/vocab/lite/title>
+* synonyms: 
+* description: The proper title
+* value: Literal
+* scope: <http://bibfra.me/vocab/dcrmb>
+* remark: 
+* scope: <http://bibfra.me/vocab/marc>
+
 ## accompanyingMaterial
 * label: accompanying material
 * description: Resource that has an accompanying resource that adds to it.
