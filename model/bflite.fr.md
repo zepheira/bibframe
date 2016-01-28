@@ -1,12 +1,9 @@
 <!--
 
-BIBFRAME Lite is a starting point for customized BIBFRAME vocabularies
-and profiles.  It is framework conformant to BIBFRAME and
-link-compatible with the US Library of Congress's BIBFRAME vocabulary,
+BIBFRAME Lite est un commencement pour les BIBFRAME vocabulaires customizés.
+Cést un cadre qui se conforme à BIBFRAME et fonctionnel avec liens comme le
+vocabulaire de la bibliothèque nationale des États Unis.
 http://bibframe.org/
-
-The following is a French translation of the bibfra.me IRIs to support
-localized managemnet and navigation of the vocabularies.
 
 -->
 
@@ -15,124 +12,123 @@ localized managemnet and navigation of the vocabularies.
 * @iri:
     * @base: http://bibfra.me/vocab/lite/
     * @property: http://bibfra.me/purl/versa/support
+* @language: fr
 
 # Resource
 
-* label: Ressource
-* description: La plupart entité Bibframe générique
+* label: ressource
+* description: Entité Générique; Ce qu'on doit décrire
 
 ## label
 
 * label: étiquette
-* description: chaîne de texte représentant le nom de la ressource
+* description: Nom élémentaire de la ressource
 
 ## prefLabel
 
-* label:  étiquette préféré
+* label:  étiquette préférée
 * refines: label
-* description: chaîne de texte représentant le nom de la ressource
+* description: Plus préféré des noms possibles de la ressource
 * scope: <http://bibfra.me/vocab/lite>
 
 ## description
 
 * label: description
 * description: Description de la ressource
-* remark: Description par exemple des ressources bibliographiques peut comprendre, mais sans s'y limiter: un résumé, une table des matières, une représentation graphique ou un texte libre de la ressource.
+* remark: Peut comprendre, mais sans s'y limiter: un résumé, une table des matières, une représentation graphique ou une explication de la ressource.
 
 ## image
 
-* label: l'image
-* description:  IRI qui pointe vers une image de la ressource
+* label: image
+* description: IRI vers une image de la ressource
 
 ## link
 
 * label: lien
-* description:  IRI d'une ressource
+* description: IRI vers d'une autre ressource
 
 ## rightsStatement
 
 * label: déclaration de droits
-* description: déclaration des droits associés à la ressource de l'origine
+* description: Déclaration des droits d'utilisation de la ressource
 
 ## controlCode
 
-* label: code de contrôle
+* label: Numéro ou code de contrôle
 * description: chaîne alphanumérique ou indicateur utilisé pour trouver et identifier la ressource
-* remark: Un identifiant basé non-IRI reflétant les pratiques locales ou de codage communauté
-
-@@@@
+* remark: Identifiant selon les pratiques de codage locales
 
 ## related
-* label: connexes
-* description: ressource à la ressource de l'origine
+* label: lié
+* description: Autre ressource relatif à celle-ci
 
 ## language
 * label: langue
-* description: Langue associé à la ressource
+* description: Langue relatif à la ressource
 
 # LanguageCategory
-* label: Langue Catégorie
+* label: Catégorie des langues
 * description: Liste des langues
-* remark: Un vocabulaire contrôlé.
+* remark: Vocabulaire contrôlé.
 
 # Temporal
 * label: Temporal
-* description: Utilisé pour désigner contexte de la poursuite des progrès chronologique de l'existence et des événements dans le passé, le présent et l'avenir.
+* description: Dénotation de contexte chronologique des événements relatif à la ressource (dans le passé, le présent et l'avenir).
 
 ## date
 * label: date
-* description: Date associé à la ressource
-* remark: Recommandé ISO 8601 Date
+* description: Date relatif à la ressource.
+* remark: Conseillé d'utiliser ISO 8601
 
 ## dateStart
 * label: date de début
-* description: Date de début associé à la ressource
-* remark: Recommandé ISO 8601 Date
+* description: Date de début relatif à la ressource
+* remark: Conseillé d'utiliser ISO 8601
 
 ## dateEnd
 * label: date de fin
-* description: Date de fin associé à la ressource
-* remark: Recommandé ISO 8601 Date
+* description: Date de fin relatif à la ressource
+* remark: Conseillé d'utiliser ISO 8601
 
 ## dateBirth
 * label: date de naissance
-* description: Date de naissance associée à la personne
-* remark: Recommandé ISO 8601 Date
+* description: Date de naissance relatif à la personne
+* remark: Conseillé d'utiliser ISO 8601
 
 ## dateDeath
 * label: date de la mort
-* description: Date de décès associé à la personne
-* remark: Recommandé ISO 8601 Date
+* description: Date de décès relatif à la personne
+* remark: Conseillé d'utiliser ISO 8601
 
 ## audience
-* label: public
-* description: Classe d'utilisateur pour lequel le contenu d'une ressource est destinée ou pour lesquels le contenu est considéré comme convenable
-* remark: Un public cible peut être formé de personnes d'un certain groupe d'âge, sexe, état matrimonial, etc .. D'autres groupes, mais pas l'objectif principal, peut également être intéressé. La valeur de cette propriété est destiné à être une liste de code.
+* label: public prévu
+* description: Classe d'utilisateur à lequel le contenu d'une ressource est destinée ou pour lesquels le contenu est jugé comme convenable
+* remark: Peut être formé de personnes d'un certain groupe d'âge, sexe, état matrimonial, etc. l'objet de cette propriété devrait être une liste de code.
 
 ## note
 * label: note
-* description: L'information descriptive supplémentaire associé à la ressource
+* description: Information supplémentaire relatif à la ressource
 
-# Authority 
+# Authority
 * label: Autorité
-* description: crédible, la description d'une personne organisée, lieu ou une chose
+* description: Description organisée et crédible d'une personne organisée, lieu ou chose
 
 ## name
 * label: nom
-* description: Nom d'une autorité
+* description: Nom de la ressource autorisée
 
 ## nameAlternative
 * label: nom alternatif
-* description: Alternative nom d'une autorité
+* description: Nom alternatif de la ressource autorisée
 
 ## authorityLink
-* label: lien d'autorité
-* description: Actionable IRI reliant à un vocabulaire contrôlé autorité
-* remark: Exemple identifiants comprennent VIAF, LCNAF, ISNI, ORCID, etc.
+* label: lien autorisé
+* description: Lien résolu relatif à la ressource autorisée
+* remark: Quelquechose comme VIAF, LCNAF, ISNI, ORCID, etc.
 
 # Work
-* label: Travail
-* description: Une création intellectuelle ou artistique distincte
+* label: œuvre
+* description: Création distincte, intellectuelle ou artistique
 
 ## title
 * label: titre
@@ -198,7 +194,7 @@ localized managemnet and navigation of the vocabularies.
 * description: Liste des choses considérées comme ayant des caractéristiques particulières partagées
 * remark: Un vocabulaire contrôlé.
 
-# Topic 
+# Topic
 * label: Topic
 * description: terme Sujet décrivant un concept général, événement ou un objet
 
@@ -339,7 +335,7 @@ localized managemnet and navigation of the vocabularies.
 * label: la cible
 * description: cible d'une annotation
 
-# Collection 
+# Collection
 * label: Collection
 * description: Agrégation ou le ramassage des œuvres
 
