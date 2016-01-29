@@ -434,8 +434,8 @@ not used here
 
 ## format
 * label: format
-* synonyms: <http://bibframe.org/vocab/format>
-* description: Format of the Instance
+* synonyms: <http://bibframe.org/vocab/format> <http://purl.org/dc/terms/format>
+* description: File format or physical medium of an instance.
 * value: IRI
 * scope: <http://bibfra.me/vocab/lite>
 

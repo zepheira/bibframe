@@ -16,7 +16,7 @@ http://bibframe.org/
 
 # Resource
 
-* label: ressource
+* label: Ressource
 * description: Entité Générique; Ce qu'on doit décrire
 
 ## label
@@ -127,7 +127,7 @@ http://bibframe.org/
 * remark: Quelquechose comme VIAF, LCNAF, ISNI, ORCID, etc.
 
 # Work
-* label: œuvre
+* label: Œuvre
 * description: Création distincte, intellectuelle ou artistique
 
 ## title
@@ -226,8 +226,8 @@ http://bibframe.org/
 * description: l’ensemble des droits dont dispose un auteur ou ses ayants droit (héritiers, sociétés de production) sur des œuvres de l’esprit originales et des droits corrélatifs du public à l'utilisation et à la réutilisation de ces œuvres sous certaines conditions
 
 ## format
-* label: ...
-* description: ... [Hard for me to tell what this actually is, given the sketchy en description & the fact that it's not used in marcpatterns ~UO] ...
+* label: format
+* description: Format de fichier ou support physique d'une instance
 
 ## medium
 * label: médium
@@ -242,11 +242,11 @@ http://bibframe.org/
 * description: Mesure de la taille
 
 # ProviderEvent
-* label: événement de fourniture
+* label: Événement de fourniture
 * description: publication, impression, distribution, une émission, la libération ou la production d'une instance
 
 # CopyrightEvent
-* label: événement relatif au droit d'auteur
+* label: Événement relatif au droit d'auteur
 * description: cas du droit d'auteur associé à la propriété intellectuelle d'une instance.
 
 ## license
