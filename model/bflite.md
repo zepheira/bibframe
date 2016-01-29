@@ -57,7 +57,7 @@ not used here
 
 * synonyms: <http://bibframe.org/vocab/Resource> <http://schema.org/Thing>
 * label: Resource
-* description: Most generic Bibframe entity 
+* description: Most generic Bibframe entity
 * properties: label description image link rightsStatement controlCode related language date audience note authorityLink
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -140,7 +140,7 @@ not used here
 * label: Language Category
 * refines: Category
 * description: List of languages
-* remark: A controlled vocabulary. 
+* remark: A controlled vocabulary.
 * scope: <http://bibfra.me/vocab/lite>
 
 # Temporal
@@ -204,7 +204,7 @@ not used here
 * label: audience
 * value: Literal
 * description: Class of user for which the content of a resource is intended, or for whom the content is considered suitable
-* remark: A target audience can be formed of people of a certain age group, gender, marital status, etc.. Other groups, although not the main focus, may also be interested. The value of this property is intended to be a code list. 
+* remark: A target audience can be formed of people of a certain age group, gender, marital status, etc.. Other groups, although not the main focus, may also be interested. The value of this property is intended to be a code list.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## note
@@ -214,7 +214,7 @@ not used here
 * description: Additional descriptive information associated with the resource
 * scope: <http://bibfra.me/vocab/lite>
 
-# Authority 
+# Authority
 
 * label: Authority
 * synonyms: <http://bibframe.org/vocab/Authority>
@@ -272,20 +272,11 @@ not used here
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
-## description
-
-* label: description
-* description: Description of the resource
-* refines: note
-* value: Literal
-* remark: Description for example of bibliographic resources may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.
-* scope: <http://bibfra.me/vocab/lite>
-
 ## creator
 
 * label: creator
 * synonyms: <http://bibframe.org/vocab/creator> <http://purl.org/dc/terms/creator>
-* value: Agent 
+* value: Agent
 * refines: contributor
 * description: Entity (or entities) responsible with the creation of the origin resource
 * scope: <http://bibfra.me/vocab/lite>
@@ -293,7 +284,7 @@ not used here
 ## contributor
 
 * label: contributor
-* value: Agent 
+* value: Agent
 * synonyms: <http://bibframe.org/vocab/contributor> <http://purl.org/dc/terms/contributor>
 * description: Entity (or entities) who contribute to the origin resource
 * scope: <http://bibfra.me/vocab/lite>
@@ -370,14 +361,14 @@ not used here
 * refines: Resource
 * synonyms: <http://schema.org/Enumeration> <http://bibframe.org/vocab/Category>
 * description: List of things regarded as having particular shared characteristics
-* remark: A controlled vocabulary. 
+* remark: A controlled vocabulary.
 * scope: <http://bibfra.me/vocab/lite>
 
-# Topic 
+# Topic
 * label: Topic
 * refines: Authority
 * synonyms: <http://bibframe.org/vocab/Topic>
-* description: Subject term describing a general concept, event or object 
+* description: Subject term describing a general concept, event or object
 * scope: <http://bibfra.me/vocab/lite>
 
 # Form
@@ -399,7 +390,7 @@ not used here
 * label: Instance
 * synonyms: <http://bibframe.org/vocab/Instance>
 * description: Individual embodiment of a Work
-* properties: contributor title instantiates extent provision copyright dimensions format medium 
+* properties: contributor title instantiates extent provision copyright dimensions format medium
 * scope: <http://bibfra.me/vocab/lite>
 
 ## instantiates
@@ -421,7 +412,7 @@ not used here
 
 ## subFocus
 * label: subfocus
-* description: Qualifier or modifer used to describe an additional underlying focal entity associated with a concept. 
+* description: Qualifier or modifer used to describe an additional underlying focal entity associated with a concept.
 * remark: Often times subfocus entities follow the primary focus associated with a Concept.
 * refines: focus
 * value: Resource
@@ -482,7 +473,7 @@ not used here
 * refines: Event
 * label: Copyright Event
 * description: Copyright event associated with the intellectual property of an instance.
-* properties: license copyrightAgent copyrightPlace copyrightDate copyrightNote 
+* properties: license copyrightAgent copyrightPlace copyrightDate copyrightNote
 * scope: <http://bibfra.me/vocab/lite>
 
 ## license
@@ -496,7 +487,7 @@ not used here
 ## copyrightAgent
 
 * label: copyright agent
-* synonyms: 
+* synonyms:
 * description: Agent associated with the copyright of an instance
 * refines: who
 * value: Agent
@@ -524,7 +515,7 @@ not used here
 * label: copyright note
 * description: Note associated with the copyright of an instance
 * refines: why
-* value: 
+* value:
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerAgent
@@ -558,7 +549,7 @@ not used here
 * label: provider note
 * description: Note associated with the publication, printing, distribution, issue, release or production of an Instance
 * refines: why
-* value: 
+* value:
 * scope: <http://bibfra.me/vocab/lite>
 
 # Event
@@ -573,28 +564,28 @@ not used here
 ## who
 
 * label: who
-* description: Person or thing related to an Event 
+* description: Person or thing related to an Event
 * value: Agent
 * scope: <http://bibfra.me/vocab/lite>
 
 ## what
 
 * label: what
-* description: Resource related to an Event 
+* description: Resource related to an Event
 * value: Resource
 * scope: <http://bibfra.me/vocab/lite>
 
 ## where
 
 * label: where
-* description: Place associated with an Event 
+* description: Place associated with an Event
 * value: Place
 * scope: <http://bibfra.me/vocab/lite>
 
 ## when
 
 * label: when
-* description: Date associated with an Event 
+* description: Date associated with an Event
 * value: Literal
 * remark: Recommended ISO 8601 date
 * scope: <http://bibfra.me/vocab/lite>
@@ -603,7 +594,7 @@ not used here
 
 * label: why
 * refines: note  
-* description: Concept associated with an Event 
+* description: Concept associated with an Event
 * value: Concept
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -640,7 +631,7 @@ not used here
 * description: Target of an annotation
 * scope: <http://bibfra.me/vocab/lite>
 
-# Collection 
+# Collection
 * label: Collection
 * refines: Work
 * description: Aggregation or gathering of works
@@ -663,7 +654,6 @@ not used here
 
 * label: is version of
 * synonyms: <http://bibfra.me/vocab/isVersionOf>
-* value: Agent
-* description: Agent associated with the annotation
+* value: Work
+* description: Work of which this is a version
 * scope: <http://bibfra.me/vocab/lite>
-

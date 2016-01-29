@@ -138,48 +138,41 @@ http://bibframe.org/
 * label: titre alternatif
 * description: Titre alternatif de la ressource
 
-## description
-* label: description
-* description: Description de la ressource
-* remark: Description par exemple des ressources bibliographiques peut comprendre, mais sans s'y limiter: un résumé, une table des matières, une représentation graphique ou un texte libre de la ressource.
-
 ## creator
 * label: créateur
-* description: entité (ou les entités) responsables de la création de la ressource de l'origine
+* description: entité primaire par quel la ressource etait originalement créé
 
 ## contributor
 * label: contributeur
-* description: entité (ou les entités) qui contribuent à la ressource de l'origine
+* description: entité qui a fait contribution à la création originale de la ressource
 
 ## subject
 * label: sujet
-* description: Indice terme, sous réserve terme, Vedette, ou descripteur, un terme de recherche d'information qui capture l'essence du sujet d'une ressource
-* remark: La «volte-ness» d'une œuvre
+* description: Terme d'indice, sujet, ou description, un terme de rechercher d'information qui capture l'essence du sujet d'une ressource
 
 ## genre
 * label: genre
 * description: Catégorie de composition artistique caractérisé par des similitudes dans la forme, le style, ou du sujet
-* remark: Le 'Ness est-' d'une œuvre
 
 # Agent
 * label: Agent
-* description: Entité (par exemple, personne, organisation, etc.) associée à une ressource
+* description: Entité (par exemple, personne, organisation, etc.)
 
 ## email
-* label: adresse e-mail
-* description: Adresse qui identifie une boîte e-mail pour les messages qui sont livrés à un agent
+* label: e-mail
+* description: Adresse pour livraison des messages à un agent ou entité
 
 # Person
 * label: Personne
-* description: individuel (vie, mort, vampires, ou fictif) par rapport à une ressource
+* description: Être humain, individu (vie, mort, morts-vivants, ou fictif)
 
 # Organization
 * label: Organisation
-* description: Unité de personnes, par exemple, une institution, une association ou personne morale
+* description: Collectivité; Groupement, à caractère public ou non, de personnes, par exemple, une institution, une association ou personne morale
 
 # Meeting
 * label: Réunion
-* description: réunion formelle de personnes à un usage particulier
+* description: Assemblée formelle de personnes
 
 # Family
 * label: Famille
@@ -187,60 +180,58 @@ http://bibframe.org/
 
 # Place
 * label: Lieu
-* description: Emplacement géographique
+* description: Endroit déterminé; emplacement géographique
 
 # Category
 * label: Catégorie
-* description: Liste des choses considérées comme ayant des caractéristiques particulières partagées
-* remark: Un vocabulaire contrôlé.
+* description: Classe dans laquelle on répartit des ressources, des êtres de même nature
+* remark: Conseillé d'utiliser les vocabulaires contrôlés
 
 # Topic
-* label: Topic
-* description: terme Sujet décrivant un concept général, événement ou un objet
+* label: Thème
+* description: Motif, sujet
 
 # Form
-* label: Formulaire
-* description: Catégorie ou genre qui décrit ce que la ressource est
+* label: Forme
+* description: Catégorie ou genre qui décrit la façon dont la ressource est présenté
 
 # Concept
 * label: Concept
-* description: Terme décrivant le sujet, aboutness, une idée ou notion de ressource
+* description: Terme décrivant un sujet, idée ou notion de la ressource
 
 # Instance
 * label: Instance
-* description: réalisation individuelle d'un travail
+* description: réalisation individuelle d'un œuvre
 
 ## instantiates
-* label: instantiates
-* description: Travailler la ressource instantie ou manifestes
-* remark: Pour l'utilisation de connecter les instances pour Travaux dans la structure BIBFRAME.
+* label: manifeste
+* description: rends évident, représente la réalité d'un œuvre qu'un utilisateur puisse y accéder
+* remark: Utilisé pour connecter les œuvre et instances dans la structure BIBFRAME.
 
 ## focus
 * label: focus
-* description: entité sous-jacente ou focale associée à un concept
-* remark: Souvent, l'accent est l'entité principale associée à un concept.
+* description: centre d’intérêt d'un concept
 
 ## subFocus
 * label: subfocus
-* description: Qualifier ou modificateur utilisé pour décrire une entité sous-jacente focale supplémentaire associée à un concept.
-* remark: Souvent les entités suivent fois l'objectif principal associé à un concept.
+* description: facette d’intérêt parmi les aspects possible d'un concept
 
 ## provision
 * label: disposition
-* description: fournisseur associé à la porteuse
-* remark: Connexion à des détails tels que le lieu, le nom et / ou des informations à jour relatives à la publication, impression, distribution, une émission, la libération, ou la production d'une instance.
+* description: fournisseur de la porteur d'information
+* remark: Détails tels que le lieu, le temps, et le nom relatives à la publication, impression, distribution, émission, libération, ou production d'une instance.
 
 ## copyright
 * label: le droit d'auteur
-* description: cas du droit d'auteur associé à l'instance
+* description: l’ensemble des droits dont dispose un auteur ou ses ayants droit (héritiers, sociétés de production) sur des œuvres de l’esprit originales et des droits corrélatifs du public à l'utilisation et à la réutilisation de ces œuvres sous certaines conditions
 
 ## format
-* label: le format
-* description: Format de l'instance
+* label: ...
+* description: ... [Hard for me to tell what this actually is, given the sketchy en description & the fact that it's not used in marcpatterns ~UO] ...
 
 ## medium
-* label: moyen
-* description: moyenne de l'instance
+* label: médium
+* description: système de communication par lequel l'instance est exprimée
 
 ## extent
 * label: mesure
@@ -251,59 +242,59 @@ http://bibframe.org/
 * description: Mesure de la taille
 
 # ProviderEvent
-* label: fournisseur de l'événement
-* description: événement associé à la publication, impression, distribution, une émission, la libération ou la production d'une instance
+* label: événement de fourniture
+* description: publication, impression, distribution, une émission, la libération ou la production d'une instance
 
 # CopyrightEvent
-* label: le droit d'auteur de l'événement
+* label: événement relatif au droit d'auteur
 * description: cas du droit d'auteur associé à la propriété intellectuelle d'une instance.
 
 ## license
 * label: licence
-* description: licence associée à l'événement de l'homme associé à un travail
+* description: conditions sous lequel on peut utiliser une instance
 
 ## copyrightAgent
 * label: agent de droits d'auteur
-* description: Agent associé à l'auteur d'une instance
+* description: Agent qui représente le droit d'auteur
 
 ## copyrightPlace
 * label: copyright lieu
-* description: Lieu associé à l'auteur d'une instance
+* description: Lieu relatif au droit d'auteur
 
 ## copyrightDate
 * label: date de fournisseur
-* description: Date associé à l'auteur d'une instance
+* description: Date relatif au droit d'auteur
 
 ## copyrightNote
 * label: note de copyright
-* description: note associée avec le droit d'auteur d'une instance
+* description: note qui donne information relatif au droit d'auteur
 
 ## providerAgent
-* label: agent de fournisseur
-* description: Agent associé à la publication, impression, distribution, une émission, la libération ou la production d'une instance
+* label: agent de fourniture
+* description: Agent associé à la publication, impression, distribution, émission, libération ou production d'une instance
 
 ## providerPlace
 * label: prestataire lieu
-* description: Lieu associé à la publication, impression, distribution, une émission, la libération ou la production d'une instance
+* description: Lieu associé à la publication, impression, distribution, émission, libération ou production d'une instance
 
 ## providerDate
 * label: date de fournisseur
-* description: Date associé à la publication, impression, distribution, une émission, la libération ou la production d'une instance
+* description: Date associé à la publication, impression, distribution, émission, libération ou production d'une instance
 
 ## providerNote
 * label: fournisseur Note
-* description: note associée à la publication, impression, distribution, une émission, la libération ou la production d'une instance
+* description: note associée à la publication, impression, distribution, émission, libération ou production d'une instance
 
 # Event
 * label: Événement
-* description: occurrence significative ou passe
+* description: occurrence ou fait marquant
 
 ## who
 * label: qui
 * description: Personne ou chose liée à un événement
 
 ## what
-* label: ce
+* label: que
 * description: Ressource liée à un événement
 
 ## where
@@ -311,9 +302,9 @@ http://bibframe.org/
 * description: Lieu associé à un événement
 
 ## when
-* label: lorsque
+* label: quand
 * description: Date associée à un événement
-* remark: Recommandé ISO 8601 Date
+* remark: Conseillé d'utiliser ISO 8601
 
 ## why
 * label: pourquoi
@@ -321,32 +312,32 @@ http://bibframe.org/
 
 # Annotation
 * label: Annotation
-* description: Annotation, fournit des informations lâchement sur une ressource
+* description:  lien ajoutée vers une métadonnée pour une ressource
 
 ## annotator
 * label: annotateur
-* description: Agent associé à l'annotation
+* description: qui ajoute l'annotation
 
 ## body
 * label: corps
-* description: Corps d'une annotation
+* description: Information essential d'une annotation
 
 ## target
-* label: la cible
-* description: cible d'une annotation
+* label: prévu
+* description: métadonnée lié relatif aux données annotées
 
 # Collection
-* label: Collection
+* label: Ensemble
 * description: Agrégation ou le ramassage des œuvres
 
 ## primary
-* label: travail principal
-* description: travaux primaire associée à une collection
+* label: œuvre principal
+* description: œuvres primaire d'une collection
 
 ## memberOf
 * label: membre du
-* description: membre d'une collection
+* description: ensemble duquel c'est un élément
 
 ## isVersionOf
-* label: est une version de
-* description: Agent associé à l'annotation
+* label: version de
+* description: ressource duquel c'est un version
