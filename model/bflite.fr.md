@@ -54,7 +54,7 @@ http://bibframe.org/
 
 ## controlCode
 
-* label: Numéro ou code de contrôle
+* label: numéro ou code de contrôle
 * description: chaîne alphanumérique ou indicateur utilisé pour trouver et identifier la ressource
 * remark: Identifiant selon les pratiques de codage locales
 
@@ -101,7 +101,7 @@ http://bibframe.org/
 * remark: Conseillé d'utiliser ISO 8601
 
 ## audience
-* label: public prévu
+* label: public cible
 * description: Classe d'utilisateur à lequel le contenu d'une ressource est destinée ou pour lesquels le contenu est jugé comme convenable
 * remark: Peut être formé de personnes d'un certain groupe d'âge, sexe, état matrimonial, etc. l'objet de cette propriété devrait être une liste de code.
 
@@ -118,7 +118,7 @@ http://bibframe.org/
 * description: Nom de la ressource autorisée
 
 ## nameAlternative
-* label: nom alternatif
+* label: variante de nom
 * description: Nom alternatif de la ressource autorisée
 
 ## authorityLink
@@ -135,16 +135,16 @@ http://bibframe.org/
 * description: Titre de la ressource
 
 ## titleAlternative
-* label: titre alternatif
+* label: variante de titre
 * description: Titre alternatif de la ressource
 
 ## creator
 * label: créateur
-* description: entité primaire par quel la ressource etait originalement créé
+* description: Entité primaire par quel la ressource etait originalement créé
 
 ## contributor
 * label: contributeur
-* description: entité qui a fait contribution à la création originale de la ressource
+* description: Entité qui a fait contribution à la création originale de la ressource
 
 ## subject
 * label: sujet
@@ -176,7 +176,7 @@ http://bibframe.org/
 
 # Family
 * label: Famille
-* description: unité sociale liés par la naissance, le mariage, l'adoption, l'union civile, ou relation similaire
+* description: Unité sociale liés par la naissance, le mariage, l'adoption, l'union civile, ou relation similaire
 
 # Place
 * label: Lieu
@@ -201,20 +201,20 @@ http://bibframe.org/
 
 # Instance
 * label: Instance
-* description: réalisation individuelle d'un œuvre
+* description: Réalisation individuelle d'un œuvre
 
 ## instantiates
 * label: manifeste
-* description: rends évident, représente la réalité d'un œuvre qu'un utilisateur puisse y accéder
+* description: Rends évident, représente la réalité d'un œuvre qu'un utilisateur puisse y accéder
 * remark: Utilisé pour connecter les œuvre et instances dans la structure BIBFRAME.
 
 ## focus
 * label: focus
-* description: centre d’intérêt d'un concept
+* description: Centre d’intérêt d'un concept
 
 ## subFocus
 * label: subfocus
-* description: facette d’intérêt parmi les aspects possible d'un concept
+* description: Facette d’intérêt parmi les aspects possible d'un concept
 
 ## provision
 * label: disposition
@@ -223,7 +223,7 @@ http://bibframe.org/
 
 ## copyright
 * label: le droit d'auteur
-* description: l’ensemble des droits dont dispose un auteur ou ses ayants droit (héritiers, sociétés de production) sur des œuvres de l’esprit originales et des droits corrélatifs du public à l'utilisation et à la réutilisation de ces œuvres sous certaines conditions
+* description: L’ensemble des droits dont dispose un auteur ou ses ayants droit (héritiers, sociétés de production) sur des œuvres de l’esprit originales et des droits corrélatifs du public à l'utilisation et à la réutilisation de ces œuvres sous certaines conditions
 
 ## format
 * label: format
@@ -231,7 +231,7 @@ http://bibframe.org/
 
 ## medium
 * label: médium
-* description: système de communication par lequel l'instance est exprimée
+* description: Système de communication par lequel l'instance est exprimée
 
 ## extent
 * label: mesure
@@ -243,7 +243,7 @@ http://bibframe.org/
 
 # ProviderEvent
 * label: Événement de fourniture
-* description: publication, impression, distribution, une émission, la libération ou la production d'une instance
+* description: Publication, impression, distribution, une émission, la libération ou la production d'une instance
 
 # CopyrightEvent
 * label: Événement relatif au droit d'auteur
@@ -251,7 +251,7 @@ http://bibframe.org/
 
 ## license
 * label: licence
-* description: conditions sous lequel on peut utiliser une instance
+* description: Conditions sous lequel on peut utiliser une instance
 
 ## copyrightAgent
 * label: agent de droits d'auteur
@@ -262,32 +262,32 @@ http://bibframe.org/
 * description: Lieu relatif au droit d'auteur
 
 ## copyrightDate
-* label: date de fournisseur
+* label: date de copyright
 * description: Date relatif au droit d'auteur
 
 ## copyrightNote
 * label: note de copyright
-* description: note qui donne information relatif au droit d'auteur
+* description: Note qui donne information relatif au droit d'auteur
 
 ## providerAgent
-* label: agent de fourniture
+* label: agent associé à l’instance
 * description: Agent associé à la publication, impression, distribution, émission, libération ou production d'une instance
 
 ## providerPlace
-* label: prestataire lieu
+* label: lieu associé à l’instance
 * description: Lieu associé à la publication, impression, distribution, émission, libération ou production d'une instance
 
 ## providerDate
-* label: date de fournisseur
+* label: date associée à l’instance
 * description: Date associé à la publication, impression, distribution, émission, libération ou production d'une instance
 
 ## providerNote
-* label: fournisseur Note
-* description: note associée à la publication, impression, distribution, émission, libération ou production d'une instance
+* label: note associée à l’instance
+* description: Note associée à la publication, impression, distribution, émission, libération ou production d'une instance
 
 # Event
 * label: Événement
-* description: occurrence ou fait marquant
+* description: Occurrence ou fait marquant
 
 ## who
 * label: qui
@@ -312,19 +312,19 @@ http://bibframe.org/
 
 # Annotation
 * label: Annotation
-* description:  lien ajoutée vers une métadonnée pour une ressource
+* description:  Lien ajoutée vers une métadonnée pour une ressource
 
 ## annotator
 * label: annotateur
-* description: qui ajoute l'annotation
+* description: Qui ajoute l'annotation
 
 ## body
-* label: corps
+* label: texte de l’annotation
 * description: Information essential d'une annotation
 
 ## target
 * label: prévu
-* description: métadonnée lié relatif aux données annotées
+* description: Métadonnée lié relatif aux données annotées
 
 # Collection
 * label: Ensemble
@@ -332,12 +332,12 @@ http://bibframe.org/
 
 ## primary
 * label: œuvre principal
-* description: œuvres primaire d'une collection
+* description: Œuvre prédominante
 
 ## memberOf
 * label: membre du
-* description: ensemble duquel c'est un élément
+* description: Ensemble duquel c'est un élément
 
 ## isVersionOf
 * label: version de
-* description: ressource duquel c'est un version
+* description: Ressource duquel c'est un version
