@@ -8,7 +8,6 @@ US Library of Congress's BIBFRAME vocabulary, http://bibframe.org/
 BIBFRAME Archive is expressed using the Versa data model, which also
 allows for full expression in RDF form.  This particular file is in
 the Versa Literate syntax, based on the Markdown format
-<https://daringfireball.net/projects/markdown/basics>.
 
 The convention for expressing data models in Versa Literate has each
 vocabulary item starting with a new header, A level 1 header for
@@ -224,7 +223,7 @@ Terms below are mapped from DACS Multilevel Required elements:
 
 -->
 
-# referenceCode
+## referenceCode
 * label: reference code
 * refines: <http://bibfra.me/vocab/lite/controlCode>
 * synonyms: 
@@ -234,7 +233,7 @@ Terms below are mapped from DACS Multilevel Required elements:
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Reference Code Element 2.1 in Describing Archives: a Content Standard, 2nd Edition (2015). At the highest levels of description, this is oftentimes known as the collection number, e.g., UARS745 for University Archives Record Series #745.
 
-# extent
+## extent
 * label: extent
 * refines: 
 * synonyms: 
@@ -245,7 +244,7 @@ Terms below are mapped from DACS Multilevel Required elements:
 * remark: Equevalent to Extent Element 2.5 in in Describing Archives: a Content Standard, 2nd Edition (2015). 
 
 
-# scopeContent
+## scopeContent
 * label: scope and content
 * refines: http://bibfra.me/vocab/lite/note
 * synonyms: 
@@ -256,7 +255,7 @@ Terms below are mapped from DACS Multilevel Required elements:
 * remark: Equevalent to Scope and Content Element 3.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 
-# accessConditions
+## accessConditions
 * label: conditions governing access
 * refines: http://bibfra.me/vocab/lite/note
 * synonyms: 
