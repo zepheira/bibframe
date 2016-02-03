@@ -5,6 +5,8 @@ Bibframe Lite vocabulary and can serve as an example for other
 vocabularies. Text between { } are intended for translation. "{" "}"
 delimeters should be removed after translation.
 
+-->
+
 <!--
 
 { BIBFRAME Lite is a starting point for customized BIBFRAME vocabularies
