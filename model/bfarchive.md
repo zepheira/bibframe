@@ -113,7 +113,6 @@ Should reading room be a place? I think it should because a multi-unit organizat
 * refines: http://bibfra.me/vocab/lite/Instance
 * synonyms: 
 * description: Work with finding aid characteristics that describes archival collections to give the repository physical and intellectual control over the materials, and assist users in gaining access to and understanding the materials.
-* value: Literal
 * properties: eadId 
 * scope: <http://bibfra.me/vocab/archive>
 * remark:
@@ -123,7 +122,6 @@ Should reading room be a place? I think it should because a multi-unit organizat
 * refines: http://bibfra.me/vocab/lite/Organization
 * synonyms: 
 * description: Name of holding organization or repository. 
-* value: Literal
 * properties: addressRepository 
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Name of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
