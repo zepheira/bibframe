@@ -1,8 +1,7 @@
 <!--
 
 NOTE: Sample translation template for supporting localization of
-Bibframe Lite vocabulary and can serve as an example for other
-vocabularies. Text between { } are intended for translation. "{" "}"
+Bibframe Lite vocabulary. Text between { } are intended for translation. "{" "}"
 delimeters should be removed after translation.
 
 -->
@@ -17,8 +16,6 @@ http://bibframe.org/ }
 -->
 
 # @docheader
-
-<!--
 
 * @iri:
     * @base: http://bibfra.me/vocab/lite/
