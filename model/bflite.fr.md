@@ -5,6 +5,8 @@ Cést un cadre qui se conforme à BIBFRAME et fonctionnel avec liens comme le
 vocabulaire de la bibliothèque nationale des États Unis.
 http://bibframe.org/
 
+BIBFRAME constitue un fondement pour l’avenir de la description bibliographique adaptée à la fois au Web et, plus largement, au monde de réseaux interconnectés. Le vocabulaire Bibframe Lite fournit un ensemble de classes et de propriétés offrant une structure de base pour un modèle de données à couches multiples permettant à une telle description bibliographique.  
+
 -->
 
 # @docheader
@@ -242,7 +244,7 @@ http://bibframe.org/
 * description: Mesure de la taille
 
 # ProviderEvent
-* label: Événement de fourniture
+* label: Évènement relatif à l’instance
 * description: Publication, impression, distribution, une émission, la libération ou la production d'une instance
 
 # CopyrightEvent
