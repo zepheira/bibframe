@@ -329,7 +329,7 @@ BIBFRAME constitue un fondement pour l’avenir de la description bibliographiqu
 * description: Métadonnée lié relatif aux données annotées
 
 # Collection
-* label: Ensemble
+* label: Compilation d’œuvres
 * description: Agrégation ou le ramassage des œuvres
 
 ## primary
