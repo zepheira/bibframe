@@ -111,7 +111,7 @@ Should reading room be a place? I think it should because a multi-unit organizat
 * label: Finding Aid
 * refines: http://bibfra.me/vocab/lite/Instance
 * synonyms: 
-* description: Work with finding aid characteristics that describes archival collections to give the repository physical and intellectual control over the materials, and assist users in gaining access to and understanding the materials.
+* description: Document used to give the repository physical and intellectual control over the materials, and assist users in gaining access to and understanding archival collections.
 * properties: eadId 
 * scope: <http://bibfra.me/vocab/archive>
 * remark:
@@ -120,7 +120,7 @@ Should reading room be a place? I think it should because a multi-unit organizat
 * label: Repository
 * refines: http://bibfra.me/vocab/lite/Organization
 * synonyms: 
-* description: Name of holding organization or repository. 
+* description: Organization that stores and manages archival materials. 
 * properties: addressRepository 
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Name of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
@@ -128,7 +128,7 @@ Should reading room be a place? I think it should because a multi-unit organizat
 # ArchivalCollection 
 * label: Archival Collection
 * refines: <http://bibfra.me/vocab/lite/Collection>
-* description: Aggregation or gathering of works.
+* description: Body of archival materials relating to a person, family, or organization. Includes materials collected to focus on a particular topic, event, person, place, etc. 
 * properties: primary memberOf scopeContent contains extent
 * scope: <http://bibfra.me/vocab/archive>
 
@@ -192,7 +192,7 @@ Supporting properties from DACS
 * label: arranger
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * synonyms: 
-* description: Person who works to provide access to archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity by arranging materials for use. 
+* description: Person who works to provide access to archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity. 
 * value: Literal
 * properties: 
 * scope: <http://bibfra.me/vocab/archive>
