@@ -514,8 +514,7 @@ not used here
 
 * label: copyright note
 * description: Note associated with the copyright of an instance
-* refines: why
-* value:
+* value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerAgent
@@ -548,8 +547,7 @@ not used here
 
 * label: provider note
 * description: Note associated with the publication, printing, distribution, issue, release or production of an Instance
-* refines: why
-* value:
+* value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
 # Event
@@ -593,7 +591,6 @@ not used here
 ## why
 
 * label: why
-* refines: note  
 * description: Concept associated with an Event
 * value: Concept
 * scope: <http://bibfra.me/vocab/lite>
