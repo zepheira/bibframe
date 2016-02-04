@@ -174,7 +174,7 @@ New classes to BF Lite + Archives (not in BF Lite).
 * scope: <http://bibfra.me/vocab/archive>
 
 # File
-* label: file
+* label: File
 * refines: <http://bibfra.me/vocab/lite/archive/Item>
 * description: Digital or object. A File is a sequence of binary data and is described by some accompanying metadata. The metadata typically includes at least basic technical metadata (size, content type, modification date, etc.), but can also include properties related to preservation, digitization process, provenance, etc.
 * properties: primary memberOf scopeContent referenceCode
@@ -192,7 +192,7 @@ Supporting properties from DACS
 * label: arranger
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * synonyms: 
-* description: Person who works to provide access to archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity. 
+* description: Person who works to provide access to archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity by arranging materials for use. 
 * value: Literal
 * properties: 
 * scope: <http://bibfra.me/vocab/archive>
