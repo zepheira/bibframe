@@ -140,8 +140,8 @@ Should reading room be a place? I think it should because a multi-unit organizat
 * scope: <http://bibfra.me/vocab/archive>
 
 # ArchivalSubSeries
-* label: <http://bibfra.me/vocab/lite/SubSeries>
-* refines: Archival Series
+* label: Archival SubSeries
+* refines: <http://bibfra.me/vocab/lite/Series>
 * description: Aggregation or gathering of works within a series.
 * properties: primary memberOf scopeContent contains
 * scope: <http://bibfra.me/vocab/archive>
