@@ -58,12 +58,12 @@ Extend BIBFRAME Lite Classess
 * properties: primary memberOf scopeContent contains
 
 # <http://bibfra.me/vocab/lite/Instance>
-* properties: primary memberOf scopeContent contains referenceCode
+* properties: memberOf scopeContent contains referenceCode
 
 # <http://bibfra.me/vocab/lite/Authority>
 
 # <http://bibfra.me/vocab/lite/Collection>
-* properties: primary memberOf scopeContent contains extent 
+* properties: memberOf scopeContent contains extent 
 
 # <http://bibfra.me/vocab/lite/Person>
 * properties: 
