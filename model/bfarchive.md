@@ -55,15 +55,15 @@ Extend BIBFRAME Lite Classess
 --->
 
 # <http://bibfra.me/vocab/lite/Work>
-* properties: memberOf scopeContent contains
+* properties: scopeContent contains
 
 # <http://bibfra.me/vocab/lite/Instance>
-* properties: memberOf scopeContent contains referenceCode
+* properties: scopeContent contains referenceCode
 
 # <http://bibfra.me/vocab/lite/Authority>
 
 # <http://bibfra.me/vocab/lite/Collection>
-* properties: memberOf scopeContent contains extent 
+* properties: scopeContent contains extent 
 
 # <http://bibfra.me/vocab/lite/Person>
 * properties: 
@@ -129,35 +129,35 @@ Should reading room be a place? I think it should because a multi-unit organizat
 * label: Archival Collection
 * refines: <http://bibfra.me/vocab/lite/Collection>
 * description: Body of archival materials relating to a person, family, or organization. Includes materials collected to focus on a particular topic, event, person, place, etc. 
-* properties: primary memberOf scopeContent contains extent
+* properties: scopeContent contains extent
 * scope: <http://bibfra.me/vocab/archive>
 
 # ArchivalSeries
 * label: Archival Series
 * refines: <http://bibfra.me/vocab/lite/Series>
 * description: Aggregation or gathering of works within an archival collection.
-* properties: primary memberOf scopeContent contains
+* properties: scopeContent contains
 * scope: <http://bibfra.me/vocab/archive>
 
 # ArchivalSubSeries
 * label: Archival SubSeries
 * refines: <http://bibfra.me/vocab/lite/Series>
 * description: Aggregation or gathering of works within a series.
-* properties: primary memberOf scopeContent contains
+* properties: scopeContent contains
 * scope: <http://bibfra.me/vocab/archive>
 
 # Box
 * label: Box
 * refines: <http://bibfra.me/vocab/lite/Instance>
 * description: Box that contains archival materials. 
-* properties: primary memberOf scopeContent contains referenceCode
+* properties: scopeContent contains referenceCode
 * scope: <http://bibfra.me/vocab/archive>
 
 # Folder
 * label: Folder
 * refines: <http://bibfra.me/vocab/lite/Instance>
 * description: Folder that contains archival materials. 
-* properties: primary memberOf scopeContent contains referenceCode
+* properties: scopeContent contains referenceCode
 * scope: <http://bibfra.me/vocab/archive>
 
 <!---
@@ -170,14 +170,14 @@ New classes to BF Lite + Archives (not in BF Lite).
 * label: Item
 * refines: 
 * description: Archival item or object. 
-* properties: primary memberOf scopeContent referenceCode
+* properties: scopeContent referenceCode
 * scope: <http://bibfra.me/vocab/archive>
 
 # File
 * label: File
 * refines: <http://bibfra.me/vocab/lite/archive/Item>
 * description: Digital or object. A File is a sequence of binary data and is described by some accompanying metadata. The metadata typically includes at least basic technical metadata (size, content type, modification date, etc.), but can also include properties related to preservation, digitization process, provenance, etc.
-* properties: primary memberOf scopeContent referenceCode
+* properties: scopeContent referenceCode
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equivalent to pcdm:File.
 
