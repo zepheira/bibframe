@@ -55,7 +55,7 @@ Extend BIBFRAME Lite Classess
 --->
 
 # <http://bibfra.me/vocab/lite/Work>
-* properties: primary memberOf scopeContent contains
+* properties: memberOf scopeContent contains
 
 # <http://bibfra.me/vocab/lite/Instance>
 * properties: memberOf scopeContent contains referenceCode
