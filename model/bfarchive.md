@@ -60,32 +60,14 @@ Extend BIBFRAME Lite Classess
 # <http://bibfra.me/vocab/lite/Instance>
 * properties: scopeContent contains referenceCode
 
-# <http://bibfra.me/vocab/lite/Authority>
-
 # <http://bibfra.me/vocab/lite/Collection>
 * properties: scopeContent contains extent 
-
-# <http://bibfra.me/vocab/lite/Person>
-* properties: 
-
-# <http://bibfra.me/vocab/lite/Organization>
-* properties: 
-
-# <http://bibfra.me/vocab/lite/Meeting>
-* properties: 
-
-# <http://bibfra.me/vocab/lite/Topic>
-* properties: 
-
-# <http://bibfra.me/vocab/lite/Form>
-* properties: 
-    
-# <http://bibfra.me/vocab/lite/Event>
-* properties: 
-
-# <http://bibfra.me/vocab/lite/Temporal>
-* properties:
    
+## contains
+* label: contains
+* description: Member of a Collection
+* scope: <http://bibfra.me/vocab/archive>
+
 <!-- 
 Class Refinements 
 -->
@@ -94,12 +76,9 @@ Class Refinements
 
 * label: Archive
 * refines: http://bibfra.me/vocab/lite/Place
-* synonyms: 
 * description: Place to access, curate, and store archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity. 
 * value: Literal
-* properties: 
 * scope: <http://bibfra.me/vocab/archive>
-* remark:
 
 <!---
 
@@ -109,17 +88,14 @@ Should reading room be a place? I think it should because a multi-unit organizat
 
 # FindingAid
 * label: Finding Aid
-* refines: http://bibfra.me/vocab/lite/Instance
-* synonyms: 
+* refines: <http://bibfra.me/vocab/lite/Instance>
 * description: Document used to give the repository physical and intellectual control over the materials, and assist users in gaining access to and understanding archival collections.
 * properties: eadId 
 * scope: <http://bibfra.me/vocab/archive>
-* remark:
 
 # Repository
 * label: Repository
-* refines: http://bibfra.me/vocab/lite/Organization
-* synonyms: 
+* refines: <http://bibfra.me/vocab/lite/Organization>
 * description: Organization that stores and manages archival materials. 
 * properties: addressRepository 
 * scope: <http://bibfra.me/vocab/archive>
@@ -134,14 +110,14 @@ Should reading room be a place? I think it should because a multi-unit organizat
 
 # ArchivalSeries
 * label: Archival Series
-* refines: <http://bibfra.me/vocab/lite/Series>
+* refines: <http://bibfra.me/vocab/lite/Collection>
 * description: Aggregation or gathering of works within an archival collection.
 * properties: scopeContent contains
 * scope: <http://bibfra.me/vocab/archive>
 
 # ArchivalSubSeries
 * label: Archival SubSeries
-* refines: <http://bibfra.me/vocab/lite/Series>
+* refines: <http://bibfra.me/vocab/lite/Collection>
 * description: Aggregation or gathering of works within a series.
 * properties: scopeContent contains
 * scope: <http://bibfra.me/vocab/archive>
@@ -168,14 +144,14 @@ New classes to BF Lite + Archives (not in BF Lite).
 
 # Item
 * label: Item
-* refines: 
+* refines: <http://bibfra.me/vocab/lite/Resource>
 * description: Archival item or object. 
 * properties: scopeContent referenceCode
 * scope: <http://bibfra.me/vocab/archive>
 
 # File
 * label: File
-* refines: <http://bibfra.me/vocab/lite/archive/Item>
+* refines: <http://bibfra.me/vocab/archive/Item>
 * description: Digital or object. A File is a sequence of binary data and is described by some accompanying metadata. The metadata typically includes at least basic technical metadata (size, content type, modification date, etc.), but can also include properties related to preservation, digitization process, provenance, etc.
 * properties: scopeContent referenceCode
 * scope: <http://bibfra.me/vocab/archive>
@@ -191,27 +167,20 @@ Supporting properties from DACS
 ## arranger
 * label: arranger
 * refines: <http://bibfra.me/vocab/lite/contributor>
-* synonyms: 
 * description: Person who works to provide access to archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity. 
 * value: Literal
-* properties: 
 * scope: <http://bibfra.me/vocab/archive>
-* remark:
 
 ## addressRepository 
 * label: repository address
-* refines: http://bibfra.me/vocab/lite/address
-* synonyms: 
 * description: Address of holding organization or repository. 
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Location of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 ## eadId
 * label: ead identifier
 * refines: <http://bibfra.me/vocab/lite/controlCode>
-* synonyms: 
 * description: Designates a unique code for a particular EAD finding aid document.
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
@@ -226,42 +195,33 @@ Terms below are mapped from DACS Multilevel Required elements:
 ## referenceCode
 * label: reference code
 * refines: <http://bibfra.me/vocab/lite/controlCode>
-* synonyms: 
 * description: A local or repository identifier for archival collection, box, folder or item. 
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Reference Code Element 2.1 in Describing Archives: a Content Standard, 2nd Edition (2015). At the highest levels of description, this is oftentimes known as the collection number, e.g., UARS745 for University Archives Record Series #745.
 
 ## extent
 * label: extent
-* refines: 
-* synonyms: 
 * description: Used to identify and describe the physical or logical extent and the medium of the unit of description. Oftentimes measured in linear shelf space or cubic storage space of the unit of description, or the amount of digital files and storage space.
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Extent Element 2.5 in in Describing Archives: a Content Standard, 2nd Edition (2015). 
 
 
 ## scopeContent
 * label: scope and content
-* refines: http://bibfra.me/vocab/lite/note
-* synonyms: 
+* refines: <http://bibfra.me/vocab/lite/note>
 * description: Scope and content note. 
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Scope and Content Element 3.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 
 ## accessConditions
 * label: conditions governing access
-* refines: http://bibfra.me/vocab/lite/note
-* synonyms: 
+* refines: <http://bibfra.me/vocab/lite/note>
 * description: Note on conditions for accessing an archival collection. 
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Scope and Conditions Governing Access Element 4.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
@@ -269,6 +229,7 @@ Terms below are mapped from DACS Multilevel Required elements:
 <!---
 
 Elements below are oncluded in BF Lite but need updated descriptions for the BF Lite + Archives layer.
+NOTE: This is best done at the profile layer rather than the vocabulary layer
 
 # title
 * label: title
@@ -283,30 +244,23 @@ Elements below are oncluded in BF Lite but need updated descriptions for the BF 
 # date
 * label: date
 * refines: http://bibfra.me/vocab/lite/date
-* synonyms: 
 * description: Date of an archival collection, box, folder or item. 
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Date Element 2.4 in Describing Archives: a Content Standard, 2nd Edition (Updated March 2015).
 
 # creator
 * label: extent
 * refines: --use something on the relator level instead of refining? 
-* synonyms: 
 * description: Creator of an archival item or group of items.
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
-
 
 # language
 * label: language
 * refines: http://bibfra.me/vocab/lite/note
-* synonyms: 
 * description: Language or script of the archival material.
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Languages and Scripts of the Material Element 4.5 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
@@ -316,11 +270,8 @@ Not from DACS but needs updated description:
 
 * label: donor
 * refines: <http://bibfra.me/vocab/lite/contributor>
-* synonyms: 
 * description: Person who donates an archival collection of documents or records providing information about themselves, places, institutions, groups of peoples, events, and creative activity.
 * value: Literal
-* properties: 
 * scope: <http://bibfra.me/vocab/archive>
-* remark:
 
 --->
