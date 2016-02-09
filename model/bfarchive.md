@@ -96,7 +96,7 @@ Should reading room be a place? I think it should because a multi-unit organizat
 * description: Organization that stores and manages archival materials. 
 * properties: addressRepository 
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Name of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
+* remark: Equivalent to Name of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 # Box
 * label: Box
@@ -150,7 +150,7 @@ Supporting properties from DACS
 * description: Address of holding organization or repository. 
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Location of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
+* remark: Equivalent to Location of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 ## eadId
 * label: ead identifier
@@ -172,14 +172,14 @@ Terms below are mapped from DACS Multilevel Required elements:
 * description: A local or repository identifier for archival collection, box, folder or item. 
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Reference Code Element 2.1 in Describing Archives: a Content Standard, 2nd Edition (2015). At the highest levels of description, this is oftentimes known as the collection number, e.g., UARS745 for University Archives Record Series #745.
+* remark: Equivalent to Reference Code Element 2.1 in Describing Archives: a Content Standard, 2nd Edition (2015). At the highest levels of description, this is oftentimes known as the collection number, e.g., UARS745 for University Archives Record Series #745.
 
 ## extent
 * label: extent
 * description: Used to identify and describe the physical or logical extent and the medium of the unit of description. Oftentimes measured in linear shelf space or cubic storage space of the unit of description, or the amount of digital files and storage space.
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Extent Element 2.5 in in Describing Archives: a Content Standard, 2nd Edition (2015). 
+* remark: Equivalent to Extent Element 2.5 in in Describing Archives: a Content Standard, 2nd Edition (2015). 
 
 
 ## scopeContent
@@ -188,7 +188,7 @@ Terms below are mapped from DACS Multilevel Required elements:
 * description: Scope and content note. 
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Scope and Content Element 3.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
+* remark: Equivalent to Scope and Content Element 3.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 
 ## accessConditions
@@ -197,7 +197,7 @@ Terms below are mapped from DACS Multilevel Required elements:
 * description: Note on conditions for accessing an archival collection. 
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Scope and Conditions Governing Access Element 4.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
+* remark: Equivalent to Scope and Conditions Governing Access Element 4.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 
 <!---
@@ -211,7 +211,7 @@ NOTE: This is best done at the profile layer rather than the vocabulary layer
 * description: Title of an archival collection, box, folder or item. 
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Title Element 2.3 in Describing Archives: a Content Standard, 2nd Edition (2015).
+* remark: Equivalent to Title Element 2.3 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 # date
 * label: date
@@ -219,7 +219,7 @@ NOTE: This is best done at the profile layer rather than the vocabulary layer
 * description: Date of an archival collection, box, folder or item. 
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Date Element 2.4 in Describing Archives: a Content Standard, 2nd Edition (Updated March 2015).
+* remark: Equivalent to Date Element 2.4 in Describing Archives: a Content Standard, 2nd Edition (Updated March 2015).
 
 # creator
 * label: extent
@@ -234,7 +234,7 @@ NOTE: This is best done at the profile layer rather than the vocabulary layer
 * description: Language or script of the archival material.
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
-* remark: Equevalent to Languages and Scripts of the Material Element 4.5 in Describing Archives: a Content Standard, 2nd Edition (2015).
+* remark: Equivalent to Languages and Scripts of the Material Element 4.5 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 Not from DACS but needs updated description:
 
