@@ -61,11 +61,11 @@ Extend BIBFRAME Lite Classess
 * properties: scopeContent contains referenceCode
 
 # <http://bibfra.me/vocab/lite/Collection>
-* properties: scopeContent contains extent 
+* properties: extent 
    
 ## contains
 * label: contains
-* description: Member of a Collection
+* description: Part of relationship
 * scope: <http://bibfra.me/vocab/archive>
 
 <!-- 
@@ -100,27 +100,6 @@ Should reading room be a place? I think it should because a multi-unit organizat
 * properties: addressRepository 
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Name of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
-
-# ArchivalCollection 
-* label: Archival Collection
-* refines: <http://bibfra.me/vocab/lite/Collection>
-* description: Body of archival materials relating to a person, family, or organization. Includes materials collected to focus on a particular topic, event, person, place, etc. 
-* properties: scopeContent contains extent
-* scope: <http://bibfra.me/vocab/archive>
-
-# ArchivalSeries
-* label: Archival Series
-* refines: <http://bibfra.me/vocab/lite/Collection>
-* description: Aggregation or gathering of works within an archival collection.
-* properties: scopeContent contains
-* scope: <http://bibfra.me/vocab/archive>
-
-# ArchivalSubSeries
-* label: Archival SubSeries
-* refines: <http://bibfra.me/vocab/lite/Collection>
-* description: Aggregation or gathering of works within a series.
-* properties: scopeContent contains
-* scope: <http://bibfra.me/vocab/archive>
 
 # Box
 * label: Box
@@ -234,10 +213,8 @@ NOTE: This is best done at the profile layer rather than the vocabulary layer
 # title
 * label: title
 * refines: http://bibfra.me/vocab/lite/title
-* synonyms: 
 * description: Title of an archival collection, box, folder or item. 
 * value: Literal
-* properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Title Element 2.3 in Describing Archives: a Content Standard, 2nd Edition (2015).
 

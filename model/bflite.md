@@ -632,7 +632,14 @@ not used here
 * label: Collection
 * refines: Work
 * description: Aggregation or gathering of works
+* remark: In the case of Archives, a collection reflects the body of archival materials relating to a person, family, or organization. Includes materials collected to focus on a particular topic, event, person, place, etc. 
 * properties: primary memberOf
+* scope: <http://bibfra.me/vocab/lite>
+
+# Series
+* label: Series
+* refines: <http://bibfra.me/vocab/lite/Collection>
+* description: Set of related resources, especially of a specified kind
 * scope: <http://bibfra.me/vocab/lite>
 
 ## primary
