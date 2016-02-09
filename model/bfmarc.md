@@ -88,7 +88,7 @@ Class Refinements
 
 # Series
 * label: Series
-* refines: <http://bibfra.me/vocab/lite/Collection>
+* synonym: <http://bibfra.me/vocab/lite/Series>
 * description: Set of related resources, especially of a specified kind
 * scope: <http://bibfra.me/vocab/marc>
 
@@ -2175,6 +2175,11 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * value: Literal
 * refines: <http://bibfra.me/vocab/lite/title>
 * synonyms: 
+* scope: <http://bibfra.me/vocab/marc>
+
+## titleStatement
+* label: statement of responsibility
+* synonyms: <http://bibfra.me/vocab/marc/statementOfResponsibility>
 * scope: <http://bibfra.me/vocab/marc>
 
 ## statementOfResponsibility

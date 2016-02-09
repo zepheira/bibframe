@@ -57,9 +57,6 @@ Extend BIBFRAME Lite Classess
 # <http://bibfra.me/vocab/lite/Work>
 * properties: scopeContent contains
 
-# <http://bibfra.me/vocab/lite/Instance>
-* properties: scopeContent contains referenceCode
-
 # <http://bibfra.me/vocab/lite/Collection>
 * properties: extent 
    
@@ -103,16 +100,16 @@ Should reading room be a place? I think it should because a multi-unit organizat
 
 # Box
 * label: Box
-* refines: <http://bibfra.me/vocab/lite/Instance>
+* refines: <http://bibfra.me/vocab/archive/Item>
 * description: Box that contains archival materials. 
-* properties: scopeContent contains referenceCode
+* properties: contains
 * scope: <http://bibfra.me/vocab/archive>
 
 # Folder
 * label: Folder
-* refines: <http://bibfra.me/vocab/lite/Instance>
+* refines: <http://bibfra.me/vocab/archive/Item>
 * description: Folder that contains archival materials. 
-* properties: scopeContent contains referenceCode
+* properties: contains
 * scope: <http://bibfra.me/vocab/archive>
 
 <!---
@@ -123,7 +120,7 @@ New classes to BF Lite + Archives (not in BF Lite).
 
 # Item
 * label: Item
-* refines: <http://bibfra.me/vocab/lite/Resource>
+* refines: <http://bibfra.me/vocab/lite/Instance>
 * description: Archival item or object. 
 * properties: scopeContent referenceCode
 * scope: <http://bibfra.me/vocab/archive>
@@ -132,10 +129,8 @@ New classes to BF Lite + Archives (not in BF Lite).
 * label: File
 * refines: <http://bibfra.me/vocab/archive/Item>
 * description: Digital or object. A File is a sequence of binary data and is described by some accompanying metadata. The metadata typically includes at least basic technical metadata (size, content type, modification date, etc.), but can also include properties related to preservation, digitization process, provenance, etc.
-* properties: scopeContent referenceCode
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equivalent to pcdm:File.
-
 
 <!---
 
