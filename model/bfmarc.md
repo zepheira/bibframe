@@ -58,11 +58,11 @@ Extend BIBFRAME Lite Classess
 
 # <http://bibfra.me/vocab/lite/Work>
 
-* properties: content numeration titles catalogingSource lcCallNumber lcItemNumber nlmCallNumber nlmCallNumber nlmCopyStatement nalCallNumber nalItemNumber nalCopyStatement deweyNumber classificationLcc titleRemainder titleRemainder statementOfResponsibility titleNumber titlePart titlePart inclusiveDates formDesignation titleVariation titleVariationRemainder titleVariationDate formerTitle seriesStatement dissertationNote degree grantingInstitution dissertationYear dissertationNote governingAccessNote jurisdictionNote physicalAccess uriNote  remainderOfScale creditsNote citationSource citationCoverage citationLocationWithinSource citationUri typeOfReport periodCovered typeOfComputerFile dateTimePlace dateOfEvent otherEventInformation placeOfEvent summaryExpansion assigningSource intendedAudience intendedAudienceSource geographicCoverage supplement interestLevel readingLevel   locationOfOriginalsDuplicates fundingInformation systemDetails informationRelatingToCopyrightStatus locationOfOtherArchivalMaterial biographicalOrHistoricalData languageNote entityAndAttributeInformation informationAboutDocumentation ownership action awardsNote medium additionalPhysicalForm 
+* properties: content numeration titles catalogingSource lcCallNumber lcItemNumber nlmCallNumber nlmCallNumber nlmCopyStatement nalCallNumber nalItemNumber nalCopyStatement deweyNumber classificationLcc titleRemainder titleRemainder statementOfResponsibility titleNumber titlePart titlePart inclusiveDates formDesignation titleVariation titleVariationRemainder titleVariationDate formerTitle seriesStatement dissertationNote degree grantingInstitution dissertationYear dissertationNote governingAccessNote jurisdictionNote physicalAccess uriNote  remainderOfScale creditsNote citationSource citationCoverage citationLocationWithinSource citationUri typeOfReport periodCovered typeOfComputerFile dateTimePlace dateOfEvent otherEventInformation placeOfEvent summaryExpansion assigningSource intendedAudience intendedAudienceSource geographicCoverage supplement interestLevel readingLevel   locationOfOriginalsDuplicates fundingInformation systemDetails informationRelatingToCopyrightStatus locationOfOtherArchivalMaterial biographicalOrHistoricalData languageNote entityAndAttributeInformation informationAboutDocumentation ownership action awardsNote medium additionalPhysicalForm originPlace
 
 # <http://bibfra.me/vocab/lite/Instance>
 
-* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency media carrier physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids 
+* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency media carrier physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids notation
 
 # <http://bibfra.me/vocab/lite/Person>
 * properties: numeration titles 
@@ -1604,8 +1604,15 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * description: Note concerning the language of the material or its parts.
 * value: Literal
 * remark: Equivalent to MARC field 546 language note. 
-* refines: <http://bibfra.me/vocab/lite/note >
 * synonyms: <http://bibframe.org/vocab/languageNote>
+* scope: <http://bibfra.me/vocab/marc>
+
+## notation
+* label: notation
+* description: Information on the alphabet, script, or symbol system used to convey the content of the resource, including specialized scripts, typefaces, tactile notation, and musical notation.
+* value: Literal
+* remark: Equivalent to MARC field 546$b
+* synonyms: <http://bibframe.org/vocab/notation>
 * scope: <http://bibfra.me/vocab/marc>
 
 ## lcCallNumber
@@ -1724,6 +1731,13 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * value: Literal
 * refines: 
 * synonyms: 
+* scope: <http://bibfra.me/vocab/marc>
+
+## originPlace 
+* label: place of origin
+* description: Place from which the creation of the work originated.
+* synonyms: <http://bibframe.org/vocab/originPlace>
+* value: <http://bibfra.me/vocab/lite/Place>
 * scope: <http://bibfra.me/vocab/marc>
 
 ## musicalPresentation

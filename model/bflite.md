@@ -155,7 +155,7 @@ not used here
 * label: date
 * synonyms: <http://purl.org/dc/terms/date>
 * description: Date associated with the resource
-* value: Literal
+* refines: when
 * remark: Recommended ISO 8601 date
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -310,15 +310,39 @@ not used here
 * refines: Authority
 * synonyms: <http://bibframe.org/vocab/Agent>
 * description: Entity (e.g. person, organization, etc.) associated with a resource
-* properties: email
+* properties: email placeAssociated placeResidence 
 * scope: <http://bibfra.me/vocab/lite>
 
-## email
 
+## email
 * synonyms: <http://schema.org/email>
 * label: e-mail address
 * description: Address that identifies an email box to which email messages are delivered to an agent
 * value: Literal
+* scope: <http://bibfra.me/vocab/lite>
+
+## placeAssociated
+* label: assocaited place 
+* description: The place associated with an agent. 
+* value: Place
+* scope: <http://bibfra.me/vocab/lite>
+
+## placeResidence
+* label: place of residence 
+* description: The agent's place of residence.
+* value: Place
+* scope: <http://bibfra.me/vocab/lite>
+
+## placeBirth
+* label: place of birth
+* description: The agent's place of birth.
+* value: Place
+* scope: <http://bibfra.me/vocab/lite>
+
+## placeDeath
+* label: place of death 
+* description: The agent's place of death.
+* value: Place
 * scope: <http://bibfra.me/vocab/lite>
 
 # Person
@@ -326,6 +350,7 @@ not used here
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Person>
 * description: Individual (alive, dead, undead, or fictional) in relation to a resource
+* properties: dateBirth dateDeath placeBirth placeDeath 
 * scope: <http://bibfra.me/vocab/lite>
 
 # Organization
@@ -333,6 +358,7 @@ not used here
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Organization>
 * description: Unit of people, e.g., an institution, an association, or corporate body
+* properties: dateStart dateEnd
 * scope: <http://bibfra.me/vocab/lite>
 
 # Meeting
@@ -340,6 +366,7 @@ not used here
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Meeting>
 * description: Formal gathering of people for a particular purpose
+* properties: dateStart dateEnd
 * scope: <http://bibfra.me/vocab/lite>
 
 # Family
@@ -347,6 +374,7 @@ not used here
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Family>
 * description: Social unit related by birth, marriage, adoption, civil union, or similar relationship
+* properties: dateStart dateEnd
 * scope: <http://bibfra.me/vocab/lite>
 
 # Place
@@ -504,10 +532,10 @@ not used here
 
 ## copyrightDate
 
-* label: provider date
+* label: copyright date
 * synonyms: <http://bibframe.org/vocab/copyrightDate>
 * description: Date associated with the copyright of an instance
-* refines: when
+* refines: date
 * scope: <http://bibfra.me/vocab/lite>
 
 ## copyrightNote
@@ -540,7 +568,7 @@ not used here
 * label: provider date
 * synonyms: <http://bibframe.org/vocab/providerDate>
 * description: Date associated with the publication, printing, distribution, issue, release or production of an Instance
-* refines: when
+* refines: date
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerNote
@@ -584,7 +612,6 @@ not used here
 
 * label: when
 * description: Date associated with an Event
-* value: Literal
 * remark: Recommended ISO 8601 date
 * scope: <http://bibfra.me/vocab/lite>
 
