@@ -52,3 +52,21 @@ A section defining a resource type (analogous to an RDF class), as indicated by 
 ```
 
 A section defining a property (analogous to an RDF property), as indicated by convention in this case by a second-level header marker (`##`). Again the List defines metaproperties of the property.
+
+
+Building RDFS files
+========
+
+To build RDFS use the `parse_versa_model` command from [Versa](https://pypi.python.org/pypi/versa). So for example, from the `model` directory of the source:
+
+```
+for i in $( ls *.md ); do
+    echo Processing: $i
+        parse_versa_model --rdfxml $i.rdfs  $i
+done
+```
+
+This will generate one RDFS file per Versa literate (.md) file.
+
+Note: [bfevent.md](https://github.com/zepheira/bibframe/blob/master/model/bfevent.md) is an empty file at the moment, so you'll get an error processing that one.
+
