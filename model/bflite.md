@@ -322,7 +322,7 @@ not used here
 * scope: <http://bibfra.me/vocab/lite>
 
 ## placeAssociated
-* label: assocaited place 
+* label: associated place 
 * description: The place associated with an agent. 
 * value: Place
 * scope: <http://bibfra.me/vocab/lite>
