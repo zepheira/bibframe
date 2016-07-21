@@ -628,7 +628,7 @@ not used here
 * refines: Resource
 * synonyms: <http://bibframe.org/vocab/Annotation>
 * description: Annotation, provides for loosely attached information about a resource
-* properties: annotator body target
+* properties: body target source
 * scope: <http://bibfra.me/vocab/lite>
 
 ## body
