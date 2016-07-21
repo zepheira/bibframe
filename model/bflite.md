@@ -631,29 +631,30 @@ not used here
 * properties: annotator body target
 * scope: <http://bibfra.me/vocab/lite>
 
-## annotator
-
-* label: annotator
-* synonyms: <http://bibfra.me/vocab/annotator>
-* value: Agent
-* description: Agent associated with the annotation
-* scope: <http://bibfra.me/vocab/lite>
-
 ## body
 
-* synonyms: <http://bibfra.me/vocab/body>
+* synonyms: <http://bibframe.org/vocab/body>
 * label: body
-* value: Resource
+* value: Literal
 * description: Body of an annotation
 * scope: <http://bibfra.me/vocab/lite>
 
 ## target
 
-* synonyms: <http://bibfra.me/vocab/target>
+* synonyms: <http://bibframe.org/vocab/target>
 * label: target
 * value: Resource
 * description: Target of an annotation
 * scope: <http://bibfra.me/vocab/lite>
+
+## source
+
+* synonyms: <http://bibframe.org/vocab/source>
+* label: source
+* value: Resource
+* description: Source of an annotation
+* scope: <http://bibfra.me/vocab/lite>
+
 
 # Collection
 * label: Collection
@@ -662,6 +663,7 @@ not used here
 * remark: In the case of Archives, a collection reflects the body of archival materials relating to a person, family, or organization. Includes materials collected to focus on a particular topic, event, person, place, etc. 
 * properties: primary memberOf
 * scope: <http://bibfra.me/vocab/lite>
+
 
 # Series
 * label: Series
