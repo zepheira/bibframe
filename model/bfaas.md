@@ -52,32 +52,68 @@ not used here
 * @interpretations:
     * scope: @resource
 
+<!---
+Extend BIBFRAME Lite Classess
+--->
 
-## City
+# <http://bibfra.me/vocab/lite/Place>
+* properties: locationID
+
+# <http://bibfra.me/vocab/lite/Person>
+* properties: trade
+
+
+<!-- 
+From AAS Location data
+-->
+
+# City
 
 * label: City
 * refines: <http://bibfra.me/vocab/lite/Place>
-* synonyms: 
 * description: Incorporated municipality, usually governed by a mayor and a board of aldermen or councilmen.
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
-* remark: 
 
-## State
+# State
 
 * label: State
 * refines: <http://bibfra.me/vocab/lite/Place>
-* synonyms: 
 * description: Type of polity that is an organized political community living under a single system of government.
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
-* remark: 
 
-## Country
+# Country
 
 * label: Country
 * refines: <http://bibfra.me/vocab/lite/Place>
-* description: The date of publication.
+* description: Nation with its own government, occupying a particular territory.
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
-* remark: Nation with its own government, occupying a particular territory.
+
+<!-- 
+From AAS Trade data
+-->
+
+## trade
+
+* label: trade
+* description: Skilled job, typically one requiring manual skills and special training.
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+
+# 
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/>
+* synonyms: 
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+* remark: 
+* properties:
+
+
+
+
