@@ -350,7 +350,7 @@ not used here
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Person>
 * description: Individual (alive, dead, undead, or fictional) in relation to a resource
-* properties: dateBirth dateDeath placeBirth placeDeath 
+* properties: dateBirth dateDeath placeBirth placeDeath gender givenName familyName alternativeName alternativeFamilyName alternativeGivenName
 * scope: <http://bibfra.me/vocab/lite>
 
 # Organization
@@ -655,7 +655,6 @@ not used here
 * description: Source of an annotation
 * scope: <http://bibfra.me/vocab/lite>
 
-
 # Collection
 * label: Collection
 * refines: Work
@@ -663,7 +662,6 @@ not used here
 * remark: In the case of Archives, a collection reflects the body of archival materials relating to a person, family, or organization. Includes materials collected to focus on a particular topic, event, person, place, etc. 
 * properties: primary memberOf
 * scope: <http://bibfra.me/vocab/lite>
-
 
 # Series
 * label: Series
@@ -690,3 +688,74 @@ not used here
 * value: Work
 * description: Work of which this is a version
 * scope: <http://bibfra.me/vocab/lite>
+
+<!-- 
+New bf lite terms from American Antiquarian Society Project
+-->
+
+## city
+
+* label: locality
+* description: Incorporated municipality or city, usually governed by a mayor and a board of aldermen or councilmen.
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
+
+## region
+
+* label: state
+* description: Type of polity, state, or region that is an organized political community living under a single system of government.
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
+
+## country
+
+* label: country
+* description: Nation with its own government, occupying a particular territory.
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
+
+# givenName
+
+* label: first name
+* description: First name of a Person, also known as forename.
+* synonyms: <http://schema.org/givenName>
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
+
+# familyName
+
+* label: country
+* description: Last name of a Person, also known as surname. 
+* synonyms: <http://schema.org/familyName>
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
+
+# gender
+
+* label: gender
+* description: Gender of the person. While male (M) and female (F) may be used, other text strings are also acceptable for people who do not identify as a binary gender.
+* synonyms: <http://schema.org/gender>
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
+
+# alternativeName
+
+* label: alternative name
+* description: Alias for a Person. 
+* synonyms: <http://schema.org/alternateName>
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
+
+# alternativeFamilyName
+
+* label: alternative last name
+* description: Alias last name for a Person. 
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
+
+# alternativeGivenName
+
+* label: alternative given name
+* description: Alias first name for a Person. 
+* value: Literal
+* scope: <http://bibfra.me/vocab/lite/>
