@@ -57,124 +57,10 @@ Extend BIBFRAME Lite Classess
 --->
 
 # <http://bibfra.me/vocab/lite/Place>
-* properties: locationID
+* properties: 
 
 # <http://bibfra.me/vocab/lite/Person>
 * properties: trade
-
-
-<!-- 
-New bf lite terms from AAS Location data
--->
-
-## city
-
-* label: locality
-* description: Incorporated municipality or city, usually governed by a mayor and a board of aldermen or councilmen.
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-## region
-
-* label: state
-* description: Type of polity, state, or region that is an organized political community living under a single system of government.
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-## country
-
-* label: country
-* description: Nation with its own government, occupying a particular territory.
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-# givenName
-
-* label: first name
-* description: First name of a Person, also known as forename.
-* synonyms: <http://schema.org/givenName>
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-# familyName
-
-* label: country
-* description: Last name of a Person, also known as surname. 
-* synonyms: <http://schema.org/familyName>
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-# gender
-
-* label: gender
-* description: Gender of the person. While male (M) and female (F) may be used, other text strings are also acceptable for people who do not identify as a binary gender.
-* synonyms: <http://schema.org/gender>
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-# alternativeName
-
-* label: alternative name
-* description: Alias for a Person. 
-* synonyms: <http://schema.org/alternateName>
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-# alternativeFamilyName
-
-* label: alternative last name
-* description: Alias last name for a Person. 
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-# alternativeGivenName
-
-* label: alternative given name
-* description: Alias first name for a Person. 
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
-
-<!-- 
-Existing bf lite terms to be used for AAS data
--->
-<http://bibfra.me/vocab/lite/dateStart>
-
-<http://bibfra.me/vocab/lite/dateEnd>
-
-<http://bibfra.me/vocab/lite/note>
-
-<http://bibfra.me/vocab/lite/name>
-
-<http://bibfra.me/vocab/lite/dateBirth>
-
-<http://bibfra.me/vocab/lite/dateDeath>
-
-<http://bibfra.me/vocab/lite/Organization>
-* note: use for Firms
-
-<http://bibfra.me/vocab/lite/title>
-* note: use for Place of Publication
-
-<http://bibfra.me/vocab/lite/date>
-* note: use for Year of Publication
-
-<http://bibfra.me/vocab/lite/authorityLink>
-
-<http://bibfra.me/vocab/lite/related>
-
-<http://bibfra.me/vocab/lite/memberOf>
-
-<!-- 
-Existing bf lite + marc terms to be used for AAS data
--->
-
-<http://bibfra.me/vocab/marc/volume>
-
-<http://bibfra.me/vocab/marc/issueNumber>
-
-<http://bibfra.me/vocab/marc/lccn>
-
-<http://bibfra.me/vocab/lite/image>
 
 <!-- 
 New bf lite + aas terms
@@ -1316,33 +1202,394 @@ New bf lite + aas terms
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
-## 
+## entered
 
-* label: 
+* label: entered
 * description: 
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
-## 
+## drownedIn
 
-* label: 
+* label: drowned in
 * description: 
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
+## missingIn
 
-
-# 
-
-* label: 
-* refines: <http://bibfra.me/vocab/lite/>
-* synonyms: 
+* label: missing in
 * description: 
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
-* remark: 
-* properties:
 
+## was
 
+* label: was
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
 
+## raised
 
+* label: raised
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## kept
+
+* label: kept
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## released
+
+* label: released
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## buriedIn
+
+* label: buried in
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## christened
+
+* label: christened
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## admittedAs
+
+* label: admitted as
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## killedIn
+
+* label: killed in
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## sentencedTo
+
+* label: sentenced to 
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## pardoned
+
+* label: pardoned
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## married
+
+* label: married
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## published
+
+* label: published
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## escapedFrom
+
+* label: escaped from
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## with
+
+* label: with
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## triedTo
+
+* label: tried to
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## resigned
+
+* label: resigned
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## sold
+
+* label: sold
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## divorcedFrom
+
+* label: divorced from
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## had
+
+* label: had
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## supported
+
+* label: supported
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## voyaged
+
+* label: voyaged
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## connectedWith
+
+* label: connected with
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## travelling
+
+* label: travelling
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## residentOf
+
+* label: resident of
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## appearedIn
+
+* label: appeared in
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## underConfinementAs
+
+* label: under confinement as
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## bequeathed
+
+* label: bequeathed
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## deeded
+
+* label: deeded
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## proprietor
+
+* label: proprietor
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## grandfatherOf
+
+* label: grandfather of
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## entertained
+
+* label: entertained
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## patronOf
+
+* label: patron of
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## gave
+
+* label: gave
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## vicePresidentOf
+
+* label: vice president of
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## delegate
+
+* label: delegate
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## layReader
+
+* label: lay reader
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## espoused
+
+* label: espoused
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## sentTo
+
+* label: sent to
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## educatedBy
+
+* label: educated by
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## sonInLawOf
+
+* label: son in law of
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## expelledFrom
+
+* label: expelled from 
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## emigrated
+
+* label: emigrated
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## becameA
+
+* label: became a
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## made
+
+* label: made
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## placedAt
+
+* label: placed at
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## played
+
+* label: played
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## insured
+
+* label: insured
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## invented
+
+* label: invented
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## born
+
+* label: born
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## engagedTo
+
+* label: engaged to
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## removedTo
+
+* label: removed to
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## livingOn
+
+* label: living on
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## electedTo
+
+* label: elected to
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
