@@ -60,7 +60,7 @@ Extend BIBFRAME Lite Classess
 * properties: 
 
 # <http://bibfra.me/vocab/lite/Person>
-* properties: trade
+* properties: 
 
 <!-- 
 New bf lite + aas terms
@@ -73,18 +73,11 @@ New bf lite + aas terms
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
-## trade
-
-* label: trade
-* description: Skilled job, typically one requiring manual skills and special training.
-* value: Literal
-* scope: <http://bibfra.me/vocab/aas>
-
 ## printer
 
 * label: printer
 * description: Person whose job or business is printing.
-* value: Literal
+* value: Agent
 * scope: <http://bibfra.me/vocab/aas>
 
 ## race
@@ -94,28 +87,14 @@ New bf lite + aas terms
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
-## Firm
+## firm
 
-* label: Firm
+* label: firm
 * refines: <http://bibfra.me/vocab/lite/Organization>
-* description: Person whose job or business is printing.
-* value: Literal
+* description: Organization whose job or business is printing.
+* value: Organization
 * scope: <http://bibfra.me/vocab/aas>
 * note: THIS IS A PLACEHOLDER, USE <http://bibfra.me/vocab/lite/Organization> FOR NOW
-
-## mwaBibId
-
-* label: mwa bib id
-* description: 
-* value: Literal
-* scope: <http://bibfra.me/vocab/aas>
-
-## oclcNumber
-
-* label: oclc number
-* description: 
-* value: Literal
-* scope: <http://bibfra.me/vocab/aas>
 
 ## aasAuthorityId
 
@@ -128,6 +107,7 @@ New bf lite + aas terms
 
 * label: captured during
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -135,6 +115,7 @@ New bf lite + aas terms
 
 * label: served in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -142,6 +123,7 @@ New bf lite + aas terms
 
 * label: graduated from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -149,6 +131,7 @@ New bf lite + aas terms
 
 * label: president of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -156,6 +139,7 @@ New bf lite + aas terms
 
 * label: brother of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -163,6 +147,7 @@ New bf lite + aas terms
 
 * label: hanged for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -170,6 +155,7 @@ New bf lite + aas terms
 
 * label: married to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -177,6 +163,7 @@ New bf lite + aas terms
 
 * label: son of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -184,6 +171,7 @@ New bf lite + aas terms
 
 * label: sister of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -191,6 +179,7 @@ New bf lite + aas terms
 
 * label: daughter of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -198,6 +187,7 @@ New bf lite + aas terms
 
 * label: arrested for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -205,6 +195,7 @@ New bf lite + aas terms
 
 * label: removed to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -212,6 +203,7 @@ New bf lite + aas terms
 
 * label: learned to 
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -219,6 +211,7 @@ New bf lite + aas terms
 
 * label: moved
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -226,13 +219,15 @@ New bf lite + aas terms
 
 * label: resided in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
 ## killed
 
-* label: 
+* label: killed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -240,6 +235,7 @@ New bf lite + aas terms
 
 * label: described as
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -247,6 +243,7 @@ New bf lite + aas terms
 
 * label: shipwrecked
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -254,6 +251,7 @@ New bf lite + aas terms
 
 * label: ransomed from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -261,6 +259,7 @@ New bf lite + aas terms
 
 * label: enslaved by
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -268,6 +267,7 @@ New bf lite + aas terms
 
 * label: disappeared from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -275,6 +275,7 @@ New bf lite + aas terms
 
 * label: imprisoned for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -282,6 +283,7 @@ New bf lite + aas terms
 
 * label: imprisoned by
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -289,6 +291,7 @@ New bf lite + aas terms
 
 * label: served on
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -296,6 +299,7 @@ New bf lite + aas terms
 
 * label: fought in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -303,6 +307,7 @@ New bf lite + aas terms
 
 * label: indebted to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -310,6 +315,7 @@ New bf lite + aas terms
 
 * label: explored
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -317,6 +323,7 @@ New bf lite + aas terms
 
 * label: shot
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -324,6 +331,7 @@ New bf lite + aas terms
 
 * label: murdered
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -331,6 +339,7 @@ New bf lite + aas terms
 
 * label: hanged at
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -338,6 +347,7 @@ New bf lite + aas terms
 
 * label: settled in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -345,6 +355,7 @@ New bf lite + aas terms
 
 * label: father of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -352,6 +363,7 @@ New bf lite + aas terms
 
 * label: nephew of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -359,6 +371,7 @@ New bf lite + aas terms
 
 * label: lived in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -366,6 +379,7 @@ New bf lite + aas terms
 
 * label: retired from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -373,6 +387,7 @@ New bf lite + aas terms
 
 * label: grandson of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -380,6 +395,7 @@ New bf lite + aas terms
 
 * label: studied for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -387,6 +403,7 @@ New bf lite + aas terms
 
 * label: baptised
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -394,6 +411,7 @@ New bf lite + aas terms
 
 * label: admitted to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -401,6 +419,7 @@ New bf lite + aas terms
 
 * label: retired to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -408,6 +427,7 @@ New bf lite + aas terms
 
 * label: worked for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -415,6 +435,7 @@ New bf lite + aas terms
 
 * label: learned
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -422,6 +443,7 @@ New bf lite + aas terms
 
 * label: formed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -429,6 +451,7 @@ New bf lite + aas terms
 
 * label: joined
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -436,6 +459,7 @@ New bf lite + aas terms
 
 * label: impressed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -443,6 +467,7 @@ New bf lite + aas terms
 
 * label: attended
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -450,6 +475,7 @@ New bf lite + aas terms
 
 * label: trained as
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -457,6 +483,7 @@ New bf lite + aas terms
 
 * label: studied in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -464,6 +491,7 @@ New bf lite + aas terms
 
 * label: founder of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -471,6 +499,7 @@ New bf lite + aas terms
 
 * label: relative of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -478,6 +507,7 @@ New bf lite + aas terms
 
 * label: received
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -485,6 +515,7 @@ New bf lite + aas terms
 
 * label: ordained
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -492,6 +523,7 @@ New bf lite + aas terms
 
 * label: trustee of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -499,6 +531,7 @@ New bf lite + aas terms
 
 * label: purchased
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -506,6 +539,7 @@ New bf lite + aas terms
 
 * label: bought
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -513,6 +547,7 @@ New bf lite + aas terms
 
 * label: committed to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -520,6 +555,7 @@ New bf lite + aas terms
 
 * label: banished from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -527,6 +563,7 @@ New bf lite + aas terms
 
 * label: 
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -534,6 +571,7 @@ New bf lite + aas terms
 
 * label: left
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -541,6 +579,7 @@ New bf lite + aas terms
 
 * label: changed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -548,6 +587,7 @@ New bf lite + aas terms
 
 * label: interested in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -555,6 +595,7 @@ New bf lite + aas terms
 
 * label: promoted to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -562,6 +603,7 @@ New bf lite + aas terms
 
 * label: converted to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -569,6 +611,7 @@ New bf lite + aas terms
 
 * label: leader of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -576,6 +619,7 @@ New bf lite + aas terms
 
 * label: half brother of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -583,6 +627,7 @@ New bf lite + aas terms
 
 * label: uncle of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -590,6 +635,7 @@ New bf lite + aas terms
 
 * label: owned
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -597,6 +643,7 @@ New bf lite + aas terms
 
 * label: adopted by
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -604,6 +651,7 @@ New bf lite + aas terms
 
 * label: brother-in-law of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -611,6 +659,7 @@ New bf lite + aas terms
 
 * label: visited
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -618,6 +667,7 @@ New bf lite + aas terms
 
 * label: came to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -625,6 +675,7 @@ New bf lite + aas terms
 
 * label: became
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -632,6 +683,7 @@ New bf lite + aas terms
 
 * label: buried
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -639,6 +691,7 @@ New bf lite + aas terms
 
 * label: at
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -646,6 +699,7 @@ New bf lite + aas terms
 
 * label: committed suicide
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -653,6 +707,7 @@ New bf lite + aas terms
 
 * label: advertised in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -660,6 +715,7 @@ New bf lite + aas terms
 
 * label: on a sea voyage
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -667,6 +723,7 @@ New bf lite + aas terms
 
 * label: organized
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -674,6 +731,7 @@ New bf lite + aas terms
 
 * label: 
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -681,6 +739,7 @@ New bf lite + aas terms
 
 * label: studied at
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -688,6 +747,7 @@ New bf lite + aas terms
 
 * label: returned
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -695,6 +755,7 @@ New bf lite + aas terms
 
 * label: rented
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -702,6 +763,7 @@ New bf lite + aas terms
 
 * label: opened
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -709,6 +771,7 @@ New bf lite + aas terms
 
 * label: educated at
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -716,6 +779,7 @@ New bf lite + aas terms
 
 * label: travelled in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -723,6 +787,7 @@ New bf lite + aas terms
 
 * label: used pseudynom
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -730,6 +795,7 @@ New bf lite + aas terms
 
 * label: connected to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -737,6 +803,7 @@ New bf lite + aas terms
 
 * label: assistant to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -744,6 +811,7 @@ New bf lite + aas terms
 
 * label: unmarried
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -751,6 +819,7 @@ New bf lite + aas terms
 
 * label: from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -758,6 +827,7 @@ New bf lite + aas terms
 
 * label: elder of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -765,6 +835,7 @@ New bf lite + aas terms
 
 * label: came from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -772,6 +843,7 @@ New bf lite + aas terms
 
 * label: educated for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -779,6 +851,7 @@ New bf lite + aas terms
 
 * label: served as
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -786,6 +859,7 @@ New bf lite + aas terms
 
 * label: associated with
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -793,6 +867,7 @@ New bf lite + aas terms
 
 * label: lost at sea
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -800,6 +875,7 @@ New bf lite + aas terms
 
 * label: steward of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -807,6 +883,7 @@ New bf lite + aas terms
 
 * label: named for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -814,6 +891,7 @@ New bf lite + aas terms
 
 * label: returned to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -821,6 +899,7 @@ New bf lite + aas terms
 
 * label: studied with
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -828,6 +907,7 @@ New bf lite + aas terms
 
 * label: partners with
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -835,6 +915,7 @@ New bf lite + aas terms
 
 * label: widow of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -842,6 +923,7 @@ New bf lite + aas terms
 
 * label: half sister of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -849,6 +931,7 @@ New bf lite + aas terms
 
 * label: in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -856,6 +939,7 @@ New bf lite + aas terms
 
 * label: filed for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -863,6 +947,7 @@ New bf lite + aas terms
 
 * label: agent of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -870,6 +955,7 @@ New bf lite + aas terms
 
 * label: lived near
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -877,6 +963,7 @@ New bf lite + aas terms
 
 * label: built
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -884,6 +971,7 @@ New bf lite + aas terms
 
 * label: worked in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -891,6 +979,7 @@ New bf lite + aas terms
 
 * label: established
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -898,6 +987,7 @@ New bf lite + aas terms
 
 * label: lived on
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -905,6 +995,7 @@ New bf lite + aas terms
 
 * label: tried for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -912,6 +1003,7 @@ New bf lite + aas terms
 
 * label: fled to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -919,6 +1011,7 @@ New bf lite + aas terms
 
 * label: active in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -926,6 +1019,7 @@ New bf lite + aas terms
 
 * label: proscribed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -933,6 +1027,7 @@ New bf lite + aas terms
 
 * label: ran for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -940,6 +1035,7 @@ New bf lite + aas terms
 
 * label: went to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -947,6 +1043,7 @@ New bf lite + aas terms
 
 * label: friends with
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -954,6 +1051,7 @@ New bf lite + aas terms
 
 * label: prosecuted for
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -961,6 +1059,7 @@ New bf lite + aas terms
 
 * label: travelled with
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -968,6 +1067,7 @@ New bf lite + aas terms
 
 * label: travelling companion of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -975,6 +1075,7 @@ New bf lite + aas terms
 
 * label: enlisted in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -982,6 +1083,7 @@ New bf lite + aas terms
 
 * label: captured by
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -989,6 +1091,7 @@ New bf lite + aas terms
 
 * label: issued
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -996,6 +1099,7 @@ New bf lite + aas terms
 
 * label: brought to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1003,6 +1107,7 @@ New bf lite + aas terms
 
 * label: great grandson of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1010,6 +1115,7 @@ New bf lite + aas terms
 
 * label: author
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1017,6 +1123,7 @@ New bf lite + aas terms
 
 * label: living in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1024,6 +1131,7 @@ New bf lite + aas terms
 
 * label: moved to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1031,6 +1139,7 @@ New bf lite + aas terms
 
 * label: subscriber
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1038,6 +1147,7 @@ New bf lite + aas terms
 
 * label: lived at
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1045,6 +1155,7 @@ New bf lite + aas terms
 
 * label: educated as
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1052,6 +1163,7 @@ New bf lite + aas terms
 
 * label: operated
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1059,6 +1171,7 @@ New bf lite + aas terms
 
 * label: one of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1066,6 +1179,7 @@ New bf lite + aas terms
 
 * label: in command of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1073,6 +1187,7 @@ New bf lite + aas terms
 
 * label: known as
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1080,6 +1195,7 @@ New bf lite + aas terms
 
 * label: renounced
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1087,6 +1203,7 @@ New bf lite + aas terms
 
 * label: trained in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1094,6 +1211,7 @@ New bf lite + aas terms
 
 * label: imprisoned in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1101,6 +1219,7 @@ New bf lite + aas terms
 
 * label: exiled
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1108,6 +1227,7 @@ New bf lite + aas terms
 
 * label: father of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1115,6 +1235,7 @@ New bf lite + aas terms
 
 * label: sent
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1122,6 +1243,7 @@ New bf lite + aas terms
 
 * label: sailed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1129,6 +1251,7 @@ New bf lite + aas terms
 
 * label: travelling abroad
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1136,6 +1259,7 @@ New bf lite + aas terms
 
 * label: bankrupt
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1143,6 +1267,7 @@ New bf lite + aas terms
 
 * label: landed at
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1150,6 +1275,7 @@ New bf lite + aas terms
 
 * label: went into
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1157,6 +1283,7 @@ New bf lite + aas terms
 
 * label: went
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1164,6 +1291,7 @@ New bf lite + aas terms
 
 * label: jailed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1171,6 +1299,7 @@ New bf lite + aas terms
 
 * label: taken
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1178,6 +1307,7 @@ New bf lite + aas terms
 
 * label: taken to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1185,6 +1315,7 @@ New bf lite + aas terms
 
 * label: in a duel with
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1192,6 +1323,7 @@ New bf lite + aas terms
 
 * label: motherOf
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1199,6 +1331,7 @@ New bf lite + aas terms
 
 * label: confirmed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1206,6 +1339,7 @@ New bf lite + aas terms
 
 * label: entered
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1213,6 +1347,7 @@ New bf lite + aas terms
 
 * label: drowned in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1220,6 +1355,7 @@ New bf lite + aas terms
 
 * label: missing in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1227,6 +1363,7 @@ New bf lite + aas terms
 
 * label: was
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1234,6 +1371,7 @@ New bf lite + aas terms
 
 * label: raised
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1241,6 +1379,7 @@ New bf lite + aas terms
 
 * label: kept
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1248,6 +1387,7 @@ New bf lite + aas terms
 
 * label: released
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1255,6 +1395,7 @@ New bf lite + aas terms
 
 * label: buried in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1262,6 +1403,7 @@ New bf lite + aas terms
 
 * label: christened
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1269,6 +1411,7 @@ New bf lite + aas terms
 
 * label: admitted as
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1276,6 +1419,7 @@ New bf lite + aas terms
 
 * label: killed in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1283,6 +1427,7 @@ New bf lite + aas terms
 
 * label: sentenced to 
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1290,6 +1435,7 @@ New bf lite + aas terms
 
 * label: pardoned
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1297,6 +1443,7 @@ New bf lite + aas terms
 
 * label: married
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1304,6 +1451,7 @@ New bf lite + aas terms
 
 * label: published
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1311,6 +1459,7 @@ New bf lite + aas terms
 
 * label: escaped from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1318,6 +1467,7 @@ New bf lite + aas terms
 
 * label: with
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1325,6 +1475,7 @@ New bf lite + aas terms
 
 * label: tried to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1332,6 +1483,7 @@ New bf lite + aas terms
 
 * label: resigned
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1339,6 +1491,7 @@ New bf lite + aas terms
 
 * label: sold
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1346,6 +1499,7 @@ New bf lite + aas terms
 
 * label: divorced from
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1353,6 +1507,7 @@ New bf lite + aas terms
 
 * label: had
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1360,6 +1515,7 @@ New bf lite + aas terms
 
 * label: supported
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1367,6 +1523,7 @@ New bf lite + aas terms
 
 * label: voyaged
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1374,6 +1531,7 @@ New bf lite + aas terms
 
 * label: connected with
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1381,6 +1539,7 @@ New bf lite + aas terms
 
 * label: travelling
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1388,6 +1547,7 @@ New bf lite + aas terms
 
 * label: resident of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1395,6 +1555,7 @@ New bf lite + aas terms
 
 * label: appeared in
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1402,6 +1563,7 @@ New bf lite + aas terms
 
 * label: under confinement as
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1409,6 +1571,7 @@ New bf lite + aas terms
 
 * label: bequeathed
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1416,6 +1579,7 @@ New bf lite + aas terms
 
 * label: deeded
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1423,6 +1587,7 @@ New bf lite + aas terms
 
 * label: proprietor
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1430,6 +1595,7 @@ New bf lite + aas terms
 
 * label: grandfather of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1437,6 +1603,7 @@ New bf lite + aas terms
 
 * label: entertained
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1444,6 +1611,7 @@ New bf lite + aas terms
 
 * label: patron of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1451,6 +1619,7 @@ New bf lite + aas terms
 
 * label: gave
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1458,6 +1627,7 @@ New bf lite + aas terms
 
 * label: vice president of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1465,6 +1635,7 @@ New bf lite + aas terms
 
 * label: delegate
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1472,6 +1643,7 @@ New bf lite + aas terms
 
 * label: lay reader
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1479,6 +1651,7 @@ New bf lite + aas terms
 
 * label: espoused
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1486,6 +1659,7 @@ New bf lite + aas terms
 
 * label: sent to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1493,6 +1667,7 @@ New bf lite + aas terms
 
 * label: educated by
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1500,6 +1675,7 @@ New bf lite + aas terms
 
 * label: son in law of
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1507,6 +1683,7 @@ New bf lite + aas terms
 
 * label: expelled from 
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1514,6 +1691,7 @@ New bf lite + aas terms
 
 * label: emigrated
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1521,6 +1699,7 @@ New bf lite + aas terms
 
 * label: became a
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1528,6 +1707,7 @@ New bf lite + aas terms
 
 * label: made
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1535,6 +1715,7 @@ New bf lite + aas terms
 
 * label: placed at
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1542,6 +1723,7 @@ New bf lite + aas terms
 
 * label: played
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1549,6 +1731,7 @@ New bf lite + aas terms
 
 * label: insured
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1556,6 +1739,7 @@ New bf lite + aas terms
 
 * label: invented
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1563,6 +1747,7 @@ New bf lite + aas terms
 
 * label: born
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1570,6 +1755,7 @@ New bf lite + aas terms
 
 * label: engaged to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1577,6 +1763,7 @@ New bf lite + aas terms
 
 * label: removed to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1584,6 +1771,7 @@ New bf lite + aas terms
 
 * label: living on
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -1591,5 +1779,6 @@ New bf lite + aas terms
 
 * label: elected to
 * description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
