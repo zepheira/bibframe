@@ -460,6 +460,12 @@ not used here
 * description: Copyright event associated with the Instance
 * scope: <http://bibfra.me/vocab/lite>
 
+## employment
+* label: employment
+* value: EmploymentEvent
+* description: Employment event associated with a Person
+* scope: <http://bibfra.me/vocab/lite>
+
 ## format
 * label: format
 * synonyms: <http://bibframe.org/vocab/format> <http://purl.org/dc/terms/format>
@@ -502,6 +508,67 @@ not used here
 * label: Copyright Event
 * description: Copyright event associated with the intellectual property of an instance.
 * properties: license copyrightAgent copyrightPlace copyrightDate copyrightNote
+* scope: <http://bibfra.me/vocab/lite>
+
+# EmploymentEvent
+
+* refines: Event
+* label: Employment Event
+* description: Employment event associated with a Person.
+* properties: trade employer employmentAgent employmentPlace employmentStartDate employmentEndDate employmentNote
+* scope: <http://bibfra.me/vocab/lite>
+
+## trade
+
+* label: trade
+* description: Skilled job, typically one requiring manual skills and special training.
+* refines: why
+* value: Resource
+* scope: <http://bibfra.me/vocab/lite>
+
+## employmentAgent
+
+* label: employment agent
+* description: Agent associated with an employment event
+* refines: who
+* value: Agent
+* scope: <http://bibfra.me/vocab/lite>
+
+## employer
+
+* label: employer
+* description: Agent associated with an employment event
+* refines: what
+* value: Organization
+* scope: <http://bibfra.me/vocab/lite>
+
+## employmentPlace
+
+* label: employment place
+* refines: where
+* description: Place associated with the employment of a person
+* value: Place
+* scope: <http://bibfra.me/vocab/lite>
+
+## employmentStartDate
+
+* label: employment start date
+* description: Start date associated with the employment of a person
+* refines: date
+* scope: <http://bibfra.me/vocab/lite>
+
+## employmentEndDate
+
+* label: employment end date
+* description: Start date associated with the employment of a person
+* refines: date
+* scope: <http://bibfra.me/vocab/lite>
+
+## employmentNote
+
+* label: employment note
+* description: Note associated with the employment of a person
+* value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
 ## license
