@@ -537,7 +537,7 @@ not used here
 ## employer
 
 * label: employer
-* description: Agent associated with an employment event
+* description: Organization associated with an employment event
 * refines: what
 * value: Organization
 * scope: <http://bibfra.me/vocab/lite>
