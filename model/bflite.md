@@ -464,7 +464,7 @@ not used here
 * label: employment
 * value: EmploymentEvent
 * description: Employment event associated with a Person
-* remark: Connection to details such as the employer, place, name, trade and/or date information relating to employment of an Agent.
+* remark: Connection to details such as the employer, place, name, trade and/or date information relating to the employment of an Agent.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## format
