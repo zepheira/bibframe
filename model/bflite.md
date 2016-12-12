@@ -523,7 +523,6 @@ not used here
 
 * label: trade
 * description: Skilled job, typically one requiring manual skills and special training.
-* refines: why
 * value: Resource
 * scope: <http://bibfra.me/vocab/lite>
 
