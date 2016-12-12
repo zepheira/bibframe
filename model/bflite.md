@@ -522,8 +522,8 @@ not used here
 ## trade
 
 * label: trade
-* description: Skilled job, typically one requiring manual skills and special training.
-* value: Resource
+* description: Topic associated with an employment event. Skilled job, typically one requiring manual skills and special training.
+* value: Topic
 * scope: <http://bibfra.me/vocab/lite>
 
 ## employmentAgent
