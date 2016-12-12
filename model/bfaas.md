@@ -56,11 +56,8 @@ not used here
 Extend BIBFRAME Lite Classess
 --->
 
-# <http://bibfra.me/vocab/lite/Place>
-* properties: 
-
 # <http://bibfra.me/vocab/lite/Person>
-* properties: 
+* properties: race
 
 <!-- 
 New bf lite + aas terms
