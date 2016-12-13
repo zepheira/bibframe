@@ -75,6 +75,7 @@ New bf lite + aas terms
 
 * label: source of
 * description: Source of information about a Person.
+* synonyms: <http://bibfra.me/vocab/lite/related>
 * remark: Used to connect Source Cards to people.
 * properties: 
 * value: Literal
