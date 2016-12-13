@@ -106,7 +106,7 @@ New bf lite + aas terms
 ## aasAuthorityId
 
 * label: aas authority id
-* description: 
+* description: American Antiquarian Society authority ID. 
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
