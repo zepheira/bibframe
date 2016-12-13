@@ -67,6 +67,16 @@ New bf lite + aas terms
 
 * label: Source Card
 * description: Card that documents the sources used to gather information about a person.
+* properties: sourceOf
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## sourceFor
+
+* label: source of
+* description: Source of information about a Person.
+* remark: Used to connect Source Cards to people.
+* properties: 
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
