@@ -49,6 +49,7 @@ not used here
     * @base: http://bibfra.me/vocab/aas/
     * @property: http://bibfra.me/purl/versa/support
 * title: BIBFRAME American Antiquarian Society vocabulary
+* highlight: Work Instance Person Organization SourceCard
 * @interpretations:
     * scope: @resource
 
@@ -66,12 +67,13 @@ New bf lite + aas terms
 # SourceCard
 
 * label: Source Card
+* refines: <http://bibfra.me/vocab/lite/Work>
 * description: Card that documents the sources used to gather information about a person.
 * properties: sourceOf
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
-## sourceFor
+## sourceOf
 
 * label: source of
 * description: Source of information about a Person.
@@ -95,14 +97,14 @@ New bf lite + aas terms
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
-## firm
+# Firm
 
-* label: firm
+* label: Firm
 * refines: <http://bibfra.me/vocab/lite/Organization>
 * description: Organization whose job or business is printing.
 * value: Organization
 * scope: <http://bibfra.me/vocab/aas>
-* note: THIS IS A PLACEHOLDER, USE <http://bibfra.me/vocab/lite/Organization> FOR NOW
+* note: THIS IS A PLACEHOLDER, USE http://bibfra.me/vocab/lite/Organization FOR NOW
 
 ## aasAuthorityId
 

@@ -232,6 +232,7 @@ not used here
 
 ## nameAlternative
 * label: alternative name
+* synonyms: <http://bibframe.org/vocab/lite/alternativeName>
 * value: Literal
 * description: Alternative name of an authority
 * refines: name
@@ -765,64 +766,64 @@ New bf lite terms from American Antiquarian Society Project
 * label: locality
 * description: Incorporated municipality or city, usually governed by a mayor and a board of aldermen or councilmen.
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
 
 ## region
 
 * label: state
 * description: Type of polity, state, or region that is an organized political community living under a single system of government.
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
 
 ## country
 
 * label: country
 * description: Nation with its own government, occupying a particular territory.
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
 
-# givenName
+## givenName
 
-* label: first name
+* label: given name
 * description: First name of a Person, also known as forename.
 * synonyms: <http://schema.org/givenName>
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
 
-# familyName
+## familyName
 
-* label: country
+* label: family name
 * description: Last name of a Person, also known as surname. 
 * synonyms: <http://schema.org/familyName>
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
 
-# gender
+## gender
 
 * label: gender
 * description: Gender of the person. While male (M) and female (F) may be used, other text strings are also acceptable for people who do not identify as a binary gender.
 * synonyms: <http://schema.org/gender>
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
 
-# alternativeName
+## alternativeName
 
 * label: alternative name
 * description: Alias for a Person. 
 * synonyms: <http://schema.org/alternateName>
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
 
-# alternativeFamilyName
+## alternativeFamilyName
 
 * label: alternative last name
 * description: Alias last name for a Person. 
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
 
-# alternativeGivenName
+## alternativeGivenName
 
 * label: alternative given name
 * description: Alias first name for a Person. 
 * value: Literal
-* scope: <http://bibfra.me/vocab/lite/>
+* scope: <http://bibfra.me/vocab/lite>
