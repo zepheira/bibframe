@@ -64,6 +64,67 @@ Extend BIBFRAME Lite Classess
 New bf lite + aas terms
 -->
 
+# EmploymentEvent
+
+* refines: Event
+* label: Employment Event
+* description: Employment event associated with a Person.
+* properties: trade employer employmentAgent employmentPlace employmentStartDate employmentEndDate employmentNote
+* scope: <http://bibfra.me/vocab/aas>
+
+## trade
+
+* label: trade
+* description: Topic associated with an employment event. Skilled job, typically one requiring manual skills and special training.
+* value: Topic
+* scope: <http://bibfra.me/vocab/aas>
+
+## employmentAgent
+
+* label: employment agent
+* description: Agent associated with an employment event
+* refines: who
+* value: Agent
+* scope: <http://bibfra.me/vocab/aas>
+
+## employer
+
+* label: employer
+* description: Organization associated with an employment event
+* refines: what
+* value: Organization
+* scope: <http://bibfra.me/vocab/aas>
+
+## employmentPlace
+
+* label: employment place
+* refines: where
+* description: Place associated with the employment of a person
+* value: Place
+* scope: <http://bibfra.me/vocab/aas>
+
+## employmentStartDate
+
+* label: employment start date
+* description: Start date associated with the employment of a person
+* refines: date
+* scope: <http://bibfra.me/vocab/aas>
+
+## employmentEndDate
+
+* label: employment end date
+* description: Start date associated with the employment of a person
+* refines: date
+* scope: <http://bibfra.me/vocab/aas>
+
+## employmentNote
+
+* label: employment note
+* description: Note associated with the employment of a person
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+
 # SourceCard
 
 * label: Source Card
