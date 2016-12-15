@@ -230,14 +230,6 @@ not used here
 * refines: label
 * scope: <http://bibfra.me/vocab/lite>
 
-## nameAlternative
-* label: alternative name
-* synonyms: <http://bibframe.org/vocab/lite/alternativeName>
-* value: Literal
-* description: Alternative name of an authority
-* refines: name
-* scope: <http://bibfra.me/vocab/lite>
-
 ## authorityLink
 
 * label: authority link
@@ -750,7 +742,7 @@ New bf lite terms from American Antiquarian Society Project
 
 * label: alternative name
 * description: Alias for a Person. 
-* synonyms: <http://schema.org/alternateName>
+* synonyms: <http://schema.org/alternateName> <http://bibframe.org/vocab/lite/alternativeName>
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
