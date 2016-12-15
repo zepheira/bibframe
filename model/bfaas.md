@@ -1853,3 +1853,35 @@ New bf lite + aas terms
 * synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
+
+## studied
+
+* label: studied
+* description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## licensedToPreach
+
+* label: licensed to preach
+* description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## writerOf 
+
+* label: writer of
+* description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
+
+## imprisoned
+
+* label: imprisoned
+* description: 
+* synonyms: <http://bibfra.me/vocab/lite/related>
+* value: Literal
+* scope: <http://bibfra.me/vocab/aas>
