@@ -54,18 +54,15 @@ not used here
     * scope: @resource
 
 <!---
-Extend BIBFRAME Lite Classess
---->
-
-# <http://bibfra.me/vocab/lite/Person>
-* properties: race
-
-<!-- 
-New bf lite + aas terms
+Extend BIBFRAME Lite Classes
 -->
 
 # <http://bibfra.me/vocab/lite/Person>
-* properties: employment livedIn 
+* properties: race employment capturedDuring servedIn graduatedFrom presidentOf brotherOf hangedFor marriedTo sonOf sisterOf daughterOf arrestedFor removedTo learnedTo moved residedIn killed describedAs shipwrecked ransomedFrom enslavedBy disappearedFrom imprisonedFor imprisonedBy servedOn explored foughtIn indebtedTo shot murdered hangedAt settledIn fatherOf nephewOf livedIn retiredFrom grandsonOf studiedFor baptised admittedTo retiredTo workedFor learned formed joined impressed attended trainedAs studiedIn founderOf relativeOf received ordained trusteeOf purchased bought committedTo banishedFrom studied left changed interestedIn promotedTo convertedTo leaderOf halfBrotherOf uncleOf owned adoptedBy brotherInLawOf visited cameTo became buried at committedSuicide advertisedIn onASeaVoyage organized licensedToPreach studiedAt returned rented opened educatedAt travelledIn usedPseudynom connectedTo assistantTo unmarried from elderOf cameFrom educatedFor servedAs associatedWith lostAtSea stewardOf namedFor returnedTo studiedWith partnersWith widowOf halfSisterOf in filedFor agentOf livedNear built workedIn established livedOn triedFor fledTo activeIn proscribed ranFor wentTo friendsWith prosecutedFor travelledWith travellingCompanionOf enlistedIn capturedBy issued broughtTo greatGrandsonOf author livingIn movedTo subscriber livedAt educatedAs operated oneOf inCommandOf knownAs renounced trainedIn imprisonedIn exiled fatherOf sent sailed travellingAbroad bankrupt landedAt wentInto went jailed taken takenTo inADuelWith motherOf confirmed entered drownedIn missingIn was raised kept released buriedIn christened admittedAs killedIn sentencedTo pardoned married published escapedFrom with triedTo resigned sold divorcedFrom had supported voyaged connectedWith travelling residentOf appearedIn underConfinementAs bequeathed deeded proprietor grandfatherOf entertained patronOf gave vicePresidentOf delegate layReader espoused sentTo educatedBy sonInLawOf expelledFrom emigrated becameA made placedAt played insured invented born engagedTo removedTo livingOn electedTo studied licensedToPreach writerOf imprisoned
+
+<!--- 
+New bf lite + aas terms
+-->
 
 ## employment
 
@@ -816,9 +813,9 @@ New bf lite + aas terms
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
-## licensed to preach
+## licensedToPreach
 
-* label: 
+* label: licensed to preach
 * description: 
 * synonyms: <http://bibfra.me/vocab/lite/related>
 * value: Literal
