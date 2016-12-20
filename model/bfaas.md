@@ -64,9 +64,20 @@ Extend BIBFRAME Lite Classess
 New bf lite + aas terms
 -->
 
+# <http://bibfra.me/vocab/lite/Person>
+* properties: employment livedIn 
+
+## employment
+
+* label: employment
+* value: EmploymentEvent
+* description: Employment event associated with a Person
+* remark: Connection to details such as the employer, place, name, trade and/or date information relating to the employment of an Agent.
+* scope: <http://bibfra.me/vocab/aas>
+
 # EmploymentEvent
 
-* refines: Event
+* refines: <http://bibfra.me/vocab/lite/Event>
 * label: Employment Event
 * description: Employment event associated with a Person.
 * properties: trade employer employmentAgent employmentPlace employmentStartDate employmentEndDate employmentNote
@@ -76,14 +87,21 @@ New bf lite + aas terms
 
 * label: trade
 * description: Topic associated with an employment event. Skilled job, typically one requiring manual skills and special training.
-* value: Topic
+* value: Trade
+* scope: <http://bibfra.me/vocab/aas>
+
+# Trade
+
+* label: Trade
+* refines: <http://bibfra.me/vocab/lite/Category>
+* description: Category associated with a Trade. 
 * scope: <http://bibfra.me/vocab/aas>
 
 ## employmentAgent
 
 * label: employment agent
 * description: Agent associated with an employment event
-* refines: who
+* refines: <http://bibfra.me/vocab/lite/who>
 * value: Agent
 * scope: <http://bibfra.me/vocab/aas>
 
@@ -91,30 +109,30 @@ New bf lite + aas terms
 
 * label: employer
 * description: Organization associated with an employment event
-* refines: what
+* refines: <http://bibfra.me/vocab/lite/what>
 * value: Organization
 * scope: <http://bibfra.me/vocab/aas>
 
 ## employmentPlace
 
 * label: employment place
-* refines: where
+* refines: <http://bibfra.me/vocab/lite/where>
 * description: Place associated with the employment of a person
-* value: Place
+* value: <http://bibfra.me/vocab/lite/Place>
 * scope: <http://bibfra.me/vocab/aas>
 
 ## employmentStartDate
 
 * label: employment start date
 * description: Start date associated with the employment of a person
-* refines: date
+* refines: <http://bibfra.me/vocab/lite/date>
 * scope: <http://bibfra.me/vocab/aas>
 
 ## employmentEndDate
 
 * label: employment end date
 * description: Start date associated with the employment of a person
-* refines: date
+* refines: <http://bibfra.me/vocab/lite/date>
 * scope: <http://bibfra.me/vocab/aas>
 
 ## employmentNote
@@ -122,8 +140,8 @@ New bf lite + aas terms
 * label: employment note
 * description: Note associated with the employment of a person
 * value: Literal
+* refines: <http://bibfra.me/vocab/lite/date>
 * scope: <http://bibfra.me/vocab/aas>
-
 
 # SourceCard
 

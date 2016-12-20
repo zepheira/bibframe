@@ -343,7 +343,7 @@ not used here
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Person>
 * description: Individual (alive, dead, undead, or fictional) in relation to a resource
-* properties: dateBirth dateDeath placeBirth placeDeath gender givenName familyName alternativeName alternativeFamilyName alternativeGivenName
+* properties: dateBirth dateDeath placeBirth placeDeath gender givenName familyName nameAlternative 
 * scope: <http://bibfra.me/vocab/lite>
 
 # Organization
@@ -451,13 +451,6 @@ not used here
 * label: copyright
 * value: CopyrightEvent
 * description: Copyright event associated with the Instance
-* scope: <http://bibfra.me/vocab/lite>
-
-## employment
-* label: employment
-* value: EmploymentEvent
-* description: Employment event associated with a Person
-* remark: Connection to details such as the employer, place, name, trade and/or date information relating to the employment of an Agent.
 * scope: <http://bibfra.me/vocab/lite>
 
 ## format
@@ -746,16 +739,3 @@ New bf lite terms from American Antiquarian Society Project
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
-## alternativeFamilyName
-
-* label: alternative last name
-* description: Alias last name for a Person. 
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite>
-
-## alternativeGivenName
-
-* label: alternative given name
-* description: Alias first name for a Person. 
-* value: Literal
-* scope: <http://bibfra.me/vocab/lite>
