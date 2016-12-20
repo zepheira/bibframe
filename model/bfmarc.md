@@ -1356,7 +1356,7 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * description: Information relating to distribution of an instance.
 * value: Literal
 * remark: Equivalent to MARC field 264 with 2nd indicator 2.
-* refines: <http://bibfra.me/vocab/lite/provision>
+* refines: <http://bibfra.me/vocab/lite/provider>
 * synonyms: <http://bibframe.org/vocab/distribution>
 * scope: <http://bibfra.me/vocab/marc>
 
@@ -1694,7 +1694,7 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * label: manufacture
 * description: Information relating to manufacture of an instance.
 * value: Literal
-* refines: <http://bibfra.me/vocab/lite/provision>
+* refines: <http://bibfra.me/vocab/lite/provider>
 * synonyms: <http://bibframe.org/vocab/manufacture>
 * scope: <http://bibfra.me/vocab/marc>
 
@@ -1948,7 +1948,7 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * label: production
 * description: Information relating to production of an instance.
 * value: Literal
-* refines: <http://bibfra.me/vocab/lite/provision>
+* refines: <http://bibfra.me/vocab/lite/provider>
 * synonyms: <http://bibframe.org/vocab/production>
 * scope: <http://bibfra.me/vocab/marc>
 
@@ -1957,7 +1957,7 @@ NEEDS FURTHER DISCUSSION G SAYS KEEP V SAYS REMOVE
 * label: publication
 * description: Information relating to publication of an instance.
 * value: Literal
-* refines: <http://bibfra.me/vocab/lite/provision>
+* refines: <http://bibfra.me/vocab/lite/provider>
 * synonyms: <http://bibframe.org/vocab/publication>  <http://purl.org/dc/terms/publisher>
 * scope: <http://bibfra.me/vocab/marc>
 
