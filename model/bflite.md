@@ -411,7 +411,7 @@ not used here
 * label: Instance
 * synonyms: <http://bibframe.org/vocab/Instance>
 * description: Individual embodiment of a Work
-* properties: contributor title instantiates extent provision copyright dimensions format medium
+* properties: contributor title instantiates extent provider copyright dimensions format medium
 * scope: <http://bibfra.me/vocab/lite>
 
 ## instantiates
@@ -439,8 +439,8 @@ not used here
 * value: Resource
 * scope: <http://bibfra.me/vocab/lite>
 
-## provision
-* label: provision
+## provider
+* label: provider
 * synonyms: <http://bibframe.org/vocab/provider>
 * value: ProviderEvent
 * description: Provider associated with the carrier
@@ -731,7 +731,7 @@ New bf lite terms from American Antiquarian Society Project
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
 
-## alternativeName
+## nameAlternative
 
 * label: alternative name
 * description: Alias for a Person. 
