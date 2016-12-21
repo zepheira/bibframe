@@ -145,13 +145,13 @@ New bf lite + aas terms
 * label: Source Card
 * refines: <http://bibfra.me/vocab/lite/Work>
 * description: Card that documents the sources used to gather information about a person.
-* properties: sourceOf
+* properties: sourceFor
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
-## sourceOf
+## sourceFor
 
-* label: source of
+* label: source for
 * description: Source of information about a Person.
 * synonyms: <http://bibfra.me/vocab/lite/related>
 * remark: Used to connect Source Cards to people.
