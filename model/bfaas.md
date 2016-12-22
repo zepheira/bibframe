@@ -140,9 +140,9 @@ New bf lite + aas terms
 * refines: <http://bibfra.me/vocab/lite/date>
 * scope: <http://bibfra.me/vocab/aas>
 
-# SourceCard
+# Source
 
-* label: Source Card
+* label: Source
 * refines: <http://bibfra.me/vocab/lite/Work>
 * description: Card that documents the sources used to gather information about a person.
 * properties: sourceFor
