@@ -189,6 +189,14 @@ New bf lite + aas terms
 * value: Literal
 * scope: <http://bibfra.me/vocab/aas>
 
+## oclcWorldcatLink
+
+* label: oclc Worldcat link
+* refines: <http://bibfra.me/vocab/lite/link>
+* description: Link to an item's Worldcat page.
+* value: IRI
+* scope: <http://bibfra.me/vocab/aas>
+
 ## capturedDuring
 
 * label: captured during
