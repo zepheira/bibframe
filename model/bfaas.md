@@ -58,7 +58,7 @@ Extend BIBFRAME Lite Classes
 -->
 
 # <http://bibfra.me/vocab/lite/Person>
-* properties: race employment capturedDuring servedIn graduatedFrom presidentOf brotherOf hangedFor marriedTo sonOf sisterOf daughterOf arrestedFor removedTo learnedTo moved residedIn killed describedAs shipwrecked ransomedFrom enslavedBy disappearedFrom imprisonedFor imprisonedBy servedOn explored foughtIn indebtedTo shot murdered hangedAt settledIn fatherOf nephewOf livedIn retiredFrom grandsonOf studiedFor baptised admittedTo retiredTo workedFor learned formed joined impressed attended trainedAs studiedIn founderOf relativeOf received ordained trusteeOf purchased bought committedTo banishedFrom studied left changed interestedIn promotedTo convertedTo leaderOf halfBrotherOf uncleOf owned adoptedBy brotherInLawOf visited cameTo became buried at committedSuicide advertisedIn onASeaVoyage organized licensedToPreach studiedAt returned rented opened educatedAt travelledIn usedPseudynom connectedTo assistantTo unmarried from elderOf cameFrom educatedFor servedAs associatedWith lostAtSea stewardOf namedFor returnedTo studiedWith partnersWith widowOf halfSisterOf in filedFor agentOf livedNear built workedIn established livedOn triedFor fledTo activeIn proscribed ranFor wentTo friendsWith prosecutedFor travelledWith travellingCompanionOf enlistedIn capturedBy issued broughtTo greatGrandsonOf author livingIn movedTo subscriber livedAt educatedAs operated oneOf inCommandOf knownAs renounced trainedIn imprisonedIn exiled fatherOf sent sailed travellingAbroad bankrupt landedAt wentInto went jailed taken takenTo inADuelWith motherOf confirmed entered drownedIn missingIn was raised kept released buriedIn christened admittedAs killedIn sentencedTo pardoned married published escapedFrom with triedTo resigned sold divorcedFrom had supported voyaged connectedWith travelling residentOf appearedIn underConfinementAs bequeathed deeded proprietor grandfatherOf entertained patronOf gave vicePresidentOf delegate layReader espoused sentTo educatedBy sonInLawOf expelledFrom emigrated becameA made placedAt played insured invented born engagedTo removedTo livingOn electedTo studied licensedToPreach writerOf imprisoned
+* properties: race employment capturedDuring servedIn graduatedFrom presidentOf brotherOf hangedFor marriedTo sonOf sisterOf daughterOf arrestedFor removedTo learnedTo moved residedIn killed describedAs shipwrecked ransomedFrom enslavedBy disappearedFrom imprisonedFor imprisonedBy servedOn explored foughtIn indebtedTo shot murdered hangedAt settledIn fatherOf nephewOf livedIn retiredFrom grandsonOf studiedFor baptised admittedTo retiredTo workedFor learned formed joined impressed attended trainedAs studiedIn founderOf relativeOf received ordained trusteeOf purchased bought committedTo banishedFrom studied left changed interestedIn promotedTo convertedTo leaderOf halfBrotherOf uncleOf owned adoptedBy brotherInLawOf visited cameTo became buried at committedSuicide advertisedIn onASeaVoyage organized licensedToPreach studiedAt returned rented opened educatedAt travelledIn usedPseudynom connectedTo assistantTo unmarried from elderOf cameFrom educatedFor servedAs associatedWith lostAtSea stewardOf namedFor returnedTo studiedWith partnersWith widowOf halfSisterOf in filedFor agentOf livedNear built workedIn established livedOn triedFor fledTo activeIn proscribed ranFor wentTo friendsWith prosecutedFor travelledWith travellingCompanionOf enlistedIn capturedBy issued broughtTo greatGrandsonOf author livingIn movedTo subscriber livedAt educatedAs operated oneOf inCommandOf knownAs renounced trainedIn imprisonedIn exiled fatherOf sent sailed travellingAbroad bankrupt landedAt wentInto went jailed taken takenTo inADuelWith motherOf confirmed entered drownedIn missingIn was raised kept released buriedIn christened admittedAs killedIn sentencedTo pardoned married published escapedFrom with triedTo resigned sold divorcedFrom had supported voyaged connectedWith travelling residentOf appearedIn underConfinementAs bequeathed deeded proprietor grandfatherOf entertained patronOf gave vicePresidentOf delegate layReader espoused sentTo educatedBy sonInLawOf expelledFrom emigrated becameA made placedAt played insured invented born engagedTo removedTo livingOn electedTo studied licensedToPreach writerOf imprisoned aasVoyagerLink printerCardImage
 
 <!--- 
 New bf lite + aas terms
@@ -77,7 +77,7 @@ New bf lite + aas terms
 * refines: <http://bibfra.me/vocab/lite/Event>
 * label: Employment Event
 * description: Employment event associated with a Person.
-* properties: trade employer employmentAgent employmentPlace employmentStartDate employmentEndDate employmentNote
+* properties: trade firm employmentAgent employmentPlace employmentStartDate employmentEndDate employmentNote
 * scope: <http://bibfra.me/vocab/aas>
 
 ## trade
@@ -178,6 +178,7 @@ New bf lite + aas terms
 * label: Firm
 * refines: <http://bibfra.me/vocab/lite/Organization>
 * description: Organization whose job or business is printing.
+* properties: aasVoyagerLink 
 * value: Organization
 * scope: <http://bibfra.me/vocab/aas>
 * note: THIS IS A PLACEHOLDER, USE http://bibfra.me/vocab/lite/Organization FOR NOW
@@ -203,6 +204,14 @@ New bf lite + aas terms
 * refines: <http://bibfra.me/vocab/lite/link>
 * description: Link to the American Antiquarian Society's catalog.
 * value: IRI
+* scope: <http://bibfra.me/vocab/aas>
+
+## printerCardImage
+
+* label: printer card image
+* refines: <http://bibfra.me/vocab/lite/image>
+* value: IRI
+* description: IRI that points to an image of the resource
 * scope: <http://bibfra.me/vocab/aas>
 
 ## capturedDuring
