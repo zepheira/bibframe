@@ -181,7 +181,6 @@ New bf lite + aas terms
 * properties: aasVoyagerLink memberOf
 * value: Organization
 * scope: <http://bibfra.me/vocab/aas>
-* note: THIS IS A PLACEHOLDER, USE http://bibfra.me/vocab/lite/Organization FOR NOW
 
 ## aasAuthorityId
 
