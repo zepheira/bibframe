@@ -178,7 +178,7 @@ New bf lite + aas terms
 * label: Firm
 * refines: <http://bibfra.me/vocab/lite/Organization>
 * description: Organization whose job or business is printing.
-* properties: aasVoyagerLink 
+* properties: aasVoyagerLink memberOf
 * value: Organization
 * scope: <http://bibfra.me/vocab/aas>
 * note: THIS IS A PLACEHOLDER, USE http://bibfra.me/vocab/lite/Organization FOR NOW
@@ -188,14 +188,6 @@ New bf lite + aas terms
 * label: aas authority id
 * description: American Antiquarian Society authority ID. 
 * value: Literal
-* scope: <http://bibfra.me/vocab/aas>
-
-## oclcWorldcatLink
-
-* label: oclc Worldcat link
-* refines: <http://bibfra.me/vocab/lite/link>
-* description: Link to an item's Worldcat page.
-* value: IRI
 * scope: <http://bibfra.me/vocab/aas>
 
 ## aasVoyagerLink
