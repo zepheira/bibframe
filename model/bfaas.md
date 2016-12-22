@@ -197,6 +197,14 @@ New bf lite + aas terms
 * value: IRI
 * scope: <http://bibfra.me/vocab/aas>
 
+## aasVoyagerLink
+
+* label: aas Voyager link
+* refines: <http://bibfra.me/vocab/lite/link>
+* description: Link to the American Antiquarian Society's catalog.
+* value: IRI
+* scope: <http://bibfra.me/vocab/aas>
+
 ## capturedDuring
 
 * label: captured during
