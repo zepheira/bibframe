@@ -102,9 +102,9 @@ New bf lite + aas terms
 * value: Agent
 * scope: <http://bibfra.me/vocab/aas>
 
-## employer
+## firm
 
-* label: employer
+* label: firm
 * description: Organization associated with an employment event
 * refines: <http://bibfra.me/vocab/lite/what>
 * value: Organization
