@@ -174,12 +174,10 @@ New bf lite + aas terms
 * scope: <http://bibfra.me/vocab/aas>
 
 # Firm
-
 * label: Firm
 * refines: <http://bibfra.me/vocab/lite/Organization>
 * description: Organization whose job or business is printing.
-* properties: aasVoyagerLink memberOf
-* value: Organization
+* properties: aasVoyagerLink
 * scope: <http://bibfra.me/vocab/aas>
 
 ## aasAuthorityId

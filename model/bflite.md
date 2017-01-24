@@ -306,7 +306,6 @@ not used here
 * properties: email placeAssociated placeResidence 
 * scope: <http://bibfra.me/vocab/lite>
 
-
 ## email
 * synonyms: <http://schema.org/email>
 * label: e-mail address
@@ -351,7 +350,14 @@ not used here
 * refines: Agent
 * synonyms: <http://bibframe.org/vocab/Organization>
 * description: Unit of people, e.g., an institution, an association, or corporate body
-* properties: dateStart dateEnd
+* properties: dateStart dateEnd subOrganization nameAlternative 
+* scope: <http://bibfra.me/vocab/lite>
+
+## subOrganization
+* label: sub organization
+* refines: related
+* synonyms: <http://schema.org/subOrganization>
+* description: A relationship between two organizations where the first includes the second, e.g., as a subsidiary.
 * scope: <http://bibfra.me/vocab/lite>
 
 # Meeting
@@ -734,7 +740,7 @@ New bf lite terms from American Antiquarian Society Project
 ## nameAlternative
 
 * label: alternative name
-* description: Alias for a Person. 
+* description: Alias for a resource.
 * synonyms: <http://schema.org/alternateName> <http://bibframe.org/vocab/lite/alternativeName>
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
