@@ -160,6 +160,14 @@ Supporting properties from DACS
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equivalent to EAD ID <eadid>
 
+## unitId
+* label: ead identifier
+* refines: <http://bibfra.me/vocab/lite/controlCode>
+* description: Designates a unique code for a particular EAD finding aid document.
+* value: Literal
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equivalent to Unit ID <unitid>
+
 <!---
 
 Terms below are mapped from DACS Multilevel Required elements:
@@ -181,7 +189,6 @@ Terms below are mapped from DACS Multilevel Required elements:
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equivalent to Extent Element 2.5 in in Describing Archives: a Content Standard, 2nd Edition (2015). 
 
-
 ## scopeContent
 * label: scope and content
 * refines: <http://bibfra.me/vocab/lite/note>
@@ -190,6 +197,13 @@ Terms below are mapped from DACS Multilevel Required elements:
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equivalent to Scope and Content Element 3.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
+## physTech
+* label: physical characteristics and technical requirements
+* refines: <http://bibfra.me/vocab/lite/note>
+* description: Note on physical characteristics and technical requirements related to the housing and access to materials. 
+* value: Literal
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equivalent to <phystech> in Encoded Archival Description. This note is similar to MARC fields 340 and 538, and ISAD(G) data element 3.4.4. 
 
 ## accessConditions
 * label: conditions governing access
@@ -198,6 +212,34 @@ Terms below are mapped from DACS Multilevel Required elements:
 * value: Literal
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equivalent to Scope and Conditions Governing Access Element 4.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
+
+## realtedNote
+* label: related note
+* refines: <http://bibfra.me/vocab/lite/note>
+* description: Note on realted materials and archival collections. 
+* value: Literal
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equivalent to <relatedmaterial>.
+
+## bioghistNote
+* label: biographical and historical note
+* refines: <http://bibfra.me/vocab/lite/note>
+* description: Biographical, historical background information about the creators of the materials.
+* value: Literal
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equivalent to <bioghist>.
+
+## arrangement
+* label: arrangement
+* refines: <http://bibfra.me/vocab/lite/note>
+* description: Note that describes how the collection is arranged. 
+* value: Literal
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equivalent to <bioghist>.
+
+
+
+
 
 
 <!---
