@@ -255,7 +255,15 @@ not used here
 * synonyms: <http://id.loc.gov/ontologies/bibframe/Item>
 * refines: Resource
 * description: An Item represents a specific, individual, material embodiment of a distinct intellectual or artistic creation. 
-* properties: heldBy
+* properties: heldBy itemizes
+* scope: <http://bibfra.me/vocab/lite>
+
+## itemizes
+
+* label: itemizes
+* synonyms: <http://id.loc.gov/ontologies/bibframe/itemOf>
+* description: Instance for which the described Item is an example
+* value: Instance
 * scope: <http://bibfra.me/vocab/lite>
 
 ## heldBy
