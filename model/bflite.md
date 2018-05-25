@@ -55,7 +55,7 @@ not used here
 
 # Resource
 
-* synonyms: <http://bibframe.org/vocab/Resource> <http://schema.org/Thing>
+* synonyms: <http://id.loc.goc/ontologies/bibframe/Resource> <http://schema.org/Thing>
 * label: Resource
 * description: Most generic Bibframe entity
 * properties: label description image link rightsStatement controlCode related language date audience note authorityLink equivalent
@@ -218,7 +218,6 @@ not used here
 # Authority
 
 * label: Authority
-* synonyms: <http://bibframe.org/vocab/Authority>
 * refines: Resource
 * description: Credible, curated description of a person, place or thing
 * properties: name nameAlternative
@@ -242,7 +241,6 @@ not used here
 ## authorityLink
 
 * label: authority link
-* synonyms: <http://bibframe.org/vocab/hasAuthority>
 * value: IRI
 * refines: link
 * description: Actionable IRI linking to an authoritative controlled vocabulary
@@ -301,7 +299,7 @@ not used here
 # Work
 
 * label: Work
-* synonyms: <http://bibframe.org/vocab/Work>
+* synonyms: <http://id.loc.goc/ontologies/bibframe/Work>
 * refines: Resource
 * description: A distinct intellectual or artistic creation
 * properties: creator contributor title subject genre
@@ -475,7 +473,7 @@ not used here
 * refines: Resource
 * label: Instance
 * synonyms: <http://id.loc.gov/ontologies/bibframe/Instance>
-* description: Individual embodiment of a Work
+* description: A material embodiment of a distinct intellectual or artistic creation. 
 * properties: contributor title instantiates extent provider copyright dimensions format medium 
 * scope: <http://bibfra.me/vocab/lite>
 
@@ -618,14 +616,12 @@ not used here
 * label: provider place
 * refines: where
 * description: Place associated with the publication, printing, distribution, issue, release or production of an Instance
-* synonyms: <http://bibframe.org/vocab/providerPlace>
 * value: Place
 * scope: <http://bibfra.me/vocab/lite>
 
 ## providerDate
 
 * label: provider date
-* synonyms: <http://bibframe.org/vocab/providerDate>
 * description: Date associated with the publication, printing, distribution, issue, release or production of an Instance
 * refines: date
 * scope: <http://bibfra.me/vocab/lite>
