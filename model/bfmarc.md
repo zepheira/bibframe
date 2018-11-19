@@ -62,7 +62,7 @@ Extend BIBFRAME Lite Classess
 
 # <http://bibfra.me/vocab/lite/Instance>
 
-* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency media carrier physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids notation
+* properties: keyTitle issn doi accessibilityNote contentsNote creditsNote lccn legalDeposit isbn otherControlNumber upc lcOverseasAcq publisherNumber issueNumber plateNumber videoRecordingNumber systemControlNumber stockNumber abbreviatedTitle edition musicalPresentation computerFilecharacteristics copyrightDate otherPhysicalDetails size accompanyingMaterial typeOfunit materials publication manufacture distribution production publicationFrequency publicationDateFrequency media carrier physicalSubstance dimensions materialsApplied recordingTechnique physicalSupport organizationMethod arrangement hierarchy materialsSpec publicationDesignation reproductionNote representativeFractionOfScale termsGoverningUse authorizedUsers authorization formOfItem bibliographyNote contentsNote dataQuality originalVersionNote immediateSourceOfAcquisition issuingBody cumulativeIndexFindingAids notation barcode
 
 # <http://bibfra.me/vocab/lite/Person>
 * properties: numeration titles 
@@ -558,6 +558,13 @@ Properties applicable to instance types - MARC 007
 * value: Literal
 * scope: <http://bibfra.me/vocab/marc>
 * remark: Control code information
+
+## barcode
+* label: barcode
+* description: Data representing the associated barcode information 
+* value: Literal
+* scope: <http://bibfra.me/vocab/marc>
+* remark: barcode locations within MARC vary depending on service provider and local practice
 
 ## baseOfFilm
 * label: base of film
