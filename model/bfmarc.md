@@ -535,6 +535,67 @@ Control Code Instance Types - MARC 007
 * scope: <http://bibfra.me/vocab/marc>
 
 <!---
+New Classes added in 2022
+--->
+
+# Term
+* label: Term
+* description: a Term is an uncontrolled index term. Terms are not constructed by standards for subject headings, controlled vocabularies, and thesauri.  
+* properties: label name fragment
+* scope: <http://bibfra.me/vocab/marc>
+* remark: created from MARC 653 $a
+
+# Text
+* label: Text
+* description: a Term is an uncontrolled index term. Terms are not constructed by standards for subject headings, controlled vocabularies, and thesauri.  
+* properties: label nationalBibliographicAgencyControlNumber physicalDescription systemControlNumber
+* scope: <http://bibfra.me/vocab/marc>
+* refines: <http://bibfra.me/vocab/lite/Instance>
+* remark: created from MARC 653 $a
+
+# ConferenceProceedings
+* label: Conference Proceedings
+* description: a collection of scholarly papers published in the context of an academic conference 
+* properties: 
+* scope: <http://bibfra.me/vocab/marc>
+* refines: <http://bibfra.me/vocab/lite/Work>
+* remark: 
+
+# Musical
+* label: Musical
+* description: a musical work of art
+* properties: 
+* scope: <http://bibfra.me/vocab/marc>
+* refines: <http://bibfra.me/vocab/lite/Work>
+* remark: 
+
+<!---
+New properties added in 2022
+--->
+
+## physicalDescription
+* label: physical description
+* description: a description of physical attributes
+* value: Literal
+* scope: <http://bibfra.me/vocab/marc>
+
+## nationalBibliographicAgencyControlNumber
+* label: national bibliographic agency control number
+* description: a control number assigned by a national bibliographic agency
+* value: Literal
+* scope: <http://bibfra.me/vocab/marc>
+
+## label
+
+* label: 
+* description: 
+* value: Literal
+* remark: 
+* refines: 
+* synonyms: 
+* scope: <http://bibfra.me/vocab/marc>
+
+<!---
 Properties applicable to instance types - MARC 007
 --->
 
