@@ -253,7 +253,7 @@ not used here
 * synonyms: <http://id.loc.gov/ontologies/bibframe/Identifier>
 * refines: Resource
 * description: A string or number that identifies either a unique resource or class of resources.
-* properties: heldBy itemizes
+* properties: name link
 * scope: <http://bibfra.me/vocab/lite>
 * remark: Example identifiers include ISBN, ISSN, and MESH.
 
