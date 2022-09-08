@@ -303,7 +303,7 @@ not used here
 * label: Archive
 * synonyms: <https://schema.org/ArchiveOrganization>
 * refines: Organization
-* description: Organization responsible for the preservation and communication of records selected for access and preservation
+* description: Organization responsible for the documents, photos, rare books, and artifacts selected for access and preservation
 * scope: <http://bibfra.me/vocab/lite>
 
 # Work
