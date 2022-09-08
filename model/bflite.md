@@ -287,7 +287,7 @@ not used here
 * label: Library
 * synonyms: <http://schema.org/Library>
 * refines: Organization
-* description: A library
+* description: Organization responsible for the care of a collection of literary, musical, artistic, or reference materials, such as books, manuscripts, recordings, or films
 * scope: <http://bibfra.me/vocab/lite>
 
 # Museum
@@ -301,9 +301,9 @@ not used here
 # Archive
 
 * label: Archive
-* synonyms: <http://schema.org/Library>
+* synonyms: <https://schema.org/ArchiveOrganization>
 * refines: Organization
-* description: An archive 
+* description: Organization responsible for the preservation and communication of records selected for access and preservation
 * scope: <http://bibfra.me/vocab/lite>
 
 # Work
