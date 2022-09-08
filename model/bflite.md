@@ -295,7 +295,7 @@ not used here
 * label: Museum
 * synonyms: <http://schema.org/Library>
 * refines: Organization
-* description: A museum
+* description: Organization that holds artifacts and other objects of scientific, artistic, cultural, historical, or other importance
 * scope: <http://bibfra.me/vocab/lite>
 
 # Archive
