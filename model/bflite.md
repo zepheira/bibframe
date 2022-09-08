@@ -737,7 +737,7 @@ not used here
 # List
 * label: List
 * refines: <http://bibfra.me/vocab/lite/Collection>
-* description: An ordered / unordered list of related resources
+* description: An ordered / unordered group of related resources
 * scope: <http://bibfra.me/vocab/lite>
 
 ## primary
