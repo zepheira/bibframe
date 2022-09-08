@@ -55,7 +55,7 @@ not used here
 
 # Resource
 
-* synonyms: <http://id.loc.goc/ontologies/bibframe/Resource> <http://schema.org/Thing>
+* synonyms: <http://schema.org/Thing>
 * label: Resource
 * description: Most generic Bibframe entity
 * properties: label description image link rightsStatement controlCode related language date audience note authorityLink equivalent
