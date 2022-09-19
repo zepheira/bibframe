@@ -80,7 +80,7 @@ not used here
 
 ## description
 
-* synonyms: <http://id.loc.gov/ontologies/bibframe/content> <http://schema.org/description> <http://purl.org/dc/terms/description>
+* synonyms: <http://schema.org/description> <http://purl.org/dc/terms/description>
 * refines: note
 * label: description
 * description: Description of the resource
@@ -247,6 +247,16 @@ not used here
 * remark: Example identifiers include VIAF, LCNAF, ISNI, ORCID, etc.
 * scope: <http://bibfra.me/vocab/lite>
 
+# Identifier
+
+* label: Identifier
+* synonyms: <http://id.loc.gov/ontologies/bibframe/Identifier>
+* refines: Resource
+* description: A string or number that identifies either a unique resource or class of resources.
+* properties: name link
+* scope: <http://bibfra.me/vocab/lite>
+* remark: Example identifiers include ISBN, ISSN, and MESH.
+
 # Item
 
 * label: Item
@@ -277,7 +287,7 @@ not used here
 * label: Library
 * synonyms: <http://schema.org/Library>
 * refines: Organization
-* description: A library
+* description: Organization responsible for the care of a collection of literary, musical, artistic, or reference materials, such as books, manuscripts, recordings, or films
 * scope: <http://bibfra.me/vocab/lite>
 
 # Museum
@@ -285,15 +295,15 @@ not used here
 * label: Museum
 * synonyms: <http://schema.org/Library>
 * refines: Organization
-* description: A museum
+* description: Organization that holds artifacts and other objects of scientific, artistic, cultural, historical, or other importance
 * scope: <http://bibfra.me/vocab/lite>
 
 # Archive
 
 * label: Archive
-* synonyms: <http://schema.org/Library>
+* synonyms: <https://schema.org/ArchiveOrganization>
 * refines: Organization
-* description: An archive 
+* description: Organization responsible for the documents, photos, rare books, and artifacts selected for access and preservation
 * scope: <http://bibfra.me/vocab/lite>
 
 # Work
@@ -727,7 +737,7 @@ not used here
 # List
 * label: List
 * refines: <http://bibfra.me/vocab/lite/Collection>
-* description: An ordered / unordered list of related resources
+* description: An ordered / unordered group of related resources
 * scope: <http://bibfra.me/vocab/lite>
 
 ## primary
