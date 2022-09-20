@@ -738,6 +738,7 @@ not used here
 
 # List
 * label: List
+* synonyms: <https://schema.org/ItemList>
 * refines: <http://bibfra.me/vocab/lite/Collection>
 * description: An ordered / unordered group of related resources
 * scope: <http://bibfra.me/vocab/lite>
