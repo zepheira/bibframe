@@ -733,6 +733,7 @@ not used here
 # Series
 * label: Series
 * refines: <http://bibfra.me/vocab/lite/Collection>
+* synonyms: <https://schema.org/CreativeWorkSeries>
 * description: Set of related resources, especially of a specified kind
 * scope: <http://bibfra.me/vocab/lite>
 
