@@ -722,6 +722,7 @@ not used here
 
 # Collection
 * label: Collection
+* synonyms: <http://id.loc.gov/ontologies/bibframe/Collection>
 * refines: Work
 * description: Aggregation or gathering of works
 * remark: In the case of Archives, a collection reflects the body of archival materials relating to a person, family, or organization. Includes materials collected to focus on a particular topic, event, person, place, etc. 
