@@ -406,7 +406,7 @@ not used here
 # Person
 * label: Person
 * refines: Agent
-* synonyms: <http://id.loc.gov/ontologies/bibframe/Person> <https://schema.org/Person>
+* synonyms: <http://id.loc.gov/ontologies/bibframe/Person> <http://xmlns.com/foaf/0.1/Person>
 * description: Individual (alive, dead, undead, or fictional) in relation to a resource
 * properties: dateBirth dateDeath placeBirth placeDeath gender givenName familyName nameAlternative gender
 * scope: <http://bibfra.me/vocab/lite>
