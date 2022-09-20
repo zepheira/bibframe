@@ -367,7 +367,7 @@ not used here
 # Agent
 * label: Agent
 * refines: Authority
-* synonyms: <http://id.loc.gov/ontologies/bibframe/Agent>
+* synonyms: <http://id.loc.gov/ontologies/bibframe/Agent> <http://xmlns.com/foaf/0.1/Agent>
 * description: Entity (e.g. person, organization, etc.) associated with a resource
 * properties: email placeAssociated placeResidence address
 * scope: <http://bibfra.me/vocab/lite>
