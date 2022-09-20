@@ -467,6 +467,7 @@ not used here
 
 # Form
 * label: Form
+* synonyms: <http://id.loc.gov/ontologies/bibframe/GenreForm>
 * refines: Category
 * description: Category or genre that describes what the resource is
 * scope: <http://bibfra.me/vocab/lite>
@@ -852,4 +853,3 @@ New bf lite terms from American Antiquarian Society Project
 * synonyms: <http://schema.org/alternateName> <http://bibframe.org/vocab/lite/alternativeName>
 * value: Literal
 * scope: <http://bibfra.me/vocab/lite>
-
